@@ -1,0 +1,28 @@
+<div class="content">
+  <div class="input-container">
+    <textarea 
+      class="input-prefix" 
+      placeholder="Prefixes"
+      [(ngModel)]="prefixRaw"
+    ></textarea>
+    <textarea 
+      class="input-suffix" 
+      placeholder="Suffixes"
+      [(ngModel)]="suffixRaw"
+    ></textarea>
+  </div>
+  <div class="side">
+    <div class="controls">
+      <button (click)="loadAffixes()">Load</button>
+      <input [(ngModel)]="characterLevel"/>
+      <input type="checkbox" [(ngModel)]="checkLevel" />
+      <button (click)="showAffixInformation()">Show affix information</button>
+      <mat-select [(value)]="currentItemTypeName">
+          <mat-option *ngFor="let itemType of itemTypes" [value]="itemType.name">{{itemType.name}}</mat-option>
+      </mat-select>
+    </div>
+    <div class="output-container">
+      <textarea [(ngModel)]="output" class="plain-text-output"></textarea>
+    </div>
+  </div>
+</div>

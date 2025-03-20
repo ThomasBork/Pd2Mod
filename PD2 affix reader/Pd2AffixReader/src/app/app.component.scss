@@ -1,0 +1,33 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  .input-container {
+    display: inline-flex;
+    flex: 0 1 30%;
+    flex-direction: column;
+  }
+
+  .side {
+    display: inline-flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+    .controls {
+      display: inline-flex;
+      flex: 0 1 auto;
+    }
+
+    .output-container {
+      display: inline-flex;
+      flex: 1 1 auto;
+
+      .plain-text-output {
+        flex: 1 1 auto;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
