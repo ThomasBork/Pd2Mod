@@ -1826,7 +1826,10 @@ of the Apprentice	174	1	1	1	5		3				4	9	cast1		2	4											jewl														0
     new ItemType('Boots', ['boot','armo']),
     new ItemType('Gloves', ['glov','armo']),
     new ItemType('Body Armor', ['tors','armo']),
-    new ItemType('Helm', ['helm','armo'])
+    new ItemType('Helm', ['helm','armo']),
+    new ItemType('Small Charm', ['scha']),
+    new ItemType('Large Charm', ['mcha']),
+    new ItemType('Grand Charm', ['lcha'])
   ]
   currentItemType: ItemType = this.itemTypes[0];
   currentItemTypeName: string = 'Ring'; 
@@ -1844,8 +1847,10 @@ of the Apprentice	174	1	1	1	5		3				4	9	cast1		2	4											jewl														0
     }
     var includedPrefixes = this.allPrefixes.filter(affix => this.isAffixIncluded(affix));
     var includedSuffixes = this.allSuffixes.filter(affix => this.isAffixIncluded(affix));
-    this.output = 'Prefixes:\n' + includedPrefixes.map(p => p.toString()).join('\n')
-      + '\n\nSuffixes:\n' + includedSuffixes.map(p => p.toString()).join('\n');
+    var prefixTotalWeight = includedPrefixes.map(a => a.frequency).reduce((a,b)=>a+b);
+    var suffixTotalWeight = includedSuffixes.map(a => a.frequency).reduce((a,b)=>a+b);
+    this.output = 'Prefixes (' + prefixTotalWeight + '):\n' + includedPrefixes.map(p => p.toString()).join('\n')
+      + '\n\nSuffixes (' + suffixTotalWeight + '):\n' + includedSuffixes.map(p => p.toString()).join('\n');
   }
 
   private isAffixIncluded(affix: Affix): boolean {
