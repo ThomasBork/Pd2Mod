@@ -190,16 +190,3 @@ Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		
 Hustle	Hustle	1		tors									ShaelKoEld	r13	r18	r02				equipped-skill	Quickness SelfAura	6	6	swing2		20	20	stamdrain		35	35	res-all		10	10	half-freeze		1	1									0
 Purity	Purity	1		pole	staf	spea	miss						AmnEthThul	r11	r05	r10				dmg%		110	145	att-demon		200	200	swing2		45	45	aura	Prayer	10	12	curse-res		30	30	dmg-demon		80	120					0
 Rapture	Rapture	1		hamm									VexJahLoTirKoMal	r26	r31	r28	r08	r18	r23	dmg%		240	280	swing2		20	20	deadly		20	20	hit-skill	91	30	35	res-cold		40	60	gold%		80	120	hit-skill	Eruption	14	46	0
-Rush	Rush	1		weap	miss	sorc							EldIth	r02	r06					dmg%		50	70	move2		10	15																					0
-Rush2	Rush	1		helm	shld								EldIth	r02	r06					move2		10	15	half-freeze		1	1																					0
-Focus	Focus	1		helm	shld								AmnNef	r11	r04					cast2		15	25																									0
-Power	Power	1		weap	miss	sorc							ThulRal	r10	r08					dmg%		50	70	allskills		1	1																					0
-Power2	Power	1		helm	tors	shld							ThulRal	r10	r08					allskills		1	1																									0
-Exploration	Exploration	1		staf									NefSolIth	r04	r12	r06				rep-charge	10			charged	Blink	5	1																					0
-Sustenance	Sustenance	1		weap	miss	sorc							TirDolTir	r03	r14	r03				dmg%		30	50	hp		40	50	mana		40	50	heal-kill		4	6	mana-kill		0	2									0
-Sustenance2	Sustenance	1		helm	tors	shld							TirDolTir	r03	r14	r03				hp		40	50	mana		40	50	heal-kill		4	6	mana-kill		0	2													0
-Fervor	Fervor	1		tors									ThulIo	r10	r16					move2		15	25	nofreeze		1	1																					0
-Force	Force	1		weap	miss	sorc							ElDolDolLem	r01	r14	r14	r20			dmg%		310	360	att		200	300																					0
-Horizon	Horizon	1		weap	miss	sorc	helm	tors	shld				HelPulShael	r15	r21	r13				extra-pois		15	20	extra-cold		15	20	extra-fire		15	20	Extra-ltng		15	20													0
-Retaliation	Retaliation	1		tors									IstUmShaelIth	r24	r22	r13	r06			equipped-skill	Blade Shield SelfAura	3	6																									0
-MindEye	Mind’s Eye	1		helm									VexLumIst	r26	r17	r24				rep-charge	33			charged	Blink	5	1																					0
