@@ -860,6 +860,18 @@ Angel's	834	1	1	1	60		53	sor			1	125	sor		1	1											ring														0
 Slayer's	835	1	1	1	60		53	bar			1	125	bar		1	1											ring														0
 Shaman's	836	100	1	1	60		53	dru			1	125	dru		1	1											ring														0
 Magekiller's	837	100	1	1	60		53	ass			1	125	ass		1	1											ring														0
+Flaming	838	100	1	1	1	26	1				2	2000	fire-min		2	3	fire-max		4	6							glov	ring	amul												0
+Flaming	839	100	1	1	25		20				2	2000	fire-min		18	22	fire-max		30	35							glov	ring	amul												0
+Flaming	840	100	1	1	40		35				2	2000	fire-min		40	45	fire-max		50	55							glov	ring	amul												0
+Flaming	841	100	1	1	60		55				2	2000	fire-min		65	70	fire-max		80	90							glov	ring	amul												0
+Shocking	842	100	1	1	1	26	1				2	2001	ltng-min		1	1	ltng-max		6	9							glov	ring	amul												0
+Shocking	843	100	1	1	25		20				2	2001	ltng-min		1	1	ltng-max		50	55							glov	ring	amul												0
+Shocking	844	100	1	1	40		35				2	2001	ltng-min		1	1	ltng-max		90	100							glov	ring	amul												0
+Shocking	845	100	1	1	60		55				2	2001	ltng-min		1	1	ltng-max		145	160							glov	ring	amul												0
+Freezing	846	100	1	1	1	26	1				2	2002	cold-min		2	3	cold-max		4	5	cold-len		25	25			glov	ring	amul												0
+Freezing	847	100	1	1	25		20				2	2002	cold-min		16	20	cold-max		25	30	cold-len		25	25			glov	ring	amul												0
+Freezing	848	100	1	1	40		35				2	2002	cold-min		35	40	cold-max		45	50	cold-len		25	25			glov	ring	amul												0
+Freezing	849	100	1	1	60		55				2	2002	cold-min		60	65	cold-max		75	85	cold-len		25	25			glov	ring	amul												0
 `;
   suffixRaw = `Name	*comment	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transform	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	divide	multiply	add
 of Health	0	0	1	1	7		5					1	red-dmg		1	1											tors	helm	shld	ring	amul										0
@@ -1049,13 +1061,13 @@ of Flame	183	1	1	1	4	29	3				5	12	fire-min		1	1	fire-max		2	5							weap	misl			
 of Fire	184	1	1	1	15	40	11				4	12	fire-min		2	8	fire-max		12	22							weap	misl						wand	orb						0
 of Burning	185	1	1	1	25	50	18				3	12	fire-min		20	30	fire-max		37	72					1	dred	weap	misl						wand	orb						0
 of Incineration	186	100	1	1	43		35				2	12	fire-min		57	90	fire-max		102	146					1	dred	mele	misl						wand	orb						0
-of Flame	187	100	1	1	40	65	30				2	12	fire-min		1	1	fire-max		2	6							glov	ring	amul												0
+of Flame	187	100	1	1	40	65	30				0	12	fire-min		1	1	fire-max		2	6							glov	ring	amul												0
 of Passion	188	100	1	1	15		11				2	12	fire-min		1	3	fire-max		6	10					1	dred	jewl														0
 of Shock	189	1	1	1	4	29	3				5	13	ltng-min		1	1	ltng-max		3	8							weap	misl						wand	orb						0
 of Lightning	190	1	1	1	15	40	11				4	13	ltng-min		1	1	ltng-max		14	24							weap	misl						wand	orb						0
 of Thunder	191	1	1	1	25		18				3	13	ltng-min		1	1	ltng-max		34	84					1	dyel	weap	misl						wand	orb						0
 of Storms	192	100	1	1	34		26				2	13	ltng-min		1	6	ltng-max		85	126					1	dyel	mele	misl						wand	orb						0
-of Shock	193	100	1	1	45	70	37				2	13	ltng-min		1	1	ltng-max		11	23							boot	ring	amul												0
+of Shock	193	100	1	1	45	70	37				0	13	ltng-min		1	1	ltng-max		11	23							boot	ring	amul												0
 of Ennui	194	100	1	1	15		11				2	13	ltng-min		1	1	ltng-max		10	20					1	dyel	jewl														0
 of Craftsmanship	195	1	1	1	1	26	1				8	14	dmg-max		1	1											weap	ring	amul					wand	staf	orb					0
 of Quality	196	1	1	1	4	29	3				8	14	dmg-max		2	2											weap							wand	staf	orb					0
@@ -1175,12 +1187,12 @@ of the Bear	309	1	1	1	8		6				0	24	knock		1	1											mele														0
 of Light	310	1	1	1	6	46	4				0	25	light		1	1	att		15	30							armo	rod	ring	amul	misl										0
 of Radiance	311	1	1	1	15		11				0	25	light		3	3	att		30	60							ring	amul													0
 of the Sun	312	1	1	1	17		12				0	25	light		5	5	att%		5	5							rod	miss	glov	ring	amul	helm	tors	misl							0
-of the Jackal	313	1	1	1	1	26	1				3	26	hp		1	5											tors	belt	amul	phlm	circ										0
-of the Fox	314	1	1	1	7	32	5				3	26	hp		6	10											tors	belt	amul	phlm	circ	misl									0
-of the Wolf	315	1	1	1	15	40	11				3	26	hp		11	20											tors	misl	phlm	circ											0
-of the Tiger	316	1	1	1	20		15				3	26	hp		21	30											tors	belt	amul	phlm	circ	misl									0
-of the Mammoth	317	1	1	1	25		18				3	26	hp		31	40									1	cred	tors	belt	amul	phlm	circ	misl									0
-of the Colosuss	318	1	1	1	30		22				3	26	hp		41	60									1	cred	tors	belt	amul	phlm	circ										0
+of the Jackal	313	1	1	1	1	26	1				3	26	hp		1	5											tors	belt	amul	phlm	circ	boot	glov								0
+of the Fox	314	1	1	1	7	32	5				3	26	hp		6	10											tors	belt	amul	phlm	circ	misl	boot	glov							0
+of the Wolf	315	1	1	1	15	40	11				3	26	hp		11	20											tors	misl	phlm	circ	boot	glov									0
+of the Tiger	316	1	1	1	20		15				3	26	hp		21	30											tors	belt	amul	phlm	circ	misl	boot	glov							0
+of the Mammoth	317	1	1	1	25		18				3	26	hp		31	40									1	cred	tors	belt	amul	phlm	circ	misl	boot	glov							0
+of the Colosuss	318	1	1	1	30		22				3	26	hp		41	60									1	cred	tors	belt	amul	phlm	circ	boot	glov								0
 of the Squid	319	100	1	1	40		30				3	26	hp		61	80									1	cred	amul														0
 of the Whale	320	100	1	1	50		37				3	26	hp		81	100									1	cred	amul														0
 of the Jackal	321	100	1	1	4	29	3				3	26	hp		1	5											shld	pelt													0
@@ -1259,7 +1271,7 @@ of Virility	393	100	1	1	18		13				4	31	str		1	4											jewl														0
 of Pacing	394	1	1	1	12		8				3	35	move1		8	15											boot	circ													0
 of Haste	395	1	1	1	22		16				4	35	move2		16	25											boot	circ													0
 of Speed	396	1	1	1	37		29				4	35	move3		26	35											boot	circ													0
-of Traveling	397	100	1	1	65		57				4	35	move3		26	35	stamdrain		80	90							boot														0
+of Traveling	397	100	1	1	65		57				0	35	move3		26	35	stamdrain		80	90							boot														0
 of Acceleration	398	100	1		51		43				4	35	move3		36	45											boot														0
 of Inertia	399	100	1	1	19		14				4	35	move3		7	9											lcha														0
 of Inertia	400	100	1	1	24		18				4	35	move2		5	7											mcha														0
@@ -1537,7 +1549,7 @@ of Knowledge	671	100	1	1	24		18				3	23	enr		4	6											jewl														0
 of Knowledge	672	100	1	1	41		33				3	23	enr		7	9											jewl														0
 of Virility	673	100	1	1	33		25				4	31	str		5	6											jewl														0
 of Virility	674	100	1	1	50		42				4	31	str		7	9											jewl														0
-of Readiness	675	1	1	1	20		15				2	9	swing1		10	10											glov														0
+of Readiness	675	1	1	1	20		15				2	9	swing1		5	15											glov														0
 of Craftsmanship	676	100	1	1	1		1				4	14	dmg-max		1	1											lcha														0
 of Quality	677	100	1	1	41		33				4	14	dmg-max		2	2											lcha														0
 of Maiming	678	100	1		71		63				4	14	dmg-max		3	4											lcha														0
@@ -1784,36 +1796,70 @@ of Life	918	100	1	1	9		17				4	26	hp		15	15											schp	lchp	mchp												
 of Life	919	100	1	1	9		39				4	26	hp		20	20											schp														0
 of Balance	920	100	1	1	37		29				4	18	balance1		5	5											schp														0
 of Superiority	921	100	1	1	40		30				1	1000	allskills		1	1									1	blac	amul	shld													0
-of Damage	922	100	1	1	1		1				3	1001	dmg%		10	20											amul	ring													0
-of Damage	923	100	1	1	20		15				3	1001	dmg%		21	40											amul	ring													0
-of Damage	924	100	1	1	40		35				3	1001	dmg%		41	60											amul	ring													0
+of Damage	922	100	1	1	1		1				3	1001	dmg%		10	20											amul	ring	glov												0
+of Damage	923	100	1	1	20		15				3	1001	dmg%		21	40											amul	ring	glov												0
+of Damage	924	100	1	1	40		35				3	1001	dmg%		41	60											amul	ring	glov												0
 of Damage	925	100	1	1	60		55				3	1001	dmg%		61	80											amul														0
-of Deadly Strike	926	100	1	1	20		15				3	1002	deadly		5	15											amul														0
+of Deadly Strike	926	100	1	1	20		15				3	1002	deadly		5	15											amul	glov													0
 of Deadly Strike	927	100	1	1	50		45				3	1002	deadly		16	25											amul														0
-of Fire	928	100	1	1	20		15				2	1003	extra-fire		5	10											amul	ring	shld												0
-of Fire	929	100	1	1	40		35				2	1003	extra-fire		11	20											amul	ring	shld												0
-of Fire	929	100	1	1	60		55				2	1003	extra-fire		21	30											amul	shld													0
-of Cold	930	100	1	1	20		15				2	1003	extra-cold		5	10											amul	ring	shld												0
-of Cold	931	100	1	1	40		35				2	1003	extra-cold		11	20											amul	ring	shld												0
-of Cold	932	100	1	1	60		55				2	1003	extra-cold		21	30											amul	shld													0
-of Lightning	933	100	1	1	20		15				2	1003	extra-ltng		5	10											amul	ring	shld												0
-of Lightning	934	100	1	1	40		35				2	1003	extra-ltng		11	20											amul	ring	shld												0
-of Lightning	935	100	1	1	60		55				2	1003	extra-ltng		21	30											amul	shld													0
-of Poison 	936	100	1	1	20		15				2	1003	extra-pois		5	10											amul	ring	shld												0
-of Poison 	937	100	1	1	40		35				2	1003	extra-pois		11	20											amul	ring	shld												0
-of Poison 	938	100	1	1	60		55				2	1003	extra-pois		21	30											amul	shld													0
+of Fire	928	100	1	1	20		15				2	1003	extra-fire		5	10											amul	ring	shld	glov	helm	tors									0
+of Fire	929	100	1	1	40		35				2	1003	extra-fire		11	20											amul	ring	shld	glov	helm	tors									0
+of Fire	929	100	1	1	60		55				2	1003	extra-fire		21	30											amul	shld	tors												0
+of Cold	930	100	1	1	20		15				2	1003	extra-cold		5	10											amul	ring	shld	glov	helm	tors									0
+of Cold	931	100	1	1	40		35				2	1003	extra-cold		11	20											amul	ring	shld	glov	helm	tors									0
+of Cold	932	100	1	1	60		55				2	1003	extra-cold		21	30											amul	shld	tors												0
+of Lightning	933	100	1	1	20		15				2	1003	extra-ltng		5	10											amul	ring	shld	glov	helm	tors									0
+of Lightning	934	100	1	1	40		35				2	1003	extra-ltng		11	20											amul	ring	shld	glov	helm	tors									0
+of Lightning	935	100	1	1	60		55				2	1003	extra-ltng		21	30											amul	shld	tors												0
+of Poison 	936	100	1	1	20		15				2	1003	extra-pois		5	10											amul	ring	shld	glov	helm	tors									0
+of Poison 	937	100	1	1	40		35				2	1003	extra-pois		11	20											amul	ring	shld	glov	helm	tors									0
+of Poison 	938	100	1	1	60		55				2	1003	extra-pois		21	30											amul	shld	tors												0
 of Attack Speed	939	100	1	1	30		25				4	1004	swing2		10	20											amul														0
 of Crushing Blow	940	100	1	1	30		25				4	1005	crush		5	15											amul														0
-of Fire Resistance	941	100	1	1	40		25				1	1006	res-fire-max		1	3											amul	shld													0
-of Fire Resistance	942	100	1	1	60		25				1	1006	res-fire-max		4	6											amul	shld													0
-of Cold Resistance	943	100	1	1	40		25				1	1007	res-cold-max		1	3											amul	shld													0
-of Cold Resistance	944	100	1	1	60		25				1	1007	res-cold-max		4	6											amul	shld													0
-of Lightning Resistance	945	100	1	1	40		25				1	1008	res-ltng-max		1	3											amul	shld													0
-of Lightning Resistance	946	100	1	1	60		25				1	1008	res-ltng-max		4	6											amul	shld													0
-of Poison Resistance	947	100	1	1	40		25				1	1009	res-pois-max		1	3											amul	shld													0
-of Poison Resistance	948	100	1	1	60		25				1	1009	res-pois-max		4	6											amul	shld													0
-of Attack Speed	949	100	1	1	30		25				4	1010	swing2		5	10											ring														0
-of the Apprentice	174	1	1	1	5		3				4	9	cast1		2	4											jewl														0
+of Fire Resistance	941	100	1	1	40		25				1	1006	res-fire-max		1	3											amul	shld	boot	tors											0
+of Fire Resistance	942	100	1	1	60		25				1	1006	res-fire-max		4	6											amul	shld	tors												0
+of Cold Resistance	943	100	1	1	40		25				1	1007	res-cold-max		1	3											amul	shld	boot	tors											0
+of Cold Resistance	944	100	1	1	60		25				1	1007	res-cold-max		4	6											amul	shld	tors												0
+of Lightning Resistance	945	100	1	1	40		25				1	1008	res-ltng-max		1	3											amul	shld	boot	tors											0
+of Lightning Resistance	946	100	1	1	60		25				1	1008	res-ltng-max		4	6											amul	shld	tors												0
+of Poison Resistance	947	100	1	1	40		25				1	1009	res-pois-max		1	3											amul	shld	boot	tors											0
+of Poison Resistance	948	100	1	1	60		25				1	1009	res-pois-max		4	6											amul	shld	tors												0
+of Attack Speed	949	100	1	1	30		25				6	1010	swing2		5	10											ring														0
+of the Apprentice	950	1	1	1	5		3				4	9	cast1		2	4											jewl														0
+of the Fletcher	951	100	1		50		42	ama			1	125	skilltab	0	1	1											lcha														0
+of the Acrobat	952	100	1		50		42	ama			1	125	skilltab	1	1	1											lcha														0
+of the Harpoonist	953	100	1		50		42	ama			1	125	skilltab	2	1	1											lcha														0
+of Burning	954	100	1		50		42	sor			1	125	skilltab	3	1	1											lcha														0
+of Sparking	955	100	1		50		42	sor			1	125	skilltab	4	1	1											lcha														0
+of Chilling	956	100	1		50		42	sor			1	125	skilltab	5	1	1											lcha														0
+of Hexing	957	100	1		50		42	nec			1	125	skilltab	6	1	1											lcha														0
+of Fungal	958	100	1		50		42	nec			1	125	skilltab	7	1	1											lcha														0
+of the Graverobber	959	100	1		50		42	nec			1	125	skilltab	8	1	1											lcha														0
+of the Lion Branded	960	100	1		50		42	pal			1	125	skilltab	9	1	1											lcha														0
+of the Captain	961	100	1		50		42	pal			1	125	skilltab	10	1	1											lcha														0
+of the Preserver	962	100	1		50		42	pal			1	125	skilltab	11	1	1											lcha														0
+of the Expert	963	100	1		50		42	bar			1	125	skilltab	12	1	1											lcha														0
+of the Fanatic	964	100	1		50		42	bar			1	125	skilltab	13	1	1											lcha														0
+of Sounding	965	100	1		50		42	bar			1	125	skilltab	14	1	1											lcha														0
+of the Trainer	966	100	1		50		42	dru			1	125	skilltab	15	1	1											lcha														0
+of the Spiritual	967	100	1		50		42	dru			1	125	skilltab	16	1	1											lcha														0
+of the Nature	968	100	1		50		42	dru			1	125	skilltab	17	1	1											lcha														0
+of Entrapping	969	100	1		50		42	ass			1	125	skilltab	18	1	1											lcha														0
+of the Mentalist	970	100	1		50		42	ass			1	125	skilltab	19	1	1											lcha														0
+of Shogukusha	971	100	1		50		42	ass			1	125	skilltab	20	1	1											lcha														0
+of Luck	972	100	1		21	46	15				4	1011	mag%		1	4											lcha														0
+of Luck	973	100	1		38		30				4	1011	mag%		5	7											lcha														0
+of Luck	974	100	1		55		45				4	1011	mag%		8	12											lcha														0
+of the Tank	975	100	1		50		40				2	1012	hp%		5	8											armo														0
+of the Tank	976	100	1		65		50				2	1012	hp%		9	12											tors	shld													0
+of Resist Fire	977	100	1		40		35				1	1013	aura	resist fire	1	1											helm	shld													0
+of Resist Cold	978	100	1		40		35				1	1014	aura	resist cold	1	1											helm	shld													0
+of Resist Lightning	979	100	1		40		35				1	1015	aura	resist lightning	1	1											helm	shld													0
+of Vigor	980	100	1		18		18				1	1016	aura	vigor	1	1											boot														0
+of Meditation	981	100	1		40		35				1	1017	aura	meditation	1	1											helm														0
+of Blessed Aim	982	100	1		40		35				1	1018	aura	blessed aim	1	1											helm														0
+of Holy Freeze	983	100	1		40		35				1	1019	aura	holy freeze	1	1											shld														0
+of Telekinesis	984	100	1		40		35				1	1020	oskill	telekinesis	1	1											helm	glov													0
 `;
   allPrefixes?: Affix[];
   allSuffixes?: Affix[];
