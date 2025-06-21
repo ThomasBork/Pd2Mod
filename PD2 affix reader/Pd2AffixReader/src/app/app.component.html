@@ -20,6 +20,7 @@
       <mat-select [(value)]="currentItemTypeName">
           <mat-option *ngFor="let itemType of itemTypes" [value]="itemType.name">{{itemType.name}}</mat-option>
       </mat-select>
+      <button (click)="minifyPrefixes()">Minify Prefixes</button>
     </div>
     <div class="output-container">
       <textarea [(ngModel)]="output" class="plain-text-output"></textarea>

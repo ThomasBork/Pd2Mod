@@ -12,7 +12,7 @@ export class Affix {
   public itypes: string[];
   public etypes: string[];
   
-  public constructor(
+  static fromStrings(
     name: string,
     rare: string,
     level: string,
@@ -44,24 +44,24 @@ export class Affix {
     etype3: string,
     etype4: string,
     etype5: string
-  ) {
-    this.name = name;
-    this.rare = rare == '1';
-    this.level = parseInt(level);
-    this.maxlevel = parseInt(maxlevel);
-    this.levelreq = parseInt(levelreq);
-    this.frequency = parseInt(frequency);
-    this.group = parseInt(group);
-    this.mods = [
-      new Mod(mod1code, mod1param, mod1min, mod1max)
+  ): Affix {
+    const newName = name;
+    const newRare = rare == '1';
+    const newLevel = parseInt(level);
+    const newMaxlevel = parseInt(maxlevel);
+    const newLevelreq = parseInt(levelreq);
+    const newFrequency = parseInt(frequency);
+    const newGroup = parseInt(group);
+    const newMods = [
+      Mod.fromStrings(mod1code, mod1param, mod1min, mod1max)
     ];
     if (mod2code) {
-      this.mods.push(new Mod(mod2code, mod2param, mod2min, mod2max));
+      newMods.push(Mod.fromStrings(mod2code, mod2param, mod2min, mod2max));
     }
     if (mod3code) {
-      new Mod(mod3code, mod3param, mod3min, mod3max)
+      newMods.push(Mod.fromStrings(mod3code, mod3param, mod3min, mod3max));
     }
-    this.itypes = [
+    const newItypes = [
       itype1,
       itype2,
       itype3,
@@ -70,13 +70,49 @@ export class Affix {
       itype6,
       itype7
     ].filter(i => i != '')
-    this.etypes = [
+    const newEtypes = [
       etype1,
       etype2,
       etype3,
       etype4,
       etype5
     ].filter(e => e != '')
+    return new Affix(
+      newName,
+      newRare,
+      newLevel,
+      newMaxlevel,
+      newLevelreq,
+      newFrequency,
+      newGroup,
+      newMods,
+      newItypes,
+      newEtypes
+    );
+  }
+
+  private constructor(
+      name: string,
+      rare: boolean,
+      level: number,
+      maxlevel: number,
+      levelreq: number,
+      frequency: number,
+      group: number,
+      mods: Mod[],
+      itypes: string[],
+      etypes: string[]
+  ) {
+    this.name = name;
+    this.rare = rare;
+    this.level = level;
+    this.maxlevel = maxlevel;
+    this.levelreq = levelreq;
+    this.frequency = frequency;
+    this.group = group;
+    this.mods = mods;
+    this.itypes = itypes;
+    this.etypes = etypes;
   }
 
   public hasIType(t: string): boolean {
@@ -89,6 +125,21 @@ export class Affix {
 
   public toString(): string {
     return this.fitString(this.name) + ': ' + this.frequency + ': ' + this.level + '-' + this.maxlevel + ': \t' + this.mods.map(m => m.toString()).join(',\t');
+  }
+
+  public clone(): Affix {
+    return new Affix(
+      this.name,
+      this.rare,
+      this.level,
+      this.maxlevel,
+      this.levelreq,
+      this.frequency,
+      this.group,
+      this.mods.map(m => m.clone()),
+      [...this.itypes],
+      [...this.etypes]
+    );
   }
 
   private fitString(s: string): string {

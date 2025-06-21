@@ -11,867 +11,3187 @@ export class AppComponent {
   title = 'Pd2AffixReader';
   prefixRaw = `Name	*comment	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transform	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	divide	multiply	add
 																																									0
-Sturdy	1	0	1	1	4		3				0	101	ac%		20	30											armo														0
-Strong	2	0	1	1	9		6				0	101	ac%		31	40											armo														0
-Glorious	3	0	1	1	19		14				0	101	ac%		41	50											armo														0
-Blessed	4	0	1	1	25		18				0	101	ac%		51	65											armo														0
-Saintly	5	0	1	1	31		23				0	101	ac%		66	80									1	dgld	armo														0
-Holy	6	0	1	1	36		27				0	101	ac%		81	100									1	dgld	armo														0
-Devious	7	0	1	1	7		5				0	103	red-mag	0	1	1									1	dblu	shld														0
-Fortified	8	0	1	1	14		10				0	103	red-mag	0	2	2									1	dblu	shld														0
-	9																																								0
-	10																																								0
-	11																																								0
-Jagged	12	0	1	1	1		1				0	106	dmg%	0	10	20											weap														0
-Deadly	13	0	1	1	5		3				0	106	dmg%	0	21	30											weap														0
-Vicious	14	0	1	1	8		6				0	106	dmg%	0	31	40											weap														0
-Brutal	15	0	1	1	14		10				0	106	dmg%	0	41	50											weap														0
-Massive	16	0	1	1	20		15				0	106	dmg%	0	51	65									1	dgld	weap														0
-Savage	17	0	1	1	26		19				0	106	dmg%	0	66	80									1	dgld	weap							staf	wand						0
-Merciless	18	0	1	1	32		24				0	106	dmg%	0	81	100									1	dgld	weap							staf	wand						0
-Vulpine	19	0	1	1	9		6				0	107	dmg-to-mana	0	10	10									1	cblu	shld	amul													0
-	20																																								0
-	21																																								0
-	22																																								0
-	23																																								0
-Tireless	24	0	1	1	14		10				0	109	regen-stam	0	50	50											boot														0
-Rugged	25	0	0	1	14		10				0	110	stam	0	5	10											boot	glov	belt	ring	amul										0
-Bronze	26	0	1	1	1		1				0	111	att	0	10	20											weap	ring	glov	amul											0
-Iron	27	0	1	1	4		3				0	111	att	0	21	40											weap	ring													0
-Steel	28	0	1	1	8		6				0	111	att	0	41	60											weap	ring													0
-Silver	29	0	1	1	12		9				0	111	att	0	61	80											weap	ring													0
-	30																																								0
-Gold	31	0	1	1	17		12				0	111	att	0	81	100									1	lgld	weap														0
-Platinum	32	0	1	1	22		16				0	111	att	0	101	120									1	lgld	weap	ring													0
-Meteoric	33	0	1	1	27		20				0	111	att	0	121	150									1	lgld	weap	ring						staf	wand						0
-Sharp	34	0	1	1	5		3				0	112	att	0	10	20	dmg%	0	10	20							weap														0
-Fine	35	0	1	1	9		6				0	112	att	0	21	40	dmg%	0	21	30							weap														0
-Warrior's	36	0	1	1	15		11				0	112	att	0	41	60	dmg%	0	31	40							weap														0
-Soldier's	37	0	1	1	21		15				0	112	att	0	61	80	dmg%	0	41	50							weap														0
-Knight's	38	0	1	1	25		18				0	112	att	0	81	100	dmg%	0	51	65					1	dgld	weap														0
-Lord's	39	0	1	1	30		22				0	112	att	0	101	120	dmg%	0	66	80					1	dgld	weap							staf	wand						0
-King's	40	0	1	1	35		26				0	112	att	0	121	150	dmg%	0	81	100					1	dgld	weap							staf	wand						0
-Howling	41	0	1	1	16		12				0	113	howl	0	128	128									1	oran	weap							miss							0
-Fortuitous	42	0	1	1	5		3				0	114	mag%	0	10	15											ring	amul													0
-	43																																								0
-	44																																								0
-	45																																								0
-	46																																								0
-	47																																								0
-Glimmering	48	0	1	1	1		1				0	116	light	0	1	1											armo	wand	staf	ring	amul										0
-Glowing	49	0	1	1	6		4				0	116	light	0	2	2									1	lyel	armo	wand	staf	ring	amul										0
-	50																																								0
-	51																																								0
-Lizard's	52	0	1	1	3		2				0	118	mana	0	1	5											armo	ring	amul	rod				boot	glov						0
-	53																																								0
-Snake's	54	0	1	1	6		4				0	118	mana	0	5	10											shld	rod	belt	ring	amul										0
-Serpent's	55	0	1	1	14		10				0	118	mana	0	11	20											shld	rod	belt	ring	amul										0
-Serpent's	56	0	1	1	37		27				0	118	mana	0	11	20											tors	helm	boot	glov	mele			h2h	rod						0
-Drake's	57	0	1	1	20		15				0	118	mana	0	21	30									1	cblu	rod	ring	amul	belt											0
-Dragon's	58	0	1	1	24		18				0	118	mana	0	31	40									1	cblu	rod	ring	amul												0
-Dragon's	59	0	1	1	52		39				0	118	mana	0	31	40									1	cblu	tors	helm	boot	glov											0
-Wyrm's	60	0	1	1	30		22				0	118	mana	0	41	60									1	cblu	rod	ring	amul												0
-	61																																								0
-	62																																								0
-Prismatic	63	0	1	1	27		20				0	120	res-all	0	15	25									1	lpur	amul														0
-Prismatic	64	0	1	1	62		46				0	120	res-all	0	15	15									1	lpur	ring														0
-Azure	65	0	1	1	5		3				0	121	res-cold	0	5	10											armo	rod	miss	ring	amul										0
-Lapis	66	0	1	1	12		9				0	121	res-cold	0	11	20											armo	ring	amul	rod											0
-Lapis	67	0	1	1	35		26				0	121	res-cold	0	11	20											weap	glov						rod							0
-Cobalt	68	0	1	1	18		13				0	121	res-cold	0	21	30											armo	ring	amul	rod				glov							0
-Cobalt	69	0	1	1	55		41				0	121	res-cold	0	21	30											weap	glov						rod							0
-	70																																								0
-Sapphire	71	0	1	1	25		18				0	121	res-cold	0	31	50									1	lblu	rod	boot	ring	amul	miss			scep							0
-	72																																								0
-	73																																								0
-Crimson	74	0	1	1	5		3				0	122	res-fire	0	5	10											armo	rod	miss	ring	amul	amul									0
-Burgundy	75	0	1	1	12		9				0	122	res-fire	0	11	20											armo	rod	ring	amul	amul										0
-Burgundy	76	0	1	1	35		26				0	122	res-fire	0	11	20											weap							rod							0
-Garnet	77	0	1	1	18		13				0	122	res-fire	0	21	30											armo	rod	ring	amul				glov							0
-Garnet	78	0	1	1	55		41				0	122	res-fire	0	21	30											weap	glov						rod							0
-	79																																								0
-Ruby	80	0	1	1	25		18				0	122	res-fire	0	31	50									1	lred	wand	staf	boot	ring	amul										0
-	81																																								0
-	82																																								0
-Ocher	83	0	1	1	5		3				0	123	res-ltng	0	5	10											armo	rod	ring	amul	miss										0
-Tangerine	84	0	1	1	12		9				0	123	res-ltng	0	11	20											armo	ring	amul	rod											0
-Tangerine	85	0	1	1	35		26				0	123	res-ltng	0	11	20											weap							rod							0
-Coral	86	0	1	1	18		13				0	123	res-ltng	0	21	30											armo	ring	amul	rod				glov							0
-Coral	87	0	1	1	55		41				0	123	res-ltng	0	21	30											weap	glov						rod							0
-	88																																								0
-Amber	89	0	1	1	25		18				0	123	res-ltng	0	31	50									1	lyel	armo	ring	amul	staf	wand			shld	glov						0
-	90																																								0
-	91																																								0
-Beryl	92	0	1	1	5		3				0	124	res-pois	0	5	10											armo	ring	amul	scep	staf	miss									0
-Jade	93	0	1	1	12		9				0	124	res-pois	0	11	20											armo	ring	amul	scep	staf										0
-Jade	94	0	1	1	35		26				0	124	res-pois	0	11	20											weap	ring						staf	scep						0
-Viridian	95	0	1	1	18		13				0	124	res-pois	0	21	30											tors	helm	shld	scep	staf	ring	amul								0
-Viridian	96	0	1	1	55		41				0	124	res-pois	0	21	30											weap	boot	glov	belt				staf	scep						0
-	97																																								0
-Emerald	98	0	1	1	25		18				0	124	res-pois	0	31	50									1	lgrn	scep	ring	amul												0
-	99																																								0
-Fletcher's	100	0	1	1	30		22				0	125	ama	0	1	1											miss	amul													0
-Archer's	101	0	1	1	40		30				0	125	ama	0	2	2									1	cgrn	miss														0
-Archer's	102	0	1	1	90		67				0	125	ama	0	2	2									1	cgrn	amul														0
-Monk's	103	0	1	1	30		22				0	126	pal	0	1	1											scep	amul													0
-Priest's	104	0	1	1	40		30				0	126	pal	0	2	2									1	cgrn	scep														0
-Priest's	105	0	1	1	90		67				0	126	pal	0	2	2									1	cgrn	amul														0
-Summoner's	106	0	1	1	30		22				0	127	nec	0	1	1											wand	amul													0
-Necromancer's	107	0	1	1	40		30				0	127	nec	0	2	2									1	cgrn	wand														0
-Necromancer's	108	0	1	1	90		67				0	127	nec	0	2	2									1	cgrn	amul														0
-Angel's	109	0	1	1	30		22				0	128	sor	0	1	1											staf	amul													0
-Arch-Angel's	110	0	1	1	40		30				0	128	sor	0	2	2									1	cgrn	staf														0
-Arch-Angel's	111	0	1	1	90		67				0	128	sor	0	2	2									1	cgrn	amul														0
-Slayer's	112	0	1	1	30		22				0	129	bar	0	1	1											mele	amul						rod	h2h						0
-Berserker's	113	0	1	1	40		30				0	129	bar	0	2	2									1	cgrn	mele							rod	h2h						0
-Berserker's	114	0	1	1	90		67				0	129	bar	0	2	2									1	cgrn	amul														0
-	115																																								0
-	116																																								0
-Triumphant	117	0	1	1	3		2				0	132	mana-kill	0	1	1											mele	ring													0
-Expansion	118																																								
-Stout	119	100	1	1	1		1				4	101	ac		3	5											lcha														0
-Stout	120	100	1	1	7		5				4	101	ac		6	9											lcha														0
-Stout	121	100	1	1	12		9				4	101	ac		10	12											lcha														0
-Burly	122	100	1	1	17		12				4	101	ac		13	15											lcha														0
-Burly	123	100	1	1	22		16				4	101	ac		16	22											lcha														0
-Burly	124	100	1	1	27		20				4	101	ac		23	30											lcha														0
-Stalwart	125	100	1		32		24				4	101	ac		33	40											lcha														0
-Stalwart	126	100	1		37		29				4	101	ac		44	50											lcha														0
-Stalwart	127	100	1		42		34				4	101	ac		60	100											lcha														0
-Stout	128	100	1	1	1		1				4	101	ac		2	3											mcha														0
-Stout	129	100	1	1	14		10				4	101	ac		4	6											mcha														0
-Stout	130	100	1	1	20		15				4	101	ac		8	12											mcha														0
-Burly	131	100	1	1	26		19				4	101	ac		13	18											mcha														0
-Burly	132	100	1	1	32		24				4	101	ac		20	30											mcha														0
-Stalwart	133	100	1		38		30				4	101	ac		30	40											mcha														0
-Stalwart	134	100	1		45		37				4	101	ac		45	60											mcha														0
-Stout	135	100	1	1	1		1				4	101	ac		1	1											scha														0
-Stout	136	100	1	1	21		15				4	101	ac		4	8											scha														0
-Burly	137	100	1	1	36		28				4	101	ac		15	20											scha														0
-Stalwart	138	100	1		48		40				4	101	ac		20	30											scha														0
-Blanched	139	100	1	1	1		1				4	101	ac		5	8									1	whit	jewl														0
-Eburin	140	100	1	1	16		12				4	101	ac		9	20									1	whit	jewl														0
-Bone	141	100	1	1	32		24				4	101	ac		21	40									1	whit	jewl														0
-Ivory	142	100	1		64		56				4	101	ac		41	64									1	whit	jewl														0
-Sturdy	143	1	1	1	1	26	1				9	101	ac%		10	20											armo														0
-Sturdy	144	1	1	1	4	29	3				9	101	ac%		21	30											armo														0
-Strong	145	1	1	1	9	34	6				8	101	ac%		31	40											armo														0
-Glorious	146	1	1	1	19	44	14				8	101	ac%		41	50											armo														0
-Blessed	147	1	1	1	25		18				7	101	ac%		51	65											armo														0
-Saintly	148	1	1	1	31		23				7	101	ac%		66	80									1	dgld	armo														0
-Holy	149	1	1	1	36		27				6	101	ac%		81	100									1	dgld	armo														0
-Godly	150	100	1		45		38				3	101	ac%		101	200									1	dgld	armo														0
-Devious	151	1	0	1	7		5				0	102	red-mag		1	1											shld	circ	orb	wand	staf										0
-Blank	152	1	0	1	14		10				0	102	red-mag		2	2											shld	circ	orb	wand	staf										0
-Null	153	100	0	1	21		16				0	102	red-mag		3	5									1	dblu	shld	circ													0
-Antimagic	154	100	0		28		21				0	102	red-mag		6	10									1	dblu	shld	circ													0
-Red	155	100	0	1	4		3				4	103	dmg-min		1	2									1	dred	lcha														0
-Red	156	100	0	1	16		12				4	103	dmg-min		3	3									1	dred	lcha														0
-Sanguinary	157	100	0	1	28		21				4	103	dmg-min		4	4									1	dred	lcha														0
-Sanguinary	158	100	0	1	40		32				4	103	dmg-min		5	6									1	dred	lcha														0
-Bloody	159	100	0		52		46				4	103	dmg-min		7	8									1	dred	lcha														0
-Red	160	100	0	1	11		8				4	103	dmg-min		1	2									1	dred	mcha														0
-Sanguinary	161	100	0	1	33		25				4	103	dmg-min		3	3									1	dred	mcha														0
-Bloody	162	100	0		55		47				4	103	dmg-min		4	4									1	dred	mcha														0
-Red	163	100	0	1	24		16				4	103	dmg-min		1	1											scha														0
-Sanguinary	164	100	0	1	41		33				4	103	dmg-min		2	2											scha														0
-Bloody	165	100	0		58		50				4	103	dmg-min		3	3											scha														0
-Scarlet	166	100	1	1	8		6				4	103	dmg-min		1	4									1	dred	jewl	misl													0
-Crimson	167	100	1	1	38		30				4	103	dmg-min		5	8									1	dred	jewl														0
-Jagged	168	100	0	1	3		2				4	104	dmg-max		1	2									1	blac	lcha														0
-Jagged	169	100	0	1	10		7				4	104	dmg-max		3	4									1	blac	lcha														0
-Jagged	170	100	0	1	17		12				4	104	dmg-max		5	6									1	blac	lcha														0
-Forked	171	100	0	1	25		18				4	104	dmg-max		7	8									1	blac	lcha														0
-Forked	172	100	0	1	32		24				4	104	dmg-max		9	10									1	blac	lcha														0
-Serrated	173	100	0		39		31				4	104	dmg-max		11	12									1	blac	lcha														0
-Serrated	174	100	0		47		39				4	104	dmg-max		13	14									1	blac	lcha														0
-Jagged	175	100	0	1	10		7				4	104	dmg-max		1	1									1	blac	mcha														0
-Jagged	176	100	0	1	20		15				4	104	dmg-max		2	2									1	blac	mcha														0
-Forked	177	100	0	1	30		22				4	104	dmg-max		3	3									1	blac	mcha														0
-Forked	178	100	0	1	40		32				4	104	dmg-max		4	5									1	blac	mcha														0
-Serrated	179	100	0		50		42				4	104	dmg-max		6	7									1	blac	mcha														0
-Jagged	180	100	0	1	23		17				4	104	dmg-max		1	1											scha														0
-Forked	181	100	0	1	38		30				4	104	dmg-max		2	2											scha														0
-Serrated	182	100	0		53		45				4	104	dmg-max		3	3											scha														0
-Carbuncle	183	100	1	1	12		9				4	104	dmg-max		1	5									1	dred	jewl	misl													0
-Carmine	184	100	1	1	35		27				4	104	dmg-max		6	9									1	dred	jewl	misl													0
-Vermillion	185	100	1	1	58		50				4	104	dmg-max		11	15									1	dred	jewl	misl													0
-Jagged	186	1	1	1	1	26	1				9	105	dmg%		10	20											weap	circ						staf	wand	orb					0
-Deadly	187	1	1	1	5	30	3				9	105	dmg%		21	30											weap	circ						staf	wand	orb					0
-Vicious	188	1	1	1	8	33	6				8	105	dmg%		31	40											weap							staf	wand	orb					0
-Brutal	189	1	1	1	14	39	10				8	105	dmg%		41	50											weap							staf	wand	orb					0
-Massive	190	1	1	1	20	45	15				7	105	dmg%		51	65									1	dgld	weap							staf	wand	orb					0
-Savage	191	1	1	1	26		19				7	105	dmg%		66	80									1	dgld	weap							staf	wand	orb					0
-Merciless	192	1	1	1	32		24				6	105	dmg%		81	100									1	dgld	weap							staf	wand	orb					0
-Ferocious	193	100	1	1	41		33				6	105	dmg%		101	200									1	blac	weap							staf	wand	orb					0
-Cruel	194	100	1		51		43				5	105	dmg%		201	300									1	blac	weap							staf	wand	orb					0
-Cinnabar	195	100	1	1	1		1				4	105	dmg%		5	10									1	dred	jewl														0
-Rusty	196	100	1	1	13		9				4	105	dmg%		11	20									1	dred	jewl														0
-Realgar	197	100	1	1	45		37				4	105	dmg%		21	30									1	dred	jewl														0
-Ruby	198	100	1	1	66		58				4	105	dmg%		31	40									1	dred	jewl														0
-Vulpine	199	1	1	1	9		6				0	107	dmg-to-mana		7	12									1	cblu	shld	amul	orb	staf											0
-Dun	200	100	1	1	7		5				0	107	dmg-to-mana		7	12											jewl														0
-Tireless	201	1	1	1	6		4				0	108	regen-stam		25	25											boot														0
-Tireless	202	100	1	1	14		10				0	108	regen-stam		50	50											boot														0
-Brown	203	100	0	1	39		31				0	108	regen-stam		10	15											jewl														0
-Rugged	204	100	0	1	1		1				0	109	stam		12	24											lcha														0
-Rugged	205	100	0	1	7		5				0	109	stam		25	36											lcha														0
-Rugged	206	100	0	1	21		15				0	109	stam		37	50											lcha														0
-Rugged	207	100	0	1	1						0	109	stam		8	16											mcha														0
-Rugged	208	100	0	1	7		5				0	109	stam		17	25											mcha														0
-Rugged	209	100	0	1	21		15				0	109	stam		26	32											mcha														0
-Rugged	210	100	0	1	1						0	109	stam		4	8											scha														0
-Rugged	211	100	0	1	21		15				0	109	stam		9	16											scha														0
-Rugged	212	1	0	1	1		1				0	109	stam		5	10											boot	glov	belt	ring	amul	circ									0
-Rugged	213	1	0	1	8		6				0	109	stam		11	20											boot	belt													0
-Rugged	214	1	0	1	8		6				0	109	stam		11	20											ring	amul	circ												0
-Vigorous	215	100	0	1	16		12				0	109	stam		21	30											boot	belt													0
-Chestnut	216	100	0	1	1		1				0	109	stam		10	15											jewl														0
-Maroon	217	100	0	1	17		12				0	109	stam		16	25											jewl														0
-Bronze	218	100	1	1	1		1				4	110	att		6	12											lcha														0
-Bronze	219	100	1	1	7		5				4	110	att		13	27											lcha														0
-Bronze	220	100	1	1	13		9				4	110	att		28	42											lcha														0
-Iron	221	100	1	1	19		14				4	110	att		43	57											lcha														0
-Iron	222	100	1	1	25		18				4	110	att		58	72											lcha														0
-Iron	223	100	1	1	31		23				4	110	att		73	87											lcha														0
-Steel	224	100	1		37		29				4	110	att		88	102											lcha														0
-Steel	225	100	1		43		35				4	110	att		103	117											lcha														0
-Steel	226	100	1		49		41				4	110	att		118	132											lcha														0
-Bronze	227	100	1	1	1		1				4	110	att		4	8											mcha														0
-Bronze	228	100	1	1	7		5				4	110	att		6	12											mcha														0
-Bronze	229	100	1	1	16		12				4	110	att		13	25											mcha														0
-Iron	230	100	1	1	25		18				4	110	att		26	38											mcha														0
-Iron	231	100	1	1	34		26				4	110	att		39	51											mcha														0
-Steel	232	100	1		43		36				4	110	att		52	64											mcha														0
-Steel	233	100	1		52		44				4	110	att		65	77											mcha														0
-Bronze	234	100	1	1	1		1				4	110	att		2	4											scha														0
-Bronze	235	100	1	1	21		15				4	110	att		6	12											scha														0
-Iron	236	100	1	1	39		31				4	110	att		13	24											scha														0
-Steel	237	100	1		57		49				4	110	att		25	36											scha														0
-Bronze	238	1	1	1	1	26	1				8	110	att		10	20											weap	ring	glov	amul	circ	helm	tors	staf	wand	orb					0
-Iron	239	1	1	1	4	29	3				8	110	att		21	40											weap	ring	circ	glov	helm	tors		staf	wand	orb					0
-Steel	240	1	1	1	8		6				7	110	att		41	60											weap	ring	circ	glov	helm	tors		staf	wand	orb					0
-Silver	241	1	1	1	12		9				7	110	att		61	80											weap	ring	circ	glov	helm	tors	misl	staf	wand	orb					0
-Gold	242	1	1	1	17		12				6	110	att		81	100									1	lgld	weap	ring	circ	glov	helm	tors	misl	staf	wand	orb					0
-Platinum	243	1	1	1	22		16				6	110	att		101	120									1	lgld	weap	ring	circ	glov	helm	tors	misl	staf	wand	orb					0
-Meteoric	244	1	1	1	27		20				5	110	att		121	150									1	lgld	weap	misl						staf	wand	orb					0
-Strange	245	100	1	1	32		24				5	110	att		151	300									1	lgld	weap							staf	wand	orb					0
-Weird	246	100	1		37		27				4	110	att		301	450									1	lgld	weap							staf	wand	orb					0
-Nickel	247	100	1	1	1	26	1				4	110	att		10	20											jewl														0
-Tin	248	100	1	1	8	33	6				4	110	att		21	40											jewl														0
-Silver	249	100	1	1	25		18				4	110	att		41	60											jewl														0
-Argent	250	100	1	1	44		36				4	110	att		61	100											jewl														0
-Fine	251	100	1	1	15		11				4	111	att		10	20	dmg-max		1	3							lcha														0
-Fine	252	100	1	1	22		16				4	111	att		21	48	dmg-max		4	6							lcha														0
-Sharp	253	100	1	1	29		21				4	111	att		49	76	dmg-max		7	10							lcha														0
-Fine	254	100	1	1	19		14				4	111	att		10	20	dmg-max		1	3							mcha														0
-Sharp	255	100	1	1	28		21				4	111	att		21	48	dmg-max		4	6							mcha														0
-Fine	256	100	1		28		21				4	111	att		10	20	dmg-max		1	3							scha														0
-Sharp	257	1	1	1	5	30	3				9	111	att		10	20	dmg%		10	20							weap							staf	wand	orb					0
-Fine	258	1	1	1	12	37	9				9	111	att		21	40	dmg%		21	30							weap							staf	wand	orb					0
-Warrior's	259	1	1	1	19	44	13				8	111	att		41	60	dmg%		31	40							weap							staf	wand	orb					0
-Soldier's	260	1	1	1	27		19				8	111	att		61	80	dmg%		41	50							weap							staf	wand	orb					0
-Knight's	261	1	1	1	38		30				7	111	att		81	100	dmg%		51	65					1	dgld	weap							staf	wand	orb					0
-Lord's	262	1	1	1	47		39				6	111	att		101	120	dmg%		66	80					1	dgld	weap							staf	wand	orb					0
-King's	263	1	1	1	56		48				5	111	att		121	150	dmg%		81	100					1	dgld	weap							staf	wand	orb					0
-Master's	264	100	1	1	56		48				5	111	att		151	250	dmg%		101	150					1	dgld	weap							staf	wand	orb					0
-Grandmaster's	265	100	1	1	69		61				4	111	att		251	300	dmg%		151	200					1	dgld	weap							staf	wand	orb					0
-Glimmering	266	1	1	1	1		1				0	112	light		1	1											armo	wand	staf	ring	amul	orb									0
-Glowing	267	1	1	1	6		4				0	112	light		2	2									1	lyel	armo	wand	staf	ring	amul	orb									0
-Bright	268	100	1	1	1		1				0	112	light		1	1	att		10	10							jewl														0
-Screaming	269	100	1	1	10		7				0	113	howl		32	32									1	oran	weap							miss	swor	axe	pole	spea			0
-Howling	270	1	1	1	16		12				0	113	howl		64	64									1	oran	weap							miss	swor	axe	pole	spea			0
-Wailing	271	100	1	1	20		13				0	113	howl		128	128									1	oran	weap							miss	swor	axe	pole	spea			0
-Screaming	272	100	1	1	10		7				0	113	howl		16	16									1	oran	miss														0
-Howling	273	100	1	1	16		12				0	113	howl		24	24									1	oran	miss														0
-Wailing	274	100	1		24		18				0	113	howl		32	32									1	oran	miss														0
-Lucky	275	100	1	1	21	46					4	114	mag%		1	4											lcha														0
-Lucky	276	100	1		38						4	114	mag%		5	7											lcha														0
-Lucky	277	100	1		55						4	114	mag%		8	12											lcha														0
-Lucky	278	100	1	1	34						4	114	mag%		1	1											mcha														0
-Lucky	279	100	1		53						4	114	mag%		2	3											mcha														0
-Lucky	280	100	1		51						4	114	mag%		4	6											mcha														0
-Felicitous	281	100	1	1	5		3				4	114	mag%		10	20											ring	amul	circ	helm											0
-Fortuitous	282	1	1	1	12		8				4	114	mag%		21	30											ring	amul	circ	helm											0
-Emerald	283	100	1	1	16		12				4	114	mag%		10	20											jewl														0
-Lizard's	284	100	1	1	1		1				4	115	mana		3	7											lcha														0
-Lizard's	285	100	1	1	7		5				4	115	mana		8	13											lcha														0
-Lizard's	286	100	1	1	13		9				4	115	mana		14	20											lcha														0
-Snake's	287	100	1	1	19		14				4	115	mana		21	26											lcha														0
-Snake's	288	100	1	1	25		18				4	115	mana		27	33											lcha														0
-Snake's	289	100	1	1	31		23				4	115	mana		34	39											lcha														0
-Serpent's	290	100	1	1	37		29				4	115	mana		40	46											lcha														0
-Serpent's	291	100	1	1	43		35				4	115	mana		47	52											lcha														0
-Serpent's	292	100	1	1	49		41				4	115	mana		53	59											lcha														0
-Lizard's	293	100	1	1	1		1				4	115	mana		2	4											mcha														0
-Lizard's	294	100	1	1	9		6				4	115	mana		5	7											mcha														0
-Lizard's	295	100	1	1	17		12				4	115	mana		8	12											mcha														0
-Snake's	296	100	1	1	25		18				4	115	mana		13	18											mcha														0
-Snake's	297	100	1	1	33		25				4	115	mana		19	23											mcha														0
-Serpent's	298	100	1	1	41		33				4	115	mana		24	29											mcha														0
-Serpent's	299	100	1	1	49		41				4	115	mana		30	34											mcha														0
-Lizard's	300	100	1	1	16		12				4	115	mana		1	2											scha														0
-Lizard's	301	100	1	1	16		12				4	115	mana		3	7											scha														0
-Snake's	302	100	1	1	32		24				4	115	mana		8	12											scha														0
-Serpent's	303	100	1		48		40				4	115	mana		13	17											scha														0
-Lizard's	304	1	1	1	3	28	2				4	115	mana		3	5											armo	ring	amul	rod	orb			boot	glov						0
-Snake's	305	1	1	1	6	31	4				4	115	mana		5	10											shld	rod	belt	ring	amul	circ	misl								0
-Serpent's	306	1	1	1	14	39	10				3	115	mana		11	20											shld	rod	circ	misl											0
-Serpent's	307	1	1	1	37	62	27				2	115	mana		11	20											tors	weap	orb					rod							0
-Drake's	308	1	1	1	20		15				2	115	mana		21	30									1	cblu	rod	ring	amul	orb	circ	misl									0
-Dragon's	309	1	1	1	24		18				2	115	mana		31	40									1	cblu	rod	ring	amul	orb	circ	misl									0
-Dragon's	310	1	1	1	52		39				2	115	mana		31	40									1	cblu	tors	boot	glov												0
-Wyrm's	311	1	1	1	30		22				2	115	mana		41	60									1	cblu	rod	ring	amul	orb	circ										0
-Great Wyrm's	312	100	1	1	37		29				2	115	mana		61	90									1	cblu	rod	ring	amul	orb	circ										0
-Bahamut's	313	100	1	1	45		37				2	115	mana		91	120									1	cblu	rod	ring	amul	orb	circ										0
-Zircon	314	100	1	1	3		2				2	115	mana		5	10									1	cblu	jewl														0
-Jacinth	315	100	1	1	17		12				2	115	mana		11	15									1	cblu	jewl														0
-Turquoise	316	100	1	1	29		21				2	115	mana		16	20									1	cblu	jewl														0
-Shimmering	317	100	1		8		6				1	116	res-all		3	6									1	lpur	lcha													1280	500
-Shimmering	318	100	1		14		10				1	116	res-all		8	12									1	lpur	lcha													1280	1500
-Shimmering	319	100	1		35		27				1	116	res-all		13	15									1	lpur	lcha													1280	5000
-Shimmering	320	100	1		17		12				1	116	res-all		3	5									1	lpur	mcha													1280	1500
-Shimmering	321	100	1		34		26				1	116	res-all		6	8									1	lpur	mcha													1280	5000
-Shimmering	322	100	1		33		25				1	116	res-all		3	5											scha													1280	10000
-Shimmering	323	100	1	1	6	31	4				5	116	res-all		3	7									1	lpur	shld													1280	500
-Rainbow	324	100	1	1	18		13				5	116	res-all		8	11									1	lpur	shld													1280	2000
-Scintillating	325	100	1	1	28		21				5	116	res-all		12	15									1	lpur	shld													1280	4000
-Prismatic	326	1	1	1	39		31				4	116	res-all		16	20									1	lpur	shld													1280	8000
-Chromatic	327	100	1	1	50		42				4	116	res-all		21	30									1	lpur	shld													1280	16000
-Shimmering	328	100	1	1	8	33	6				5	116	res-all		3	7									1	lpur	amul	circ												1280	3000
-Rainbow	329	100	1	1	21		15				5	116	res-all		8	11									1	lpur	amul	circ												1280	6000
-Scintillating	330	100	1	1	34		25				5	116	res-all		12	15									1	lpur	amul	circ	misl											1280	12000
-Prismatic	331	1	1	1	42		31				4	116	res-all		16	20									1	lpur	amul	circ												1280	24000
-Chromatic	332	100	1		55		41				3	116	res-all		21	30									1	lpur	amul	circ												1280	32000
-Shimmering	333	100	1	1	45		37				3	116	res-all		3	7									1	lpur	ring													1280	4000
-Rainbow	334	100	1	1	56		48				2	116	res-all		8	11									1	lpur	ring													1280	8000
-Scintillating	335	100	1		67		59				2	116	res-all		12	15									1	lpur	ring													1280	16000
-Shimmering	336	100	1	1	16		12				1	116	res-all		5	10									1	lpur	jewl	misl												1280	3000
-Scintillating	337	100	1		34		26				1	116	res-all		11	15									1	lpur	jewl													1280	8000
-Azure	338	100	1	1	1		1				2	117	res-cold		7	15											lcha														0
-Lapis	339	100	1	1	10		7				2	117	res-cold		16	20											lcha														0
-Cobalt	340	100	1	1	20		15				2	117	res-cold		21	25									1	lblu	lcha														0
-Sapphire	341	100	1		30		22				2	117	res-cold		26	30									1	lblu	lcha														0
-Azure	342	100	1	1	1		1				2	117	res-cold		4	7											mcha														0
-Lapis	343	100	1	1	16		12				2	117	res-cold		8	10											mcha														0
-Cobalt	344	100	1	1	25		18				2	117	res-cold		11	12									1	lblu	mcha														0
-Sapphire	345	100	1		35		27				2	117	res-cold		13	15									1	lblu	mcha														0
-Azure	346	100	1	1	1		1				2	117	res-cold		3	5											scha														0
-Lapis	347	100	1	1	14		10				2	117	res-cold		6	7											scha														0
-Cobalt	348	100	1	1	27		20				2	117	res-cold		8	9											scha														0
-Sapphire	349	100	1		40		32				2	117	res-cold		10	11											scha														0
-Azure	350	1	1	1	5	30	3				2	117	res-cold		5	10											armo	weap	ring	amul	orb	circ	misl								0
-Lapis	351	1	1	1	12		9				4	117	res-cold		11	20											armo	ring	amul	orb	circ	misl									0
-Lapis	352	1	1	1	35		26				2	117	res-cold		11	20											weap							orb							0
-Cobalt	353	1	1	1	18		13				3	117	res-cold		21	30											armo	ring	amul	orb	circ	misl									0
-Cobalt	354	1	1	1	55		41				2	117	res-cold		21	30											weap							orb							0
-Sapphire	355	1	1	1	25		18				3	117	res-cold		31	40									1	lblu	rod	boot	amul	orb	circ										0
-Lapis Lazuli	356	100	1	1	2		1				4	117	res-cold		5	15									1	lblu	jewl														0
-Sapphire	357	100	1	1	19		14				4	117	res-cold		16	30									1	lblu	jewl														0
-Crimson	358	100	1	1	1		1				2	118	res-fire		7	15											lcha														0
-Russet	359	100	1	1	10		7				2	118	res-fire		16	20											lcha														0
-Garnet	360	100	1	1	20		15				2	118	res-fire		21	25									1	lred	lcha														0
-Ruby	361	100	1		30		22				2	118	res-fire		26	30									1	lred	lcha														0
-Crimson	362	100	1	1	1		1				2	118	res-fire		4	7											mcha														0
-Russet	363	100	1	1	16		12				2	118	res-fire		8	10											mcha														0
-Garnet	364	100	1	1	25		18				2	118	res-fire		11	12									1	lred	mcha														0
-Ruby	365	100	1		35		27				2	118	res-fire		13	15									1	lred	mcha														0
-Crimson	366	100	1	1	1		1				2	118	res-fire		3	5											scha														0
-Russet	367	100	1	1	14		10				2	118	res-fire		6	7											scha														0
-Garnet	368	100	1		27		20				2	118	res-fire		8	9											scha														0
-Ruby	369	100	1	1	40		32				2	118	res-fire		10	11											scha														0
-Russet	370	1	1	1	12		9				4	118	res-fire		11	20											armo	ring	amul	orb	circ	misl									0
-Russet	371	1	1	1	35		26				1	118	res-fire		11	20											weap							orb							0
-Garnet	372	1	1	1	18		13				3	118	res-fire		21	30											armo	ring	amul	orb	circ	misl									0
-Garnet	373	1	1	1	55		41				1	118	res-fire		21	30											weap							orb							0
-Ruby	374	1	1	1	25		18				3	118	res-fire		31	40									1	lred	rod	boot	amul	orb	circ										0
-Garnet	375	100	1	1	2		1				4	117	res-fire		5	15									1	lred	jewl														0
-Ruby	376	100	1	1	18		13				4	117	res-fire		16	30									1	lred	jewl														0
-Tangerine	377	100	1	1	1		1				2	119	res-ltng		7	15											lcha														0
-Ocher	378	100	1	1	10		7				2	119	res-ltng		16	20											lcha														0
-Coral	379	100	1	1	20		15				2	119	res-ltng		21	25									1	lyel	lcha														0
-Amber	380	100	1		30		22				2	119	res-ltng		26	30									1	lyel	lcha														0
-Tangerine	381	100	1	1	1		1				2	119	res-ltng		4	7											mcha														0
-Ocher	382	100	1	1	16		12				2	119	res-ltng		8	10											mcha														0
-Coral	383	100	1	1	25		18				2	119	res-ltng		11	12									1	lyel	mcha														0
-Amber	384	100	1		35		27				2	119	res-ltng		13	15									1	lyel	mcha														0
-Tangerine	385	100	1	1	1		1				2	119	res-ltng		3	5											scha														0
-Ocher	386	100	1	1	14		10				2	119	res-ltng		6	7											scha														0
-Coral	387	100	1	1	27		20				2	119	res-ltng		8	9											scha														0
-Amber	388	100	1		40		32				2	119	res-ltng		10	11											scha														0
-Tangerine	389	1	1	1	5	45	3				4	119	res-ltng		5	10											armo	weap	ring	amul	orb	circ	misl								0
-Ocher	390	1	1	1	12		9				4	119	res-ltng		11	20											armo	ring	amul	orb	circ	misl									0
-Ocher	391	1	1	1	35		26				1	119	res-ltng		11	20											weap							orb							0
-Coral	392	1	1	1	18		13				3	119	res-ltng		21	30											armo	ring	amul	orb	circ	misl									0
-Coral	393	1	1	1	55		41				1	119	res-ltng		21	30											weap							orb							0
-Amber	394	1	1	1	25		18				3	119	res-ltng		31	40									1	lyel	rod	boot	amul	orb	circ										0
-Camphor	395	100	1	1	2		1				4	117	res-ltng		5	15									1	lyel	jewl														0
-Ambergris	396	100	1	1	19		14				4	117	res-ltng		16	30									1	lyel	jewl														0
-Beryl	397	100	1	1	1		1				2	120	res-pois		7	15											lcha														0
-Viridian	398	100	1	1	10		7				2	120	res-pois		16	20											lcha														0
-Jade	399	100	1	1	20		15				2	120	res-pois		21	25									1	cgrn	lcha														0
-Emerald	400	100	1		30		22				2	120	res-pois		26	30									1	cgrn	lcha														0
-Beryl	401	100	1	1	1		1				2	120	res-pois		4	7											mcha														0
-Viridian	402	100	1	1	16		12				2	120	res-pois		8	10											mcha														0
-Jade	403	100	1	1	25		18				2	120	res-pois		11	12									1	cgrn	mcha														0
-Emerald	404	100	1		35		27				2	120	res-pois		13	15									1	cgrn	mcha														0
-Beryl	405	100	1	1	1		1				2	120	res-pois		3	5											scha														0
-Viridian	406	100	1	1	14		10				2	120	res-pois		6	7											scha														0
-Jade	407	100	1	1	27		20				2	120	res-pois		8	9											scha														0
-Emerald	408	100	1		40		32				2	120	res-pois		10	11											scha														0
-Beryl	409	1	1	1	5	45	3				4	120	res-pois		5	10											armo	weap	ring	amul	orb	circ	misl								0
-Viridian	410	1	1	1	12		9				4	120	res-pois		11	20											armo	ring	amul	orb	circ	misl									0
-Viridian	411	1	1	1	35		26				1	120	res-pois		11	20											weap							orb							0
-Jade	412	1	1	1	18		13				3	120	res-pois		21	30											armo	ring	amul	orb	circ	misl									0
-Jade	413	1	1	1	55		41				1	120	res-pois		21	30											weap							orb							0
-Emerald	414	1	1	1	25		18				3	120	res-pois		31	40									1	cgrn	rod	boot	amul	orb	circ										0
-Beryl	415	100	1	1	2		1				4	117	res-pois		5	15									1	cgrn	jewl														0
-Jade	416	100	1	1	19		14				4	117	res-pois		16	30									1	cgrn	jewl														0
-Triumphant	417	1	1	1	3		2				4	121	mana-kill		1	5											weap	ring	circ	tors	helm	shld	misl								0
-Victorious	418	100	1	1	17		12				0	121	mana-kill		2	5											weap	circ	tors	helm	shld	misl									0
-Aureolin	419	100	1	1	12		9				4	121	mana-kill		1	3											jewl														0
-Mechanist's	420	100	1	1	10		7				3	122	sock		1	2											weap	shld	helm	tors	circ			thro							0
-Artificer's	421	100	1		33		25				2	122	sock	3													weap	shld	helm	tors				thro							0
-Jeweler's	422	100	1		55		47				1	122	sock	4													weap	shld	helm	tors				thro							0
-Assamic	423	100	1	1	3	43	1				2	123	att-demon		25	50	dmg-demon		10	25							weap	circ						wand	orb						0
-Arcadian	424	100	1	1	15	55	11				2	123	att-demon		51	100	dmg-demon		26	50							weap	circ	helm					wand	orb						0
-Unearthly	425	100	1	1	25		18				1	123	att-demon		101	150	dmg-demon		51	100							weap							wand	orb						0
-Astral	426	100	1	1	35		26				1	123	att-demon		151	200	dmg-demon		101	150							weap							wand	orb						0
-Elysian	427	100	1	1	45		33				1	123	att-demon		201	300	dmg-demon		151	200					1	dgld	weap							wand	orb						0
-Celestial	428	100	1	1	55		41				1	123	att-demon		301	400	dmg-demon		201	300					1	dgld	weap							wand	orb						0
-Diamond	429	100	1	1	26		19				1	123	att-demon		25	50	dmg-demon		25	40							jewl														0
-Fletcher's	430	100	1		50		42	ama			1	125	skilltab	0	1	1											lcha	lchp													0
-Acrobat's	431	100	1		50		42	ama			1	125	skilltab	1	1	1											lcha	lchp													0
-Harpoonist's	432	100	1		50		42	ama			1	125	skilltab	2	1	1											lcha	lchp													0
-Fletcher's	433	100	1	1	20		15	ama			1	125	skilltab	0	1	1											miss	glov	circ	misl	amul										0
-Bowyer's	434	100	1	1	40		30	ama			1	125	skilltab	0	2	2									1	lgld	miss	glov	circ	misl	amul										0
-Archer's	435	100	1		60		45	ama			1	125	skilltab	0	3	3									1	lgld	miss	glov	circ	misl	amul										0
-Acrobat's	436	100	1	1	20		15	ama			1	125	skilltab	1	1	1											glov	amul	circ	misl											0
-Gymnast's	437	100	1	1	40		30	ama			1	125	skilltab	1	2	2									1	lgld	glov	amul	circ	misl											0
-Athlete's	438	100	1		60		45	ama			1	125	skilltab	1	3	3									1	lgld	glov	amul	circ	misl											0
-Harpoonist's	439	100	1	1	20		15	ama			1	125	skilltab	2	1	1											spea	glov	amul	circ											0
-Spearmaiden's	440	100	1	1	40		30	ama			1	125	skilltab	2	2	2									1	lgld	spea	glov	amul	circ											0
-Lancer's	441	100	1	1	60		45	ama			1	125	skilltab	2	3	3									1	lgld	spea														0
-Burning	442	100	1	1	50		42	sor			1	125	skilltab	3	1	1											lcha	lchp													0
-Sparking	443	100	1	1	50		42	sor			1	125	skilltab	4	1	1											lcha	lchp													0
-Chilling	444	100	1	1	50		42	sor			1	125	skilltab	5	1	1											lcha	lchp													0
-Burning	445	100	1	1	20		15	sor			1	125	skilltab	3	1	1											staf	orb	amul	circ											0
-Blazing	446	100	1	1	40		30	sor			1	125	skilltab	3	2	2									1	lgld	staf	orb	amul	circ											0
-Volcanic	447	100	1		60		45	sor			1	125	skilltab	3	3	3									1	lgld	staf	orb	amul	circ											0
-Sparking	448	100	1	1	20		15	sor			1	125	skilltab	4	1	1											staf	orb	amul	circ											0
-Charged	449	100	1	1	40		30	sor			1	125	skilltab	4	2	2									1	lgld	staf	orb	amul	circ											0
-Powered	450	100	1		60		45	sor			1	125	skilltab	4	3	3									1	lgld	staf	orb	amul	circ											0
-Chilling	451	100	1	1	20		15	sor			1	125	skilltab	5	1	1											staf	orb	amul	circ											0
-Freezing	452	100	1	1	40		30	sor			1	125	skilltab	5	2	2									1	lgld	staf	orb	amul	circ											0
-Glacial	453	100	1		60		45	sor			1	125	skilltab	5	3	3									1	lgld	staf	orb	amul	circ											0
-Hexing	454	100	1	1	50		42	nec			1	125	skilltab	6	1	1											lcha	lchp													0
-Fungal	455	100	1	1	50		42	nec			1	125	skilltab	7	1	1											lcha	lchp													0
-Graverobber's	456	100	1	1	50		42	nec			1	125	skilltab	8	1	1											lcha	lchp													0
-Hexing	457	100	1	1	20		15	nec			1	125	skilltab	6	1	1											wand	head	amul	circ											0
-Blighting	458	100	1	1	40		30	nec			1	125	skilltab	6	2	2									1	lgld	wand	head	amul	circ											0
-Accursed	459	100	1		60		45	nec			1	125	skilltab	6	3	3									1	lgld	wand	head	amul	circ											0
-Fungal	460	100	1	1	20		15	nec			1	125	skilltab	7	1	1											wand	head	amul	knif	circ			tkni							0
-Noxious	461	100	1	1	40		30	nec			1	125	skilltab	7	2	2									1	lgld	wand	head	amul	knif	circ			tkni							0
-Venomous	462	100	1		60		45	nec			1	125	skilltab	7	3	3									1	lgld	wand	head	amul	knif	circ			tkni							0
-Graverobber's	463	100	1	1	20		15	nec			1	125	skilltab	8	1	1											wand	head	amul	circ											0
-Vodoun	464	100	1	1	40		30	nec			1	125	skilltab	8	2	2									1	lgld	wand	head	amul	circ											0
-Golemlord's	465	100	1		60		45	nec			1	125	skilltab	8	3	3									1	lgld	wand	head	amul	circ											0
-Lion Branded	466	100	1	1	50		42	pal			1	125	skilltab	9	1	1											lcha	lchp													0
-Captain's	467	100	1	1	50		42	pal			1	125	skilltab	10	1	1											lcha	lchp													0
-Preserver's	468	100	1	1	50		42	pal			1	125	skilltab	11	1	1											lcha	lchp													0
-Lion Branded	469	100	1	1	20		15	pal			1	125	skilltab	9	1	1											scep	swor	mace	shld	ashd	amul	circ								0
-Hawk Branded	470	100	1	1	40		30	pal			1	125	skilltab	9	2	2									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
-Rose Branded	471	100	1		60		45	pal			1	125	skilltab	9	3	3									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
-Captain's	472	100	1	1	20		15	pal			1	125	skilltab	10	1	1											scep	swor	mace	shld	ashd	amul	circ								0
-Commander's	473	100	1	1	40		30	pal			1	125	skilltab	10	2	2									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
-Marshal's	474	100	1		60		45	pal			1	125	skilltab	10	3	3									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
-Preserver's	475	100	1	1	20		15	pal			1	125	skilltab	11	1	1											shld	ashd	amul	circ											0
-Warder's	476	100	1	1	40		30	pal			1	125	skilltab	11	2	2									1	lgld	shld	ashd	amul	circ											0
-Guardian's	477	100	1		60		45	pal			1	125	skilltab	11	3	3									1	lgld	shld	ashd	amul	circ											0
-Expert's	478	100	1	1	50		42	bar			1	125	skilltab	12	1	1											lcha	lchp													0
-Fanatic	479	100	1	1	50		42	bar			1	125	skilltab	13	1	1											lcha	lchp													0
-Sounding	480	100	1	1	50		42	bar			1	125	skilltab	14	1	1											lcha	lchp													0
-Expert's	481	100	1	1	20		15	bar			1	125	skilltab	12	1	1											phlm	weap	helm					miss	rod	knif					0
-Veteran's	482	100	1	1	40		30	bar			1	125	skilltab	12	2	2									1	lgld	phlm	weap	helm					miss	rod	knif					0
-Master's	483	100	1		60		45	bar			1	125	skilltab	12	3	3									1	lgld	phlm	weap	helm					miss	rod	knif					0
-Fanatic	484	100	1	1	20		15	bar			1	125	skilltab	13	1	1											phlm	weap	amul					miss	rod	knif					0
-Raging	485	100	1	1	40		30	bar			1	125	skilltab	13	2	2									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Furious	486	100	1		60		45	bar			1	125	skilltab	13	3	3									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Sounding	487	100	1	1	20		15	bar			1	125	skilltab	14	1	1											phlm	weap	amul					miss	rod	knif					0
-Resonant	488	100	1	1	40		30	bar			1	125	skilltab	14	2	2									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Echoing	489	100	1		60		45	bar			1	125	skilltab	14	3	3									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Trainer's	490	100	1	1	50		42	dru			1	125	skilltab	15	1	1											lcha	lchp													0
-Spiritual	491	100	1	1	50		42	dru			1	125	skilltab	16	1	1											lcha	lchp													0
-Nature's	492	100	1	1	50		42	dru			1	125	skilltab	17	1	1											lcha	lchp													0
-Trainer's	493	100	1	1	20		15	dru			1	125	skilltab	15	1	1											club	pelt	amul	circ											0
-Caretaker's	494	100	1	1	40		30	dru			1	125	skilltab	15	2	2									1	lgld	club	pelt	amul	circ											0
-Keeper's	495	100	1		60		45	dru			1	125	skilltab	15	3	3									1	lgld	club	pelt	amul	circ											0
-Spiritual	496	100	1	1	20		15	dru			1	125	skilltab	16	1	1											club	pelt	amul	circ											0
-Feral	497	100	1	1	40		30	dru			1	125	skilltab	16	2	2									1	lgld	club	pelt	amul	circ											0
-Communal	498	100	1		60		45	dru			1	125	skilltab	16	3	3									1	lgld	club	pelt	amul	circ											0
-Nature's	499	100	1	1	20		15	dru			1	125	skilltab	17	1	1											club	pelt	amul	circ											0
-Terra's	500	100	1	1	40		30	dru			1	125	skilltab	17	2	2									1	lgld	club	pelt	amul	circ											0
-Gaea's	501	100	1		60		45	dru			1	125	skilltab	17	3	3									1	lgld	club	pelt	amul	circ											0
-Entrapping	502	100	1	1	50		42	ass			1	125	skilltab	18	1	1											lcha	lchp													0
-Mentalist's	503	100	1	1	50		42	ass			1	125	skilltab	19	1	1											lcha	lchp													0
-Shogukusha's	504	100	1	1	50		42	ass			1	125	skilltab	20	1	1											lcha	lchp													0
-Entrapping	505	100	1	1	20		15	ass			1	125	skilltab	18	1	1											h2h	amul	circ	knif				tkni							0
-Trickster's	506	100	1	1	40		30	ass			1	125	skilltab	18	2	2									1	lgld	h2h	amul	circ	knif				tkni							0
-Cunning	507	100	1		60		45	ass			1	125	skilltab	18	3	3									1	lgld	h2h	amul	circ	knif				tkni							0
-Mentalist's	508	100	1	1	20		15	ass			1	125	skilltab	19	1	1											h2h	amul	helm	circ	knif			tkni							0
-Psychic	509	100	1	1	40		30	ass			1	125	skilltab	19	2	2									1	lgld	h2h	amul	helm	circ	knif			tkni							0
-Shadow	510	100	1		60		45	ass			1	125	skilltab	19	3	3									1	lgld	h2h	amul	helm	circ	knif			tkni							0
-Shogukusha's	511	100	1	1	20		15	ass			1	125	skilltab	20	1	1											h2h	amul	glov	circ	knif			tkni							0
-Sensei's	512	100	1	1	40		30	ass			1	125	skilltab	20	2	2									1	lgld	h2h	amul	glov	circ	knif			tkni							0
-Kenshi's	513	100	1		60		45	ass			1	125	skilltab	20	3	3									1	lgld	h2h	amul	glov	circ	knif			tkni							0
-Miocene	514	100			1		1				0	101	ac/lvl	6											1	whit	tors														0
-Miocene	515	100		1	1		1				0	101	ac/lvl	1											1	whit	glov	boot	belt	shld											0
-Oligocene	516	100		1	10		7				0	101	ac/lvl	9											1	whit	tors														0
-Oligocene	517	100		1	10		7				0	101	ac/lvl	2											1	whit	glov	boot	belt	shld											0
-Eocene	518	100		1	20		15				0	101	ac/lvl	18											1	whit	tors														0
-Eocene	519	100		1	20		15				0	101	ac/lvl	3											1	whit	glov	boot	belt	shld											0
-Paleocene	520	100	1	1	30		22				0	101	ac/lvl	24											1	whit	tors														0
-Paleocene	521	100	1	1	30		22				0	101	ac/lvl	4											1	whit	glov	boot	belt	shld											0
-Knave's	522	100			1		1				1	111	dmg/lvl	1			att/lvl	10							1	whit	weap							staf	wand	orb					0
-Jack's	523	100		1	10		7				1	111	dmg/lvl	2			att/lvl	15							1	whit	weap							staf	wand	orb					0
-Jester's	524	100		1	20		15				1	111	dmg/lvl	3			att/lvl	22							1	whit	weap							staf	wand	orb					0
-Joker's	525	100		1	35		26				1	111	dmg/lvl	4			att/lvl	33							1	whit	weap							staf	wand	orb					0
-Trump	526	100	1	1	50		37				7	111	dmg/lvl	4			att/lvl	33							1	whit	weap							staf	wand	orb					0
-Loud	527	100			1		1				1	105	dmg/lvl	2											1	whit	weap							staf	wand	orb					0
-Calling	528	100		1	10		7				1	105	dmg/lvl	3											1	whit	weap							staf	wand	orb					0
-Yelling	529	100		1	20		15				1	105	dmg/lvl	4											1	whit	weap							staf	wand	orb					0
-Shouting	530	100		1	35		26				1	105	dmg/lvl	5											1	whit	weap							staf	wand	orb					0
-Gritty	531	100	1	1	50		37				7	105	dmg/lvl	6											1	whit	weap							staf	wand	orb					0
-Paradox	532	100		1	25		18				1	101	ac%/lvl	12											1	whit	tors														0
-Paradox	533	100		1	25		18				1	105	dmg%/lvl	12											1	whit	weap							staf	wand	orb					0
-Robineye	534	100			1		1				1	111	att/lvl	4											1	whit	weap							staf	wand	orb					0
-Sparroweye	535	100			10		7				1	111	att/lvl	6											1	whit	weap							staf	wand	orb					0
-Falconeye	536	100			20		15				1	111	att/lvl	8											1	whit	weap							staf	wand	orb					0
-Hawkeye	537	100	1		35		26				0	111	att/lvl	12											1	whit	weap							staf	wand	orb					0
-Eagleeye	538	100			50		37				1	111	att/lvl	16											1	whit	weap							staf	wand	orb					0
-Visionary	539	100	1	1	25		18				0	111	att%/lvl	2											1	whit	helm	miss													0
-Mnemonic	540	100	1	1	25		18				0	115	mana/lvl	6											1	cblu	helm														0
-Snowflake	541	100	1	1	25	50	18				3	137	cold-len		25	25	cold-min		20	30	cold-max		64	101	1	lblu	weap	misl													0
-Shivering	542	100	1	1	35	60	26				2	137	cold-len		50	50	cold-min		37	56	cold-max		115	166	1	lblu	weap	misl													0
-Boreal	543	100	1	1	50		40				1	137	cold-len		75	75	cold-min		46	62	cold-max		131	256	1	lblu	weap	misl													0
-Hibernal	544	100	1	1	70		60				1	137	cold-len		100	100	cold-min		60	112	cold-max		226	348	1	lblu	weap	misl													0
-Ember	545	100	1	1	25	50	18				3	138	fire-min		28	43	fire-max		53	103					1	dred	weap	misl													0
-Smoldering	546	100	1	1	35	60	26				2	138	fire-min		47	72	fire-max		109	161					1	dred	weap	misl													0
-Smoking	547	100	1	1	47		37				1	138	fire-min		81	128	fire-max		145	208					1	dred	weap	misl													0
-Flaming	548	100	1	1	61		51				1	138	fire-min		138	204	fire-max		224	306					1	dred	weap	misl													0
-Scorching	549	100	1	1	77		67				1	138	fire-min		217	306	fire-max		325	432					1	dred	weap	misl													0
-Static	550	100	1	1	25	50	18				3	139	ltng-min		1	1	ltng-max		49	120					1	lyel	weap	circ	misl												0
-Glowing	551	100	1	1	34	60	25				2	139	ltng-min		1	1	ltng-max		121	180					1	lyel	weap	misl													0
-Buzzing	552	100	1	1	46		36				1	139	ltng-min		1	1	ltng-max		181	260					1	lyel	weap	misl													0
-Arcing	553	100	1	1	60		50				1	139	ltng-min		1	1	ltng-max		287	396					1	lyel	weap	misl													0
-Shocking	554	100	1	1	76		66				1	139	ltng-min		1	1	ltng-max		433	576					1	lyel	weap	misl													0
-Septic	555	100	1	1	1	41	1				3	140	dmg-pois	50	31	31									1	dgrn	weap	circ	misl												0
-Envenomed	556	100	1	1	10	35	7				2	140	dmg-pois	50	123	123									1	dgrn	weap	misl													0
-Corosive	557	100	1	1	20	45	15				1	140	dmg-pois	50	400	400									1	dgrn	weap	misl													0
-Toxic	558	100	1	1	35		26				1	140	dmg-pois	50	1160	1160									1	dgrn	weap	misl													0
-Pestilent	559	100	1	1	50		37				1	140	dmg-pois	50	1970	1970									1	dgrn	weap	misl													0
-Maiden's	560	1	1	1	36		27	ama			4	125	ama		1	1											amul	circ													0
-Valkyrie's	561	1	1	1	90		67	ama			2	125	ama		2	2									1	cgrn	amul	circ													0
-Maiden's	562	1	1	1	30		22	ama			4	125	ama		1	1											miss	spea													0
-Valkyrie's	563	1	1	1	50		42	ama			2	125	ama		2	2									1	cgrn	miss	spea													0
-Monk's	564	1	1	1	36		27	pal			4	125	pal		1	1											amul	circ													0
-Priest's	565	1	1	1	90		67	pal			2	125	pal		2	2									1	cgrn	amul	circ													0
-Monk's	566	1	1	1	30		22	pal			4	125	pal		1	1											scep	ashd													0
-Priest's	567	1	1	1	50		42	pal			2	125	pal		2	2									1	cgrn	scep	ashd													0
-Monk's	568	1	1	1	35		27	pal			4	125	pal		1	1											swor	mace	hamm	shld											0
-Priest's	569	1	1	1	65		58	pal			2	125	pal		2	2									1	cgrn	swor	mace	hamm	shld											0
-Summoner's	570	1	1	1	36		27	nec			4	125	nec		1	1											amul	circ													0
-Necromancer's	571	1	1	1	90		67	nec			2	125	nec		2	2									1	cgrn	amul	circ													0
-Summoner's	572	1	1	1	30		22	nec			4	125	nec		1	1											wand	knif	head					tkni							0
-Necromancer's	573	1	1	1	50		42	nec			2	125	nec		2	2									1	cgrn	wand	knif	head					tkni							0
-Angel's	574	1	1	1	36		27	sor			4	125	sor		1	1											amul	circ													0
-Arch-Angel's	575	1	1	1	90		67	sor			2	125	sor		2	2									1	cgrn	amul	circ													0
-Angel's	576	1	1	1	30		22	sor			4	125	sor		1	1											staf	orb													0
-Arch-Angel's	577	1	1	1	50		42	sor			2	125	sor		2	2									1	cgrn	staf	orb													0
-Slayer's	578	1	1	1	36		27	bar			4	125	bar		1	1											amul	circ													0
-Berserker's	579	1	1	1	90		67	bar			2	125	bar		2	2									1	cgrn	amul	circ													0
-Slayer's	580	1	1	1	30		22	bar			4	125	bar		1	1											tkni	axe	spea	club	swor	hamm	mace	jave							0
-Berserker's	581	1	1	1	50		42	bar			1	125	bar		2	2									1	cgrn	tkni	axe	spea	club	swor	hamm	mace	jave							0
-Slayer's	582	100	1	1	30		22	bar			4	125	bar		1	1											phlm														0
-Berserker's	583	100	1	1	50		42	bar			2	125	bar		2	2									1	cgrn	phlm														0
-Shaman's	584	100	1	1	36		27	dru			4	125	dru		1	1											amul	circ													0
-Hierophant's	585	100	1	1	90		67	dru			2	125	dru		2	2									1	cgrn	amul	circ													0
-Shaman's	586	100	1	1	30		22	dru			4	125	dru		1	1											club	pelt													0
-Hierophant's	587	100	1	1	50		42	dru			2	125	dru		2	2									1	cgrn	club	pelt													0
-Magekiller's	588	100	1	1	36		27	ass			4	125	ass		1	1											amul	circ													0
-Witch-hunter's	589	100	1	1	90		67	ass			2	125	ass		2	2									1	cgrn	amul	circ													0
-Magekiller's	590	100	1	1	30		22	ass			4	125	ass		1	1											h2h	knif						tkni							0
-Witch-hunter's	591	100	1	1	50		42	ass			2	125	ass		2	2									1	cgrn	h2h	knif						tkni							0
-Compact	592	100			1		1				0	141	stack		20	40											thro														0
-Thin	593	100			17		12				0	141	stack		41	80											thro														0
-Dense	594	100			38		30				0	141	stack		81	120											thro														0
-Consecrated	595	100	1	1	1	26	1				4	142	att-undead		25	75	dmg-undead		25	75							weap							wand	orb						0
-Pure	596	100	1	1	15	40	11				3	142	att-undead		76	175	dmg-undead		76	125						lgld	weap							wand	orb						0
-Sacred	597	100	1	1	25		18				2	142	att-undead		175	250	dmg-undead		126	200						lgld	weap							wand	orb						0
-Hallowed	598	100	1	1	35		27				1	142	att-undead		251	325	dmg-undead		201	275						lgld	weap							wand	orb						0
-Divine	599	100	1	1	45		37				1	142	att-undead		326	450	dmg-undead		276	350						lgld	weap							wand	orb						0
-Pearl	600	100	1	1	18		13				1	142	att-undead		25	50	dmg-undead		25	50							jewl														0
-Crimson	601	1	1	1	5	30	3				4	118	res-fire		5	10											armo	ring	amul	orb	circ	weap	misl								0
-Red	602	100	1	1	15	40	11				4	103	dmg-min		1	1									1	dred	lcha														0
-Sanguinary	603	100	1	1	45		37				4	103	dmg-min		2	2									1	dred	lcha														0
-Bloody	604	100	1		75		67				4	103	dmg-min		3	3									1	dred	lcha														0
-Red	605	100	1	1	30		22				4	103	dmg-min		1	1									1	dred	mcha														0
-Sanguinary	606	100	1		60		52				4	103	dmg-min		2	2									1	dred	mcha														0
-Red	607	100	1	1	90		82				4	103	dmg-min		1	1											scha														0
-Jagged	608	100	1	1	7	32	5				4	104	dmg-max		1	1									1	blac	lcha														0
-Forked	609	100	1	1	37		29				4	104	dmg-max		2	2									1	blac	lcha														0
-Serrated	610	100	1		67		59				4	104	dmg-max		3	3									1	blac	lcha														0
-Jagged	611	100	1	1	22		16				4	104	dmg-max		1	1									1	blac	mcha														0
-Forked	612	100	1		52		44				4	104	dmg-max		2	2									1	blac	mcha														0
-Jagged	613	100	1	1	81		73				4	104	dmg-max		1	1											scha														0
-Snowflake	614	100	1	1	27	52	20				2	137	cold-len		25	25	cold-min		3	5	cold-max		5	11			lcha														0
-Shivering	615	100	1	1	42		34				1	137	cold-len		25	25	cold-min		8	11	cold-max		12	22			lcha														0
-Boreal	616	100	1	1	66		58				1	137	cold-len		25	25	cold-min		11	16	cold-max		27	43	1	lblu	lcha														0
-Hibernal	617	100	1		91		83				1	137	cold-len		25	25	cold-min		30	35	cold-max		54	73	1	lblu	lcha														0
-Snowflake	618	100	1	1	18	43	13				2	137	cold-len		25	25	cold-min		2	4	cold-max		4	8			mcha														0
-Shivering	619	100	1	1	29		21				1	137	cold-len		25	25	cold-min		6	8	cold-max		10	16			mcha														0
-Boreal	620	100	1	1	49		41				1	137	cold-len		25	25	cold-min		12	16	cold-max		20	30	1	lblu	mcha														0
-Hibernal	621	100	1		69		61				1	137	cold-len		25	25	cold-min		22	26	cold-max		40	54	1	lblu	mcha														0
-Snowflake	622	100	1	1	9	34	6				2	137	cold-len		25	25	cold-min		1	2	cold-max		2	4			scha														0
-Shivering	623	100	1	1	15		11				1	137	cold-len		25	25	cold-min		3	4	cold-max		5	8			scha														0
-Boreal	624	100	1	1	30		22				1	137	cold-len		25	25	cold-min		6	8	cold-max		10	16			scha														0
-Hibernal	625	100	1		45		38				1	137	cold-len		25	25	cold-min		11	13	cold-max		20	27			scha														0
-Ember	626	100	1	1	21	46	15				2	138	fire-min		1	1	fire-max		2	3							lcha														0
-Smoldering	627	100	1	1	40		32				1	138	fire-min		5	8	fire-max		11	27							lcha														0
-Smoking	628	100	1	1	64		56				1	138	fire-min		11	24	fire-max		30	51					1	lred	lcha														0
-Flaming	629	100	1		89		81				1	138	fire-min		27	51	fire-max		54	78					1	lred	lcha														0
-Ember	630	100	1	1	13	38	9				2	138	fire-min		2	2	fire-max		4	6							mcha														0
-Smoldering	631	100	1	1	27		20				1	138	fire-min		4	6	fire-max		8	20							mcha														0
-Smoking	632	100	1	1	47		39				1	138	fire-min		8	18	fire-max		22	38					1	lred	mcha														0
-Flaming	633	100	1		67		59				1	138	fire-min		20	38	fire-max		40	58					1	lred	mcha														0
-Ember	634	100	1	1	5	30	3				2	138	fire-min		1	1	fire-max		2	3							scha														0
-Smoldering	635	100	1	1	15		11				1	138	fire-min		2	3	fire-max		4	10							scha														0
-Smoking	636	100	1	1	28		21				1	138	fire-min		4	9	fire-max		11	19							scha														0
-Flaming	637	100	1		43		35				1	138	fire-min		10	19	fire-max		20	29							scha														0
-Static	638	100	1	1	23	48	17				2	139	ltng-min		1	1	ltng-max		16	30							lcha														0
-Glowing	639	100	1	1	41		33				1	139	ltng-min		1	1	ltng-max		22	46							lcha														0
-Arcing	640	100	1	1	65		57				1	139	ltng-min		1	1	ltng-max		46	81					1	whit	lcha														0
-Shocking	641	100	1		90		82				1	139	ltng-min		1	1	ltng-max		84	135					1	whit	lcha														0
-Static	642	100	1	1	14	39	10				2	139	ltng-min		1	1	ltng-max		12	22							mcha														0
-Glowing	643	100	1	1	28		20				1	139	ltng-min		1	1	ltng-max		16	34							mcha														0
-Arcing	644	100	1	1	48		40				1	139	ltng-min		1	1	ltng-max		34	60					1	whit	mcha														0
-Shocking	645	100	1		68		60				1	139	ltng-min		1	1	ltng-max		62	100					1	whit	mcha														0
-Static	646	100	1	1	7	32	5				2	139	ltng-min		1	1	ltng-max		6	11							scha														0
-Glowing	647	100	1	1	14		10				1	139	ltng-min		1	1	ltng-max		8	17							scha														0
-Arcing	648	100	1	1	29		21				1	139	ltng-min		1	1	ltng-max		17	30							scha														0
-Shocking	649	100	1		44		36				1	139	ltng-min		1	1	ltng-max		31	50							scha														0
-Septic	650	100	1	1	18	43	13				2	140	dmg-pois	50	70	70											lcha														0
-Envenomed	651	100	1	1	39		31				1	140	dmg-pois	50	185	185											lcha														0
-Toxic	652	100	1	1	63		55				1	140	dmg-pois	50	350	350									1	dgrn	lcha														0
-Pestilent	653	100	1		88		80				1	140	dmg-pois	50	895	895									1	dgrn	lcha														0
-Septic	654	100	1	1	9	34	6				2	140	dmg-pois	50	50	50											mcha														0
-Envenomed	655	100	1	1	26		19				1	140	dmg-pois	50	135	135											mcha														0
-Toxic	656	100	1	1	46		38				1	140	dmg-pois	50	255	255									1	dgrn	mcha														0
-Pestilent	657	100	1		66		58				1	140	dmg-pois	50	665	665									1	dgrn	mcha														0
-Septic	658	100	1	1	1	26	1				2	140	dmg-pois	50	25	25											scha														0
-Envenomed	659	100	1	1	12		9				1	140	dmg-pois	50	68	68											scha														0
-Toxic	660	100	1	1	27		20				1	140	dmg-pois	50	128	128											scha														0
-Pestilent	661	100	1		42		34				1	140	dmg-pois	50	335	335											scha														0
-Tireless	662	1	1	1	1	5	1				0	108	regen-stam		10	10											boot														0
-Lizard's	663	1	1	1	1	2	1				4	115	mana		1	2											armo	ring	amul	rod	orb			boot	glov						0
-Azure	664	1	1	1	1	4	1				3	117	res-cold		5	5											armo	ring	amul	orb	circ										0
-Crimson	665	1	1	1	1	4	1				3	118	res-fire		5	5											armo	ring	amul	orb	circ										0
-Tangerine	666	1	1	1	1	4	1				3	119	res-ltng		5	5											armo	ring	amul	orb	circ										0
-Beryl	667	1	1	1	1	4	1				3	120	res-pois		5	5											armo	ring	amul	orb	circ										0
-Godly	668	100	1	1	50		43				1	101	ac%		101	200									1	dgld	armo														0
-Cruel	669	100	1	1	56		48				1	105	dmg%		201	300									1	blac	weap							staf	wand	orb					0
-	670																																								0
-Champion's	671	1	1	1	1		1				2	150	map-glob-monsterrarity		30	40											t1m	t2m	t3m												0
-Flaming	672	1	1	1	1		1				2	151	map-mon-extra-fire		5	10	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m	t3m												0
+Sturdy		1	1	1	1		1				100	10001	ac%		6	10											lcha														0
+Strong		1	1	1	15		10				100	10001	ac%		11	15											lcha														0
+Glorious		1	1	1	25		20				100	10001	ac%		16	20											lcha														0
+Blessed		1	1	1	40		35				100	10001	ac%		21	25											lcha														0
+Saintly		1	1	1	60		55				100	10001	ac%		26	30											lcha														0
+Supporting		1	1	1	1		1				100	10002	dmg%		5	10											lcha														0
+Reinforcing		1	1	1	30		25				100	10002	dmg%		11	15											lcha														0
+Empowering		1	1	1	55		50				100	10002	dmg%		16	20											lcha														0
+Red		1	1	1	1		1				100	10003	dmg-min		3	5											lcha														0
+Sanguinary		1	1	1	15		10				100	10003	dmg-min		6	8											lcha														0
+Bloody		1	1	1	30		25				100	10003	dmg-min		9	12											lcha														0
+Scarlet		1	1	1	50		45				100	10003	dmg-min		13	15											lcha														0
+Jagged		1	1	1	1		1				100	10004	dmg-max		3	5											lcha														0
+Forked		1	1	1	15		10				100	10004	dmg-max		6	8											lcha														0
+Serrated		1	1	1	30		25				100	10004	dmg-max		9	12											lcha														0
+Vermillion		1	1	1	50		45				100	10004	dmg-max		13	15											lcha														0
+Rookie’s		1	1	1	1		1				100	10005	addxp		3	5											lcha														0
+Student’s		1	1	1	20		15				100	10005	addxp		6	9											lcha														0
+Scholar’s		1	1	1	35		30				100	10005	addxp		10	15											lcha														0
+Lucky		1	1	1	1		1				100	10006	mag%		5	10											lcha														0
+Lucky		1	1	1	20		15				100	10006	mag%		11	15											lcha														0
+Lucky		1	1	1	35		30				100	10006	mag%		16	20											lcha														0
+Bronze		1	1	1	1		1				100	10007	att	0	10	20											lcha														0
+Iron		1	1	1	15		10				100	10007	att	0	21	40											lcha														0
+Steel		1	1	1	25		20				100	10007	att	0	41	60											lcha														0
+Silver		1	1	1	35		30				100	10007	att	0	61	80											lcha														0
+Gold		1	1	1	45		40				100	10007	att	0	81	100											lcha														0
+Platinum		1	1	1	55		50				100	10007	att	0	101	120											lcha														0
+Meteoric		1	1	1	65		60				100	10007	att	0	121	150											lcha														0
+Greedy		1	1	1	1		1				100	10008	gold%		20	40											lcha														0
+Greedy		1	1	1	20		15				100	10008	gold%		41	60											lcha														0
+Greedy		1	1	1	35		30				100	10008	gold%		61	80											lcha														0
+Tangerine		1	1	1	1		1				100	10009	res-ltng		7	16											lcha														0
+Ocher		1	1	1	25		20				100	10009	res-ltng		17	26											lcha														0
+Coral		1	1	1	45		40				100	10009	res-ltng		27	36											lcha														0
+Azure		1	1	1	1		1				100	10010	res-cold		7	16											lcha														0
+Lapis		1	1	1	25		20				100	10010	res-cold		17	26											lcha														0
+Cobalt		1	1	1	45		40				100	10010	res-cold		27	36											lcha														0
+Crimson		1	1	1	1		1				100	10011	res-fire		7	16											lcha														0
+Burgundy		1	1	1	25		20				100	10011	res-fire		17	26											lcha														0
+Garnet		1	1	1	45		40				100	10011	res-fire		27	36											lcha														0
+Beryl		1	1	1	1		1				100	10012	res-pois		7	16											lcha														0
+Jade		1	1	1	25		20				100	10012	res-pois		17	26											lcha														0
+Viridian		1	1	1	45		40				100	10012	res-pois		27	36											lcha														0
+Prismatic		1	1	1	1		1				100	10012	res-all		5	7											lcha														0
+Prismatic		1	1	1	25		20				100	10012	res-all		8	10											lcha														0
+Prismatic		1	1	1	45		40				100	10012	res-all		11	13											lcha														0
+Tank’s		1	1	1	25		20				100	10013	hp%		1	2											lcha														0
+Tank’s		1	1	1	50		45				100	10013	hp%		3	4											lcha														0
+Life’s		1	1	1	1		1				100	10014	hp		10	15											lcha														0
+Jackal’s		1	1	1	15		10				100	10014	hp		16	20											lcha														0
+Fox’s		1	1	1	25		20				100	10014	hp		21	25											lcha														0
+Wolf’s		1	1	1	35		30				100	10014	hp		26	30											lcha														0
+Tiger’s		1	1	1	45		40				100	10014	hp		31	35											lcha														0
+Mammoth’s		1	1	1	55		50				100	10014	hp		36	40											lcha														0
+Colosuss’s		1	1	1	65		60				100	10014	hp		41	45											lcha														0
+Whale’s		1	1	1	65		60				100	10014	hp		46	50											lcha														0
+Lizard's		1	1	1	1		1				100	10015	mana		20	30											lcha														0
+Snake's		1	1	1	15		10				100	10015	mana		31	40											lcha														0
+Serpent's		1	1	1	25		20				100	10015	mana		41	50											lcha														0
+Drake's		1	1	1	35		30				100	10015	mana		51	60											lcha														0
+Dragon's		1	1	1	45		40				100	10015	mana		61	70											lcha														0
+Dragon's		1	1	1	55		50				100	10015	mana		71	80											lcha														0
+Wyrm's		1	1	1	65		60				100	10015	mana		81	90											lcha														0
+Great Wyrm's		1	1	1	65		60				100	10015	mana		91	100											lcha														0
+Balancing		1	1	1	1		1				100	10017	balance1		8	11											lcha														0
+Stable		1	1	1	30		25				100	10017	balance1		12	15											lcha														0
+Pacing		1	1	1	1		1				100	10018	move2		7	9											lcha														0
+Haste		1	1	1	25		20				100	10018	move2		10	12											lcha														0
+Apprentice’s		1	1	1	1		1				100	10019	cast1		2	3											lcha														0
+Magus’s		1	1	1	25		20				100	10019	cast1		4	5											lcha														0
+Fletcher's		1	1	1	50		42	ama			100	10020	skilltab	0	1	1											lcha	lchp													0
+Acrobat's		1	1	1	50		42	ama			100	10020	skilltab	1	1	1											lcha	lchp													0
+Harpoonist's		1	1	1	50		42	ama			100	10020	skilltab	2	1	1											lcha	lchp													0
+Burning		1	1	1	50		42	sor			100	10020	skilltab	3	1	1											lcha	lchp													0
+Sparking		1	1	1	50		42	sor			100	10020	skilltab	4	1	1											lcha	lchp													0
+Chilling		1	1	1	50		42	sor			100	10020	skilltab	5	1	1											lcha	lchp													0
+Hexing		1	1	1	50		42	nec			100	10020	skilltab	6	1	1											lcha	lchp													0
+Fungal		1	1	1	50		42	nec			100	10020	skilltab	7	1	1											lcha	lchp													0
+Graverobber's		1	1	1	50		42	nec			100	10020	skilltab	8	1	1											lcha	lchp													0
+Lion Branded		1	1	1	50		42	pal			100	10020	skilltab	9	1	1											lcha	lchp													0
+Captain's		1	1	1	50		42	pal			100	10020	skilltab	10	1	1											lcha	lchp													0
+Preserver's		1	1	1	50		42	pal			100	10020	skilltab	11	1	1											lcha	lchp													0
+Expert's		1	1	1	50		42	bar			100	10020	skilltab	12	1	1											lcha	lchp													0
+Fanatic		1	1	1	50		42	bar			100	10020	skilltab	13	1	1											lcha	lchp													0
+Sounding		1	1	1	50		42	bar			100	10020	skilltab	14	1	1											lcha	lchp													0
+Trainer's		1	1	1	50		42	dru			100	10020	skilltab	15	1	1											lcha	lchp													0
+Spiritual		1	1	1	50		42	dru			100	10020	skilltab	16	1	1											lcha	lchp													0
+Nature's		1	1	1	50		42	dru			100	10020	skilltab	17	1	1											lcha	lchp													0
+Entrapping		1	1	1	50		42	ass			100	10020	skilltab	18	1	1											lcha	lchp													0
+Mentalist's		1	1	1	50		42	ass			100	10020	skilltab	19	1	1											lcha	lchp													0
+Shogukusha's		1	1	1	50		42	ass			100	10020	skilltab	20	1	1											lcha	lchp													0
+Superior		1	1	1	50		42				100	10020	allskills		1	1											lcha	lchp													0
+Supporting		1	1	1	1		1				100	10021	dmg%		4	6											mcha														0
+Reinforcing		1	1	1	30		25				100	10021	dmg%		7	9											mcha														0
+Empowering		1	1	1	55		50				100	10021	dmg%		10	12											mcha														0
+Red		1	1	1	1		1				100	10022	dmg-min		2	3											mcha														0
+Sanguinary		1	1	1	15		10				100	10022	dmg-min		4	5											mcha														0
+Bloody		1	1	1	30		25				100	10022	dmg-min		6	7											mcha														0
+Scarlet		1	1	1	50		45				100	10022	dmg-min		8	9											mcha														0
+Jagged		1	1	1	1		1				100	10023	dmg-max		2	3											mcha														0
+Forked		1	1	1	15		10				100	10023	dmg-max		4	5											mcha														0
+Serrated		1	1	1	30		25				100	10023	dmg-max		6	7											mcha														0
+Vermillion		1	1	1	50		45				100	10023	dmg-max		8	9											mcha														0
+Rookie’s		1	1	1	1		1				100	10024	addxp		2	4											mcha														0
+Student’s		1	1	1	20		15				100	10024	addxp		5	7											mcha														0
+Scholar’s		1	1	1	35		30				100	10024	addxp		8	10											mcha														0
+Lucky		1	1	1	1		1				100	10025	mag%		4	7											mcha														0
+Lucky		1	1	1	20		15				100	10025	mag%		8	11											mcha														0
+Lucky		1	1	1	35		30				100	10025	mag%		12	15											mcha														0
+Bronze		1	1	1	1		1				100	10026	att	0	8	20											mcha														0
+Iron		1	1	1	15		10				100	10026	att	0	21	33											mcha														0
+Steel		1	1	1	25		20				100	10026	att	0	34	46											mcha														0
+Silver		1	1	1	35		30				100	10026	att	0	47	59											mcha														0
+Gold		1	1	1	45		40				100	10026	att	0	60	72											mcha														0
+Platinum		1	1	1	55		50				100	10026	att	0	73	85											mcha														0
+Meteoric		1	1	1	65		60				100	10026	att	0	86	98											mcha														0
+Greedy		1	1	1	1		1				100	10027	gold%		16	32											mcha														0
+Greedy		1	1	1	20		15				100	10027	gold%		33	49											mcha														0
+Greedy		1	1	1	35		30				100	10027	gold%		50	66											mcha														0
+Tangerine		1	1	1	1		1				100	10028	res-ltng		5	11											mcha														0
+Ocher		1	1	1	25		20				100	10028	res-ltng		12	18											mcha														0
+Coral		1	1	1	45		40				100	10028	res-ltng		19	25											mcha														0
+Azure		1	1	1	1		1				100	10029	res-cold		5	11											mcha														0
+Lapis		1	1	1	25		20				100	10029	res-cold		12	18											mcha														0
+Cobalt		1	1	1	45		40				100	10029	res-cold		19	25											mcha														0
+Crimson		1	1	1	1		1				100	10030	res-fire		5	11											mcha														0
+Burgundy		1	1	1	25		20				100	10030	res-fire		12	18											mcha														0
+Garnet		1	1	1	45		40				100	10030	res-fire		19	25											mcha														0
+Beryl		1	1	1	1		1				100	10031	res-pois		5	11											mcha														0
+Jade		1	1	1	25		20				100	10031	res-pois		12	18											mcha														0
+Viridian		1	1	1	45		40				100	10031	res-pois		19	25											mcha														0
+Prismatic		1	1	1	1		1				100	10032	res-all		4	5											mcha														0
+Prismatic		1	1	1	25		20				100	10032	res-all		6	7											mcha														0
+Prismatic		1	1	1	45		40				100	10032	res-all		8	9											mcha														0
+Life’s		1	1	1	1		1				100	10033	hp		9	11											mcha														0
+Jackal’s		1	1	1	15		10				100	10033	hp		12	15											mcha														0
+Fox’s		1	1	1	25		20				100	10033	hp		16	19											mcha														0
+Wolf’s		1	1	1	35		30				100	10033	hp		20	23											mcha														0
+Tiger’s		1	1	1	45		40				100	10033	hp		24	27											mcha														0
+Mammoth’s		1	1	1	55		50				100	10033	hp		28	31											mcha														0
+Colosuss’s		1	1	1	65		60				100	10033	hp		32	35											mcha														0
+Whale’s		1	1	1	65		60				100	10033	hp		36	39											mcha														0
+Lizard's		1	1	1	1		1				100	10034	mana		16	23											mcha														0
+Snake's		1	1	1	15		10				100	10034	mana		24	31											mcha														0
+Serpent's		1	1	1	25		20				100	10034	mana		32	39											mcha														0
+Drake's		1	1	1	35		30				100	10034	mana		40	47											mcha														0
+Dragon's		1	1	1	45		40				100	10034	mana		48	55											mcha														0
+Dragon's		1	1	1	55		50				100	10034	mana		56	63											mcha														0
+Wyrm's		1	1	1	65		60				100	10034	mana		64	71											mcha														0
+Great Wyrm's		1	1	1	65		60				100	10034	mana		72	79											mcha														0
+Balancing		1	1	1	1		1				100	10035	balance1		8	11											mcha														0
+Stable		1	1	1	30		25				100	10035	balance1		12	15											mcha														0
+Pacing		1	1	1	1		1				100	10036	move2		5	7											mcha														0
+Haste		1	1	1	25		20				100	10036	move2		8	10											mcha														0
+Strength		1	1	1	1		1				100	10037	str		4	6											mcha														0
+Ox’s		1	1	1	45		40				100	10037	str		7	12											mcha														0
+Dexterity		1	1	1	1		1				100	10038	dex		4	6											mcha														0
+Skillful		1	1	1	45		40				100	10038	dex		7	12											mcha														0
+Ember		1	1	1	1	26	1				100	10039	fire-min		3	4	fire-max		5	6							mcha														0
+Smoldering		1	1	1	35		26				100	10039	fire-min		12	14	fire-max		20	22							mcha														0
+Smoking		1	1	1	47		37				100	10039	fire-min		19	22	fire-max		29	32							mcha														0
+Flaming		1	1	1	61		51				100	10039	fire-min		30	34	fire-max		40	44							mcha														0
+Scorching		1	1	1	77		67				100	10039	fire-min		35	40	fire-max		55	60							mcha														0
+Static		1	1	1	1	26	1				100	10040	ltng-min		1	1	ltng-max		7	9							mcha														0
+Glowing		1	1	1	35		26				100	10040	ltng-min		1	1	ltng-max		31	35							mcha														0
+Buzzing		1	1	1	47		37				100	10040	ltng-min		1	1	ltng-max		47	53							mcha														0
+Arcing		1	1	1	61		51				100	10040	ltng-min		1	1	ltng-max		69	77							mcha														0
+Shocking		1	1	1	77		67				100	10040	ltng-min		1	1	ltng-max		89	99							mcha														0
+Cold		1	1	1	1	26	1				100	10041	cold-len		50	50	cold-min		3	4	cold-max		5	6			mcha														0
+Snowflake		1	1	1	35		26				100	10041	cold-len		50	50	cold-min		12	14	cold-max		20	22			mcha														0
+Shivering		1	1	1	47		37				100	10041	cold-len		50	50	cold-min		19	22	cold-max		29	32			mcha														0
+Boreal		1	1	1	61		51				100	10041	cold-len		50	50	cold-min		30	34	cold-max		40	44			mcha														0
+Hibernal		1	1	1	77		67				100	10041	cold-len		50	50	cold-min		35	40	cold-max		55	60			mcha														0
+Conduit		1	1	1	42		42				100	10042	extra-ltng		2	4											mcha														0
+Numbing		1	1	1	42		42				100	10042	extra-cold		2	4											mcha														0
+Inferno		1	1	1	42		42				100	10042	extra-fire		2	4											mcha														0
+Infectious		1	1	1	42		42				100	10042	extra-pois		2	4											mcha														0
+Scintillating		1	1	1	42		42				100	10042	extra-magi		2	4											mcha														0
+Discharging		1	1	1	42		42				100	10043	pierce-ltng		1	2											mcha														0
+Frigid		1	1	1	42		42				100	10043	pierce-cold		1	2											mcha														0
+Wildfire		1	1	1	42		42				100	10043	pierce-fire		1	2											mcha														0
+Malicious		1	1	1	42		42				100	10043	pierce-pois		1	2											mcha														0
+Lethal		1	1	1	42		42				100	10043	pierce-phys		1	2											mcha														0
+Supporting		1	1	1	1		1				100	10044	dmg%		3	4											scha														0
+Reinforcing		1	1	1	30		25				100	10044	dmg%		5	6											scha														0
+Empowering		1	1	1	55		50				100	10044	dmg%		7	8											scha														0
+Red		1	1	1	1		1				100	10045	dmg-min		1	1											scha														0
+Sanguinary		1	1	1	15		10				100	10045	dmg-min		2	3											scha														0
+Bloody		1	1	1	30		25				100	10045	dmg-min		4	5											scha														0
+Jagged		1	1	1	1		1				100	10046	dmg-max		1	1											scha														0
+Forked		1	1	1	15		10				100	10046	dmg-max		2	3											scha														0
+Serrated		1	1	1	30		25				100	10046	dmg-max		4	5											scha														0
+Rookie’s		1	1	1	1		1				100	10047	addxp		2	3											scha														0
+Student’s		1	1	1	20		15				100	10047	addxp		4	5											scha														0
+Scholar’s		1	1	1	35		30				100	10047	addxp		6	7											scha														0
+Lucky		1	1	1	1		1				100	10048	mag%		3	4											scha														0
+Lucky		1	1	1	20		15				100	10048	mag%		5	6											scha														0
+Lucky		1	1	1	35		30				100	10048	mag%		7	8											scha														0
+Bronze		1	1	1	1		1				100	10049	att	0	5	8											scha														0
+Iron		1	1	1	15		10				100	10049	att	0	9	12											scha														0
+Steel		1	1	1	25		20				100	10049	att	0	13	16											scha														0
+Silver		1	1	1	35		30				100	10049	att	0	17	20											scha														0
+Gold		1	1	1	45		40				100	10049	att	0	21	24											scha														0
+Platinum		1	1	1	55		50				100	10049	att	0	25	28											scha														0
+Meteoric		1	1	1	65		60				100	10049	att	0	29	32											scha														0
+Greedy		1	1	1	1		1				100	10050	gold%		10	20											scha														0
+Greedy		1	1	1	20		15				100	10050	gold%		21	30											scha														0
+Greedy		1	1	1	35		30				100	10050	gold%		31	40											scha														0
+Tangerine		1	1	1	1		1				100	10051	res-ltng		4	6											scha														0
+Ocher		1	1	1	25		20				100	10051	res-ltng		7	9											scha														0
+Coral		1	1	1	45		40				100	10051	res-ltng		10	12											scha														0
+Azure		1	1	1	1		1				100	10052	res-cold		4	6											scha														0
+Lapis		1	1	1	25		20				100	10052	res-cold		7	9											scha														0
+Cobalt		1	1	1	45		40				100	10052	res-cold		10	12											scha														0
+Crimson		1	1	1	1		1				100	10053	res-fire		4	6											scha														0
+Burgundy		1	1	1	25		20				100	10053	res-fire		7	9											scha														0
+Garnet		1	1	1	45		40				100	10053	res-fire		10	12											scha														0
+Beryl		1	1	1	1		1				100	10054	res-pois		4	6											scha														0
+Jade		1	1	1	25		20				100	10054	res-pois		7	9											scha														0
+Viridian		1	1	1	45		40				100	10054	res-pois		10	12											scha														0
+Prismatic		1	1	1	1		1				100	10055	res-all		2	2											scha														0
+Prismatic		1	1	1	25		20				100	10055	res-all		3	3											scha														0
+Prismatic		1	1	1	45		40				100	10055	res-all		4	4											scha														0
+Tank’s		1	1	1	25		20				100	10056	hp%		1	1											scha														0
+Tank’s		1	1	1	50		45				100	10056	hp%		2	2											scha														0
+Life’s		1	1	1	1		1				100	10057	hp		7	9											scha														0
+Jackal’s		1	1	1	15		10				100	10057	hp		10	12											scha														0
+Fox’s		1	1	1	25		20				100	10057	hp		13	15											scha														0
+Wolf’s		1	1	1	35		30				100	10057	hp		16	18											scha														0
+Tiger’s		1	1	1	45		40				100	10057	hp		19	21											scha														0
+Lizard's		1	1	1	1		1				100	10058	mana		13	16											scha														0
+Snake's		1	1	1	15		10				100	10058	mana		17	20											scha														0
+Serpent's		1	1	1	25		20				100	10058	mana		21	24											scha														0
+Drake's		1	1	1	35		30				100	10058	mana		25	28											scha														0
+Dragon's		1	1	1	45		40				100	10058	mana		29	32											scha														0
+Pacing		1	1	1	1		1				100	10059	move2		3	5											scha														0
+Haste		1	1	1	25		20				100	10059	move2		6	8											scha														0
+Apprentice’s		1	1	1	1		1				100	10060	cast1		1	1											scha														0
+Magus’s		1	1	1	25		20				100	10060	cast1		2	2											scha														0
+Ember		1	1	1	1	26	1				100	10061	fire-min		2	3	fire-max		4	5							scha														0
+Smoldering		1	1	1	35		26				100	10061	fire-min		6	7	fire-max		10	11							scha														0
+Smoking		1	1	1	47		37				100	10061	fire-min		10	11	fire-max		15	16							scha														0
+Flaming		1	1	1	61		51				100	10061	fire-min		15	17	fire-max		20	22							scha														0
+Scorching		1	1	1	77		67				100	10061	fire-min		18	20	fire-max		28	30							scha														0
+Static		1	1	1	1	26	1				100	10062	ltng-min		1	1	ltng-max		4	5							scha														0
+Glowing		1	1	1	35		26				100	10062	ltng-min		1	1	ltng-max		16	18							scha														0
+Buzzing		1	1	1	47		37				100	10062	ltng-min		1	1	ltng-max		24	27							scha														0
+Arcing		1	1	1	61		51				100	10062	ltng-min		1	1	ltng-max		35	39							scha														0
+Shocking		1	1	1	77		67				100	10062	ltng-min		1	1	ltng-max		45	50							scha														0
+Cold		1	1	1	1	26	1				100	10063	cold-len		50	50	cold-min		2	3	cold-max		4	5			scha														0
+Snowflake		1	1	1	35		26				100	10063	cold-len		50	50	cold-min		6	7	cold-max		10	11			scha														0
+Shivering		1	1	1	47		37				100	10063	cold-len		50	50	cold-min		10	11	cold-max		15	16			scha														0
+Boreal		1	1	1	61		51				100	10063	cold-len		50	50	cold-min		15	17	cold-max		20	22			scha														0
+Hibernal		1	1	1	77		67				100	10063	cold-len		50	50	cold-min		18	20	cold-max		28	30			scha														0
+Jagged		1	1	1	1		1				100	10064	dmg%	0	20	30											amul														0
+Deadly		1	1	1	15		10				100	10064	dmg%	0	31	40											amul														0
+Vicious		1	1	1	30		25				100	10064	dmg%	0	41	50											amul														0
+Brutal		1	1	1	45		40				100	10064	dmg%	0	51	60											amul														0
+Massive		1	1	1	60		55				100	10064	dmg%	0	61	70											amul														0
+Savage		1	1	1	75		70				100	10064	dmg%	0	71	80											amul														0
+Savage		1	1	1	20		15				100	10065	deadly		5	10											amul														0
+Devastating		1	1	1	40		35				100	10065	deadly		11	15											amul														0
+Havoc		1	1	1	60		55				100	10065	deadly		16	20											amul														0
+Ready		1	1	1	1		1				100	10066	swing1		10	15											amul														0
+Swift		1	1	1	30		25				100	10066	swing2		16	20											amul														0
+Quick		1	1	1	60		55				100	10066	swing2		21	25											amul														0
+Red		1	1	1	1		1				100	10067	dmg-min		3	6											amul														0
+Sanguinary		1	1	1	15		10				100	10067	dmg-min		7	10											amul														0
+Bloody		1	1	1	30		25				100	10067	dmg-min		11	14											amul														0
+Scarlet		1	1	1	50		45				100	10067	dmg-min		15	18											amul														0
+Jagged		1	1	1	1		1				100	10167	dmg-max		3	6											amul														0
+Forked		1	1	1	15		10				100	10167	dmg-max		7	10											amul														0
+Serrated		1	1	1	30		25				100	10167	dmg-max		11	14											amul														0
+Vermillion		1	1	1	50		45				100	10167	dmg-max		15	18											amul														0
+Rookie’s		1	1	1	1		1				100	10068	addxp		3	8											amul														0
+Student’s		1	1	1	20		15				100	10068	addxp		9	14											amul														0
+Scholar’s		1	1	1	35		30				100	10068	addxp		15	20											amul														0
+Lucky		1	1	1	1		1				100	10069	mag%		15	25											amul														0
+Lucky		1	1	1	20		15				100	10069	mag%		26	35											amul														0
+Lucky		1	1	1	35		30				100	10069	mag%		36	45											amul														0
+Greedy		1	1	1	1		1				100	10070	gold%		40	80											amul														0
+Greedy		1	1	1	20		15				100	10070	gold%		81	120											amul														0
+Greedy		1	1	1	35		30				100	10070	gold%		121	160											amul														0
+Bronze		1	1	1	1		1				100	10071	att	0	20	40											amul														0
+Iron		1	1	1	15		10				100	10071	att	0	41	60											amul														0
+Steel		1	1	1	25		20				100	10071	att	0	61	80											amul														0
+Silver		1	1	1	35		30				100	10071	att	0	81	100											amul														0
+Gold		1	1	1	45		40				100	10071	att	0	101	120											amul														0
+Platinum		1	1	1	55		50				100	10071	att	0	121	140											amul														0
+Meteoric		1	1	1	65		60				100	10071	att	0	141	160											amul														0
+Tangerine		1	1	1	1		1				100	10072	res-ltng		10	20											amul														0
+Ocher		1	1	1	25		20				100	10072	res-ltng		21	30											amul														0
+Coral		1	1	1	45		40				100	10072	res-ltng		31	40											amul														0
+Amber		1	1	1	65		60				100	10072	res-ltng		41	50											amul														0
+Azure		1	1	1	1		1				100	10073	res-cold		10	20											amul														0
+Lapis		1	1	1	25		20				100	10073	res-cold		21	30											amul														0
+Cobalt		1	1	1	45		40				100	10073	res-cold		31	40											amul														0
+Sapphire		1	1	1	65		60				100	10073	res-cold		41	50											amul														0
+Crimson		1	1	1	1		1				100	10074	res-fire		10	20											amul														0
+Burgundy		1	1	1	25		20				100	10074	res-fire		21	30											amul														0
+Garnet		1	1	1	45		40				100	10074	res-fire		31	40											amul														0
+Ruby		1	1	1	65		60				100	10074	res-fire		41	50											amul														0
+Beryl		1	1	1	1		1				100	10075	res-pois		10	20											amul														0
+Jade		1	1	1	25		20				100	10075	res-pois		21	30											amul														0
+Viridian		1	1	1	45		40				100	10075	res-pois		31	40											amul														0
+Emerald		1	1	1	65		60				100	10075	res-pois		41	50											amul														0
+Prismatic		1	1	1	1		1				100	10076	res-all		4	6											amul														0
+Prismatic		1	1	1	25		20				100	10076	res-all		7	9											amul														0
+Prismatic		1	1	1	45		40				100	10076	res-all		10	12											amul														0
+Prismatic		1	1	1	65		60				100	10076	res-all		13	15											amul														0
+Tank’s		1	1	1	25		20				100	10077	hp%		3	5											amul														0
+Tank’s		1	1	1	50		45				100	10077	hp%		6	8											amul														0
+Life’s		1	1	1	1	26	1				100	10078	hp		10	20											amul														0
+Jackal’s		1	1	1	15		10				100	10078	hp		21	30											amul														0
+Fox’s		1	1	1	25		20				100	10078	hp		31	40											amul														0
+Wolf’s		1	1	1	35		30				100	10078	hp		41	50											amul														0
+Tiger’s		1	1	1	45		40				100	10078	hp		51	60											amul														0
+Mammoth’s		1	1	1	55		50				100	10078	hp		61	70											amul														0
+Colosuss’s		1	1	1	65		60				100	10078	hp		71	80											amul														0
+Whale’s		1	1	1	75		70				100	10078	hp		81	90											amul														0
+Lizard's		1	1	1	1	26	1				100	10079	mana		10	20											amul														0
+Snake's		1	1	1	15		10				100	10079	mana		21	35											amul														0
+Serpent's		1	1	1	25		20				100	10079	mana		36	55											amul														0
+Drake's		1	1	1	35		30				100	10079	mana		56	80											amul														0
+Dragon's		1	1	1	45		40				100	10079	mana		81	110											amul														0
+Pacing		1	1	1	20		15				100	10080	move2		10	20											amul														0
+Haste		1	1	1	40		35				100	10080	move2		21	30											amul														0
+Ember		1	1	1	1	26	1				100	10081	fire-min		5	6	fire-max		10	12							amul														0
+Smoldering		1	1	1	35		26				100	10081	fire-min		30	35	fire-max		40	50							amul														0
+Smoking		1	1	1	47		37				100	10081	fire-min		80	90	fire-max		120	135							amul														0
+Flaming		1	1	1	61		51				100	10081	fire-min		180	200	fire-max		250	280							amul														0
+Scorching		1	1	1	77		67				100	10081	fire-min		300	320	fire-max		370	410							amul														0
+Static		1	1	1	1	26	1				100	10082	ltng-min		1	1	ltng-max		14	17							amul														0
+Glowing		1	1	1	35		26				100	10082	ltng-min		1	1	ltng-max		69	84							amul														0
+Buzzing		1	1	1	47		37				100	10082	ltng-min		1	1	ltng-max		199	224							amul														0
+Arcing		1	1	1	61		51				100	10082	ltng-min		1	1	ltng-max		429	479							amul														0
+Shocking		1	1	1	77		67				100	10082	ltng-min		1	1	ltng-max		669	709							amul														0
+Cold		1	1	1	1	26	1				100	10083	cold-len		50	50	cold-min		5	6	cold-max		10	12			amul														0
+Snowflake		1	1	1	35		26				100	10083	cold-len		50	50	cold-min		30	35	cold-max		40	50			amul														0
+Shivering		1	1	1	47		37				100	10083	cold-len		50	50	cold-min		80	90	cold-max		120	135			amul														0
+Boreal		1	1	1	61		51				100	10083	cold-len		50	50	cold-min		180	200	cold-max		250	280			amul														0
+Hibernal		1	1	1	77		67				100	10083	cold-len		50	50	cold-min		300	320	cold-max		370	410			amul														0
+Conduit		1	1	1	1		1				100	10084	extra-ltng		10	20											amul														0
+Conduit		1	1	1	30		25				100	10084	extra-ltng		21	30											amul														0
+Conduit		1	1	1	50		45				100	10084	extra-ltng		31	40											amul														0
+Numbing		1	1	1	1		1				100	10084	extra-cold		10	20											amul														0
+Numbing		1	1	1	30		25				100	10084	extra-cold		21	30											amul														0
+Numbing		1	1	1	50		45				100	10084	extra-cold		31	40											amul														0
+Inferno		1	1	1	1		1				100	10084	extra-fire		10	20											amul														0
+Inferno		1	1	1	30		25				100	10084	extra-fire		21	30											amul														0
+Inferno		1	1	1	50		45				100	10084	extra-fire		31	40											amul														0
+Infectious		1	1	1	1		1				100	10084	extra-pois		10	20											amul														0
+Infectious		1	1	1	30		25				100	10084	extra-pois		21	30											amul														0
+Infectious		1	1	1	50		45				100	10084	extra-pois		31	40											amul														0
+Scintillating		1	1	1	1		1				100	10084	extra-magi		10	20											amul														0
+Scintillating		1	1	1	30		25				100	10084	extra-magi		21	30											amul														0
+Scintillating		1	1	1	50		45				100	10084	extra-magi		31	40											amul														0
+Discharging		1	1	1	1		1				100	10085	pierce-ltng		4	6											amul														0
+Discharging		1	1	1	30		25				100	10085	pierce-ltng		7	9											amul														0
+Discharging		1	1	1	50		45				100	10085	pierce-ltng		10	12											amul														0
+Frigid		1	1	1	1		1				100	10085	pierce-cold		4	6											amul														0
+Frigid		1	1	1	30		25				100	10085	pierce-cold		7	9											amul														0
+Frigid		1	1	1	50		45				100	10085	pierce-cold		10	12											amul														0
+Wildfire		1	1	1	1		1				100	10085	pierce-fire		4	6											amul														0
+Wildfire		1	1	1	30		25				100	10085	pierce-fire		7	9											amul														0
+Wildfire		1	1	1	50		45				100	10085	pierce-fire		10	12											amul														0
+Malicious		1	1	1	1		1				100	10085	pierce-pois		4	6											amul														0
+Malicious		1	1	1	30		25				100	10085	pierce-pois		7	9											amul														0
+Malicious		1	1	1	50		45				100	10085	pierce-pois		10	12											amul														0
+Lethal		1	1	1	1		1				100	10085	pierce-phys		4	6											amul														0
+Lethal		1	1	1	30		25				100	10085	pierce-phys		7	9											amul														0
+Lethal		1	1	1	50		45				100	10085	pierce-phys		10	12											amul														0
+Maiden's		1	1	1	30		25	ama			100	10087	ama		1	1											amul														0
+Valkyrie's		1	1	1	80		70	ama			100	10087	ama		2	2											amul														0
+Monk's		1	1	1	30		25	pal			100	10087	pal		1	1											amul														0
+Priest's		1	1	1	80		70	pal			100	10087	pal		2	2											amul														0
+Summoner's		1	1	1	30		25	nec			100	10087	nec		1	1											amul														0
+Necromancer's		1	1	1	80		70	nec			100	10087	nec		2	2											amul														0
+Angel's		1	1	1	30		25	sor			100	10087	sor		1	1											amul														0
+Arch-Angel's		1	1	1	80		70	sor			100	10087	sor		2	2											amul														0
+Slayer's		1	1	1	30		25	bar			100	10087	bar		1	1											amul														0
+Berserker's		1	1	1	80		70	bar			100	10087	bar		2	2											amul														0
+Shaman's		1	1	1	30		25	dru			100	10087	dru		1	1											amul														0
+Hierophant's		1	1	1	80		70	dru			100	10087	dru		2	2											amul														0
+Magekiller's		1	1	1	30		25	ass			100	10087	ass		1	1											amul														0
+Witch-hunter's		1	1	1	80		70	ass			100	10087	ass		2	2											amul														0
+Fletcher's		1	1	1	20		15	ama			100	10087	skilltab	0	1	1											amul														0
+Bowyer's		1	1	1	40		30	ama			100	10087	skilltab	0	2	2											amul														0
+Acrobat's		1	1	1	20		15	ama			100	10087	skilltab	1	1	1											amul														0
+Gymnast's		1	1	1	40		30	ama			100	10087	skilltab	1	2	2											amul														0
+Harpoonist's		1	1	1	20		15	ama			100	10087	skilltab	2	1	1											amul														0
+Spearmaiden's		1	1	1	40		30	ama			100	10087	skilltab	2	2	2											amul														0
+Burning		1	1	1	20		15	sor			100	10087	skilltab	3	1	1											amul														0
+Blazing		1	1	1	40		30	sor			100	10087	skilltab	3	2	2											amul														0
+Sparking		1	1	1	20		15	sor			100	10087	skilltab	4	1	1											amul														0
+Charged		1	1	1	40		30	sor			100	10087	skilltab	4	2	2											amul														0
+Chilling		1	1	1	20		15	sor			100	10087	skilltab	5	1	1											amul														0
+Freezing		1	1	1	40		30	sor			100	10087	skilltab	5	2	2											amul														0
+Hexing		1	1	1	20		15	nec			100	10087	skilltab	6	1	1											amul														0
+Blighting		1	1	1	40		30	nec			100	10087	skilltab	6	2	2											amul														0
+Fungal		1	1	1	20		15	nec			100	10087	skilltab	7	1	1											amul														0
+Noxious		1	1	1	40		30	nec			100	10087	skilltab	7	2	2											amul														0
+Graverobber's		1	1	1	20		15	nec			100	10087	skilltab	8	1	1											amul														0
+Vodoun		1	1	1	40		30	nec			100	10087	skilltab	8	2	2											amul														0
+Lion Branded		1	1	1	20		15	pal			100	10087	skilltab	9	1	1											amul														0
+Hawk Branded		1	1	1	40		30	pal			100	10087	skilltab	9	2	2											amul														0
+Captain's		1	1	1	20		15	pal			100	10087	skilltab	10	1	1											amul														0
+Commander's		1	1	1	40		30	pal			100	10087	skilltab	10	2	2											amul														0
+Preserver's		1	1	1	20		15	pal			100	10087	skilltab	11	1	1											amul														0
+Warder's		1	1	1	40		30	pal			100	10087	skilltab	11	2	2											amul														0
+Expert's		1	1	1	20		15	bar			100	10087	skilltab	12	1	1											amul														0
+Veteran's		1	1	1	40		30	bar			100	10087	skilltab	12	2	2											amul														0
+Fanatic		1	1	1	20		15	bar			100	10087	skilltab	13	1	1											amul														0
+Raging		1	1	1	40		30	bar			100	10087	skilltab	13	2	2											amul														0
+Sounding		1	1	1	20		15	bar			100	10087	skilltab	14	1	1											amul														0
+Resonant		1	1	1	40		30	bar			100	10087	skilltab	14	2	2											amul														0
+Trainer's		1	1	1	20		15	dru			100	10087	skilltab	15	1	1											amul														0
+Caretaker's		1	1	1	40		30	dru			100	10087	skilltab	15	2	2											amul														0
+Spiritual		1	1	1	20		15	dru			100	10087	skilltab	16	1	1											amul														0
+Feral		1	1	1	40		30	dru			100	10087	skilltab	16	2	2											amul														0
+Nature's		1	1	1	20		15	dru			100	10087	skilltab	17	1	1											amul														0
+Terra's		1	1	1	40		30	dru			100	10087	skilltab	17	2	2											amul														0
+Entrapping		1	1	1	20		15	ass			100	10087	skilltab	18	1	1											amul														0
+Trickster's		1	1	1	40		30	ass			100	10087	skilltab	18	2	2											amul														0
+Mentalist's		1	1	1	20		15	ass			100	10087	skilltab	19	1	1											amul														0
+Psychic		1	1	1	40		30	ass			100	10087	skilltab	19	2	2											amul														0
+Shogukusha's		1	1	1	20		15	ass			100	10087	skilltab	20	1	1											amul														0
+Sensei's		1	1	1	40		30	ass			100	10087	skilltab	20	2	2											amul														0
+Superior		1	1	1	50		42				100	10088	allskills		1	1											amul														0
+Warm		1	1	1	10		7				500	10089	half-freeze		1	1											amul														0
+Leech		1	1	1	6		4				100	10090	lifesteal		4	7											amul														0
+Locust		1	1	1	20		15				100	10090	lifesteal		8	10											amul														0
+Bat		1	1	1	6		4				100	10091	manasteal		4	7											amul														0
+Vampire		1	1	1	20		15				100	10091	manasteal		8	10											amul														0
+Crushing		1	1	1	25		20				100	10092	crush		10	20											amul														0
+Lightning		1	1	1	25		20				100	10093	res-ltng-max		1	2											amul														0
+Lightning		1	1	1	45		35				100	10093	res-ltng-max		3	4											amul														0
+Lightning		1	1	1	65		55				100	10093	res-ltng-max		5	6											amul														0
+Lightning		1	1	1	85		75				100	10093	res-ltng-max		7	8											amul														0
+Cold		1	1	1	25		20				100	10094	res-cold-max		1	2											amul														0
+Cold		1	1	1	45		35				100	10094	res-cold-max		3	4											amul														0
+Cold		1	1	1	65		55				100	10094	res-cold-max		5	6											amul														0
+Cold		1	1	1	85		75				100	10094	res-cold-max		7	8											amul														0
+Fire		1	1	1	25		20				100	10095	res-fire-max		1	2											amul														0
+Fire		1	1	1	45		35				100	10095	res-fire-max		3	4											amul														0
+Fire		1	1	1	65		55				100	10095	res-fire-max		5	6											amul														0
+Fire		1	1	1	85		75				100	10095	res-fire-max		7	8											amul														0
+Poison		1	1	1	25		20				100	10096	res-pois-max		1	2											amul														0
+Poison		1	1	1	45		35				100	10096	res-pois-max		3	4											amul														0
+Poison		1	1	1	65		55				100	10096	res-pois-max		5	6											amul														0
+Poison		1	1	1	85		75				100	10096	res-pois-max		7	8											amul														0
+Poison		1	1	1	40		35				200	10097	res-all-max		1	1											amul														0
+Poison		1	1	1	80		70				200	10097	res-all-max		2	2											amul														0
+Apprentice’s		1	1	1	1		1				100	10098	cast1		10	15											amul														0
+Magus’s		1	1	1	50		40				100	10098	cast1		16	20											amul														0
+Blood Letting		1	1	1	1	26	1				100	10099	heal-kill		1	3											amul														0
+Murderous		1	1	1	26		20				100	10099	heal-kill		4	10											amul														0
+Blood Sucking		1	1	1	50		40				100	10099	heal-kill		11	25											amul														0
+Triumphant		1	1	1	1	26	1				100	10100	mana-kill		1	2											amul														0
+Victorious		1	1	1	26		20				100	10100	mana-kill		3	4											amul														0
+Aureolin		1	1	1	50		40				100	10100	mana-kill		5	6											amul														0
+Jagged		1	1	1	1		1				100	10101	dmg%	0	10	15											ring														0
+Deadly		1	1	1	15		10				100	10101	dmg%	0	16	20											ring														0
+Vicious		1	1	1	30		25				100	10101	dmg%	0	21	25											ring														0
+Brutal		1	1	1	45		40				100	10101	dmg%	0	26	30											ring														0
+Massive		1	1	1	60		55				100	10101	dmg%	0	31	40											ring														0
+Savage		1	1	1	20		15				100	10102	deadly		5	10											ring														0
+Ready		1	1	1	1		1				100	10103	swing1		5	7											ring														0
+Swift		1	1	1	30		25				100	10103	swing2		8	10											ring														0
+Red		1	1	1	1		1				100	10104	dmg-min		1	3											ring														0
+Sanguinary		1	1	1	15		10				100	10104	dmg-min		4	6											ring														0
+Bloody		1	1	1	30		25				100	10104	dmg-min		7	9											ring														0
+Scarlet		1	1	1	50		45				100	10104	dmg-min		10	12											ring														0
+Jagged		1	1	1	1		1				100	10105	dmg-max		1	3											ring														0
+Forked		1	1	1	15		10				100	10105	dmg-max		4	6											ring														0
+Serrated		1	1	1	30		25				100	10105	dmg-max		7	9											ring														0
+Vermillion		1	1	1	50		45				100	10105	dmg-max		10	12											ring														0
+Rookie’s		1	1	1	1		1				100	10106	addxp		3	5											ring														0
+Student’s		1	1	1	20		15				100	10106	addxp		6	9											ring														0
+Scholar’s		1	1	1	35		30				100	10106	addxp		10	15											ring														0
+Lucky		1	1	1	1		1				100	10107	mag%		15	25											ring														0
+Lucky		1	1	1	20		15				100	10107	mag%		26	35											ring														0
+Lucky		1	1	1	35		30				100	10107	mag%		36	45											ring														0
+Greedy		1	1	1	1		1				100	10108	gold%		40	60											ring														0
+Greedy		1	1	1	20		15				100	10108	gold%		61	80											ring														0
+Greedy		1	1	1	35		30				100	10108	gold%		81	100											ring														0
+Bronze		1	1	1	1		1				100	10109	att	0	20	40											ring														0
+Iron		1	1	1	15		10				100	10109	att	0	41	60											ring														0
+Steel		1	1	1	25		20				100	10109	att	0	61	80											ring														0
+Silver		1	1	1	35		30				100	10109	att	0	81	100											ring														0
+Gold		1	1	1	45		40				100	10109	att	0	101	120											ring														0
+Platinum		1	1	1	55		50				100	10109	att	0	121	140											ring														0
+Meteoric		1	1	1	65		60				100	10109	att	0	141	160											ring														0
+Tangerine		1	1	1	1		1				100	10110	res-ltng		10	20											ring														0
+Ocher		1	1	1	25		20				100	10110	res-ltng		21	30											ring														0
+Coral		1	1	1	45		40				100	10110	res-ltng		31	40											ring														0
+Azure		1	1	1	1		1				100	10111	res-cold		10	20											ring														0
+Lapis		1	1	1	25		20				100	10111	res-cold		21	30											ring														0
+Cobalt		1	1	1	45		40				100	10111	res-cold		31	40											ring														0
+Crimson		1	1	1	1		1				100	10112	res-fire		10	20											ring														0
+Burgundy		1	1	1	25		20				100	10112	res-fire		21	30											ring														0
+Garnet		1	1	1	45		40				100	10112	res-fire		31	40											ring														0
+Beryl		1	1	1	1		1				100	10113	res-pois		10	20											ring														0
+Jade		1	1	1	25		20				100	10113	res-pois		21	30											ring														0
+Viridian		1	1	1	45		40				100	10113	res-pois		31	40											ring														0
+Prismatic		1	1	1	1		1				100	10114	res-all		4	6											ring														0
+Prismatic		1	1	1	25		20				100	10114	res-all		7	9											ring														0
+Prismatic		1	1	1	45		40				100	10114	res-all		10	12											ring														0
+Tank’s		1	1	1	25		20				100	10115	hp%		2	3											ring														0
+Life’s		1	1	1	1	26	1				100	10116	hp		10	20											ring														0
+Jackal’s		1	1	1	15		10				100	10116	hp		21	30											ring														0
+Fox’s		1	1	1	25		20				100	10116	hp		31	40											ring														0
+Wolf’s		1	1	1	35		30				100	10116	hp		41	50											ring														0
+Tiger’s		1	1	1	45		40				100	10116	hp		51	60											ring														0
+Lizard's		1	1	1	1	26	1				100	10117	mana		10	20											ring														0
+Snake's		1	1	1	15		10				100	10117	mana		21	35											ring														0
+Serpent's		1	1	1	25		20				100	10117	mana		36	55											ring														0
+Drake's		1	1	1	35		30				100	10117	mana		56	80											ring														0
+Dragon's		1	1	1	45		40				100	10117	mana		81	110											ring														0
+Ember		1	1	1	1	26	1				100	10118	fire-min		5	6	fire-max		10	12							ring														0
+Smoldering		1	1	1	35		26				100	10118	fire-min		30	35	fire-max		40	50							ring														0
+Smoking		1	1	1	47		37				100	10118	fire-min		80	90	fire-max		120	135							ring														0
+Flaming		1	1	1	61		51				100	10118	fire-min		180	200	fire-max		250	280							ring														0
+Static		1	1	1	1	26	1				100	10119	ltng-min		1	1	ltng-max		14	17							ring														0
+Glowing		1	1	1	35		26				100	10119	ltng-min		1	1	ltng-max		69	84							ring														0
+Buzzing		1	1	1	47		37				100	10119	ltng-min		1	1	ltng-max		199	224							ring														0
+Arcing		1	1	1	61		51				100	10119	ltng-min		1	1	ltng-max		429	479							ring														0
+Cold		1	1	1	1	26	1				100	10120	cold-len		50	50	cold-min		5	6	cold-max		10	12			ring														0
+Snowflake		1	1	1	35		26				100	10120	cold-len		50	50	cold-min		30	35	cold-max		40	50			ring														0
+Shivering		1	1	1	47		37				100	10120	cold-len		50	50	cold-min		80	90	cold-max		120	135			ring														0
+Boreal		1	1	1	61		51				100	10120	cold-len		50	50	cold-min		180	200	cold-max		250	280			ring														0
+Conduit		1	1	1	1		1				100	10121	extra-ltng		5	10											ring														0
+Conduit		1	1	1	30		25				100	10121	extra-ltng		11	15											ring														0
+Conduit		1	1	1	50		45				100	10121	extra-ltng		16	20											ring														0
+Numbing		1	1	1	1		1				100	10121	extra-cold		5	10											ring														0
+Numbing		1	1	1	30		25				100	10121	extra-cold		11	15											ring														0
+Numbing		1	1	1	50		45				100	10121	extra-cold		16	20											ring														0
+Inferno		1	1	1	1		1				100	10121	extra-fire		5	10											ring														0
+Inferno		1	1	1	30		25				100	10121	extra-fire		11	15											ring														0
+Inferno		1	1	1	50		45				100	10121	extra-fire		16	20											ring														0
+Infectious		1	1	1	1		1				100	10121	extra-pois		5	10											ring														0
+Infectious		1	1	1	30		25				100	10121	extra-pois		11	15											ring														0
+Infectious		1	1	1	50		45				100	10121	extra-pois		16	20											ring														0
+Scintillating		1	1	1	1		1				100	10121	extra-magi		5	10											ring														0
+Scintillating		1	1	1	30		25				100	10121	extra-magi		11	15											ring														0
+Scintillating		1	1	1	50		45				100	10121	extra-magi		16	20											ring														0
+Discharging		1	1	1	1		1				100	10122	pierce-ltng		2	3											ring														0
+Discharging		1	1	1	30		25				100	10122	pierce-ltng		4	5											ring														0
+Discharging		1	1	1	50		45				100	10122	pierce-ltng		6	7											ring														0
+Frigid		1	1	1	1		1				100	10122	pierce-cold		2	3											ring														0
+Frigid		1	1	1	30		25				100	10122	pierce-cold		4	5											ring														0
+Frigid		1	1	1	50		45				100	10122	pierce-cold		6	7											ring														0
+Wildfire		1	1	1	1		1				100	10122	pierce-fire		2	3											ring														0
+Wildfire		1	1	1	30		25				100	10122	pierce-fire		4	5											ring														0
+Wildfire		1	1	1	50		45				100	10122	pierce-fire		6	7											ring														0
+Malicious		1	1	1	1		1				100	10122	pierce-pois		2	3											ring														0
+Malicious		1	1	1	30		25				100	10122	pierce-pois		4	5											ring														0
+Malicious		1	1	1	50		45				100	10122	pierce-pois		6	7											ring														0
+Lethal		1	1	1	1		1				100	10122	pierce-phys		2	3											ring														0
+Lethal		1	1	1	30		25				100	10122	pierce-phys		4	5											ring														0
+Lethal		1	1	1	50		45				100	10122	pierce-phys		6	7											ring														0
+Maiden's		1	1	1	30		25	ama			100	10123	ama		1	1											ring														0
+Monk's		1	1	1	30		25	pal			100	10123	pal		1	1											ring														0
+Summoner's		1	1	1	30		25	nec			100	10123	nec		1	1											ring														0
+Angel's		1	1	1	30		25	sor			100	10123	sor		1	1											ring														0
+Slayer's		1	1	1	30		25	bar			100	10123	bar		1	1											ring														0
+Shaman's		1	1	1	30		25	dru			100	10123	dru		1	1											ring														0
+Magekiller's		1	1	1	30		25	ass			100	10123	ass		1	1											ring														0
+Warm		1	1	1	10		7				300	10124	half-freeze		1	1											ring														0
+Leech		1	1	1	6		4				100	10125	lifesteal		3	5											ring														0
+Locust		1	1	1	20		15				100	10125	lifesteal		6	8											ring														0
+Bat		1	1	1	6		4				100	10126	manasteal		3	5											ring														0
+Vampire		1	1	1	20		15				100	10126	manasteal		6	8											ring														0
+Lightning		1	1	1	25		20				100	10127	res-ltng-max		1	2											ring														0
+Lightning		1	1	1	45		35				100	10127	res-ltng-max		3	4											ring														0
+Cold		1	1	1	25		20				100	10128	res-cold-max		1	2											ring														0
+Cold		1	1	1	45		35				100	10128	res-cold-max		3	4											ring														0
+Fire		1	1	1	25		20				100	10129	res-fire-max		1	2											ring														0
+Fire		1	1	1	45		35				100	10129	res-fire-max		3	4											ring														0
+Poison		1	1	1	25		20				100	10130	res-pois-max		1	2											ring														0
+Poison		1	1	1	45		35				100	10130	res-pois-max		3	4											ring														0
+Prismatic		1	1	1	40		35				200	10131	res-all-max		1	1											ring														0
+Apprentice’s		1	1	1	1		1				100	10132	cast1		5	10											ring														0
+Magus’s		1	1	1	50		40				100	10132	cast1		11	15											ring														0
+Blood Letting		1	1	1	1	26	1				100	10133	heal-kill		1	2											ring														0
+Murderous		1	1	1	26		20				100	10133	heal-kill		3	7											ring														0
+Blood Sucking		1	1	1	50		40				100	10133	heal-kill		8	15											ring														0
+Triumphant		1	1	1	1	26	1				100	10134	mana-kill		1	1											ring														0
+Victorious		1	1	1	26		20				100	10134	mana-kill		2	2											ring														0
+Aureolin		1	1	1	50		40				100	10134	mana-kill		3	3											ring														0
+Rookie’s		1	1	1	1		1				100	10135	addxp		3	6											boot														0
+Student’s		1	1	1	20		15				100	10135	addxp		7	10											boot														0
+Scholar’s		1	1	1	35		30				100	10135	addxp		11	15											boot														0
+Lucky		1	1	1	1		1				100	10136	mag%		15	25											boot														0
+Lucky		1	1	1	20		15				100	10136	mag%		26	35											boot														0
+Lucky		1	1	1	35		30				100	10136	mag%		36	45											boot														0
+Greedy		1	1	1	1		1				100	10137	gold%		40	80											boot														0
+Greedy		1	1	1	20		15				100	10137	gold%		81	120											boot														0
+Greedy		1	1	1	35		30				100	10137	gold%		121	160											boot														0
+Tangerine		1	1	1	1		1				100	10138	res-ltng		10	20											boot														0
+Ocher		1	1	1	25		20				100	10138	res-ltng		21	30											boot														0
+Coral		1	1	1	45		40				100	10138	res-ltng		31	40											boot														0
+Amber		1	1	1	65		60				100	10138	res-ltng		41	50											boot														0
+Azure		1	1	1	1		1				100	10139	res-cold		10	20											boot														0
+Lapis		1	1	1	25		20				100	10139	res-cold		21	30											boot														0
+Cobalt		1	1	1	45		40				100	10139	res-cold		31	40											boot														0
+Sapphire		1	1	1	65		60				100	10139	res-cold		41	50											boot														0
+Crimson		1	1	1	1		1				100	10140	res-fire		10	20											boot														0
+Burgundy		1	1	1	25		20				100	10140	res-fire		21	30											boot														0
+Garnet		1	1	1	45		40				100	10140	res-fire		31	40											boot														0
+Ruby		1	1	1	65		60				100	10140	res-fire		41	50											boot														0
+Beryl		1	1	1	1		1				100	10141	res-pois		10	20											boot														0
+Jade		1	1	1	25		20				100	10141	res-pois		21	30											boot														0
+Viridian		1	1	1	45		40				100	10141	res-pois		31	40											boot														0
+Emerald		1	1	1	65		60				100	10141	res-pois		41	50											boot														0
+Prismatic		1	1	1	1		1				100	10142	res-all		4	6											boot														0
+Prismatic		1	1	1	25		20				100	10142	res-all		7	9											boot														0
+Prismatic		1	1	1	45		40				100	10142	res-all		10	12											boot														0
+Prismatic		1	1	1	65		60				100	10142	res-all		13	15											boot														0
+Tank’s		1	1	1	25		20				100	10143	hp%		2	3											boot														0
+Tank’s		1	1	1	50		45				100	10143	hp%		4	5											boot														0
+Life’s		1	1	1	1	26	1				100	10144	hp		10	20											boot														0
+Jackal’s		1	1	1	15		10				100	10144	hp		21	30											boot														0
+Fox’s		1	1	1	25		20				100	10144	hp		31	40											boot														0
+Wolf’s		1	1	1	35		30				100	10144	hp		41	50											boot														0
+Tiger’s		1	1	1	45		40				100	10144	hp		51	60											boot														0
+Mammoth’s		1	1	1	55		50				100	10144	hp		61	70											boot														0
+Colosuss’s		1	1	1	65		60				100	10144	hp		71	80											boot														0
+Whale’s		1	1	1	75		70				100	10144	hp		81	90											boot														0
+Lizard's		1	1	1	1	26	1				100	10145	mana		10	20											boot														0
+Snake's		1	1	1	15		10				100	10145	mana		21	35											boot														0
+Serpent's		1	1	1	25		20				100	10145	mana		36	55											boot														0
+Drake's		1	1	1	35		30				100	10145	mana		56	80											boot														0
+Dragon's		1	1	1	45		40				100	10145	mana		81	110											boot														0
+Pacing		1	1	1	20		15				100	10146	move2		10	20											boot														0
+Haste		1	1	1	40		35				100	10146	move2		21	30											boot														0
+Haste		1	1	1	60		50				100	10146	move2		31	40											boot														0
+Haste		1	1	1	80		60				100	10146	move2		41	50											boot														0
+Conduit		1	1	1	1		1				100	10147	extra-ltng		10	20											boot														0
+Conduit		1	1	1	30		25				100	10147	extra-ltng		21	30											boot														0
+Numbing		1	1	1	1		1				100	10147	extra-cold		10	20											boot														0
+Numbing		1	1	1	30		25				100	10147	extra-cold		21	30											boot														0
+Inferno		1	1	1	1		1				100	10147	extra-fire		10	20											boot														0
+Inferno		1	1	1	30		25				100	10147	extra-fire		21	30											boot														0
+Infectious		1	1	1	1		1				100	10147	extra-pois		10	20											boot														0
+Infectious		1	1	1	30		25				100	10147	extra-pois		21	30											boot														0
+Scintillating		1	1	1	1		1				100	10147	extra-magi		10	20											boot														0
+Scintillating		1	1	1	30		25				100	10147	extra-magi		21	30											boot														0
+Discharging		1	1	1	1		1				100	10148	pierce-ltng		4	6											boot														0
+Discharging		1	1	1	30		25				100	10148	pierce-ltng		7	9											boot														0
+Frigid		1	1	1	1		1				100	10148	pierce-cold		4	6											boot														0
+Frigid		1	1	1	30		25				100	10148	pierce-cold		7	9											boot														0
+Wildfire		1	1	1	1		1				100	10148	pierce-fire		4	6											boot														0
+Wildfire		1	1	1	30		25				100	10148	pierce-fire		7	9											boot														0
+Malicious		1	1	1	1		1				100	10148	pierce-pois		4	6											boot														0
+Malicious		1	1	1	30		25				100	10148	pierce-pois		7	9											boot														0
+Lethal		1	1	1	1		1				100	10148	pierce-phys		4	6											boot														0
+Lethal		1	1	1	30		25				100	10148	pierce-phys		7	9											boot														0
+Superior		1	1	1	50		42				5	10149	allskills		1	1											boot														0
+Warm		1	1	1	10		7				500	10150	half-freeze		1	1											boot														0
+Lightning		1	1	1	25		20				100	10151	res-ltng-max		1	2											boot														0
+Lightning		1	1	1	45		35				100	10151	res-ltng-max		3	4											boot														0
+Lightning		1	1	1	65		55				100	10151	res-ltng-max		5	6											boot														0
+Lightning		1	1	1	85		75				100	10151	res-ltng-max		7	8											boot														0
+Cold		1	1	1	25		20				100	10152	res-cold-max		1	2											boot														0
+Cold		1	1	1	45		35				100	10152	res-cold-max		3	4											boot														0
+Cold		1	1	1	65		55				100	10152	res-cold-max		5	6											boot														0
+Cold		1	1	1	85		75				100	10152	res-cold-max		7	8											boot														0
+Fire		1	1	1	25		20				100	10153	res-fire-max		1	2											boot														0
+Fire		1	1	1	45		35				100	10153	res-fire-max		3	4											boot														0
+Fire		1	1	1	65		55				100	10153	res-fire-max		5	6											boot														0
+Fire		1	1	1	85		75				100	10153	res-fire-max		7	8											boot														0
+Poison		1	1	1	25		20				100	10154	res-pois-max		1	2											boot														0
+Poison		1	1	1	45		35				100	10154	res-pois-max		3	4											boot														0
+Poison		1	1	1	65		55				100	10154	res-pois-max		5	6											boot														0
+Poison		1	1	1	85		75				100	10154	res-pois-max		7	8											boot														0
+Poison		1	1	1	40		35				200	10155	res-all-max		1	1											boot														0
+Poison		1	1	1	80		70				200	10155	res-all-max		2	2											boot														0
+Blood Letting		1	1	1	1	26	1				100	10156	heal-kill		1	3											boot														0
+Murderous		1	1	1	26		20				100	10156	heal-kill		4	10											boot														0
+Blood Sucking		1	1	1	50		40				100	10156	heal-kill		11	25											boot														0
+Triumphant		1	1	1	1	26	1				100	10157	mana-kill		1	2											boot														0
+Victorious		1	1	1	26		20				100	10157	mana-kill		3	4											boot														0
+Aureolin		1	1	1	50		40				100	10157	mana-kill		5	6											boot														0
+Speedy		1	1	1	18		18				100	10158	aura	115	1	1											boot														0
+Bulky		1	1	1	25		20				100	10159	red-dmg%		3	4											boot														0
+Bulky		1	1	1	50		40				100	10159	red-dmg%		5	6											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	6	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	7	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	8	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	9	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	10	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	11	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	12	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	13	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	14	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	15	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	16	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	17	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	18	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	19	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	20	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	21	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	22	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	23	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	24	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	25	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	26	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	27	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	28	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	29	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	30	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	31	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	32	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	33	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	34	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	35	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	36	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	37	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	38	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	39	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	40	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	41	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	42	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	43	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	44	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	45	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	46	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	47	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	48	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	49	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	50	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	51	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	52	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	53	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	54	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	55	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	56	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	57	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	58	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	59	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	60	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	61	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	62	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	63	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	64	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	65	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	66	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	67	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	68	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	69	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	70	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	71	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	72	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	73	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	74	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	75	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	76	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	77	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	78	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	79	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	80	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	81	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	82	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	83	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	84	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	85	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	86	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	87	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	88	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	89	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	90	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	91	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	92	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	93	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	94	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	95	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	96	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	97	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	98	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	99	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	100	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	101	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	102	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	103	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	104	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	105	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	106	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	107	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	108	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	109	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	110	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	111	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	112	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	113	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	114	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	115	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	116	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	117	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	118	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	119	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	120	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	121	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	122	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	123	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	124	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	125	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	126	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	128	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	130	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	131	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	132	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	133	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	134	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	135	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	137	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	138	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	139	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	140	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	141	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	142	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	143	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	144	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	145	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	146	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	147	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	148	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	149	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	150	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	151	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	152	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	153	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	154	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	155	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	221	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	222	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	223	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	224	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	225	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	226	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	227	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	228	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	229	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	230	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	231	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	232	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	233	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	234	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	235	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	236	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	237	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	238	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	239	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	240	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	241	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	242	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	243	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	244	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	245	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	246	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	247	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	248	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	249	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	250	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	251	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	252	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	253	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	254	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	255	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	256	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	257	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	258	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	259	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	260	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	261	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	262	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	263	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	264	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	265	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	266	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	267	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	268	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	269	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	270	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	271	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	272	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	273	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	274	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	275	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	276	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	277	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	278	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	279	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	280	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	364	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	365	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	366	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	367	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	368	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	369	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	370	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	371	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	374	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	376	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	378	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	380	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	381	1	2											boot														0
+Skillful		1	1	1	30		30				5	10160	skill	383	1	2											boot														0
+Balancing		1	1	1	1		1				100	10199	balance1		8	11											boot														0
+Stable		1	1	1	30		25				100	10199	balance1		12	15											boot														0
+Jagged		1	1	1	1		1				100	10161	dmg%	0	20	30											glov														0
+Deadly		1	1	1	15		10				100	10161	dmg%	0	31	40											glov														0
+Vicious		1	1	1	30		25				100	10161	dmg%	0	41	50											glov														0
+Brutal		1	1	1	45		40				100	10161	dmg%	0	51	60											glov														0
+Massive		1	1	1	60		55				100	10161	dmg%	0	61	70											glov														0
+Savage		1	1	1	75		70				100	10161	dmg%	0	71	80											glov														0
+Savage		1	1	1	20		15				100	10162	deadly		5	10											glov														0
+Devastating		1	1	1	40		35				100	10162	deadly		11	15											glov														0
+Havoc		1	1	1	60		55				100	10162	deadly		16	20											glov														0
+Ready		1	1	1	1		1				100	10163	swing1		10	15											glov														0
+Swift		1	1	1	30		25				100	10163	swing2		16	20											glov														0
+Quick		1	1	1	60		55				100	10163	swing2		21	25											glov														0
+Red		1	1	1	1		1				100	10164	dmg-min		3	6											glov														0
+Sanguinary		1	1	1	15		10				100	10164	dmg-min		7	10											glov														0
+Bloody		1	1	1	30		25				100	10164	dmg-min		11	14											glov														0
+Scarlet		1	1	1	50		45				100	10164	dmg-min		15	18											glov														0
+Jagged		1	1	1	1		1				100	10165	dmg-max		3	6											glov														0
+Forked		1	1	1	15		10				100	10165	dmg-max		7	10											glov														0
+Serrated		1	1	1	30		25				100	10165	dmg-max		11	14											glov														0
+Vermillion		1	1	1	50		45				100	10165	dmg-max		15	18											glov														0
+Rookie’s		1	1	1	1		1				100	10166	addxp		3	6											glov														0
+Student’s		1	1	1	20		15				100	10166	addxp		7	10											glov														0
+Lucky		1	1	1	1		1				100	10168	mag%		15	25											glov														0
+Lucky		1	1	1	20		15				100	10168	mag%		26	35											glov														0
+Lucky		1	1	1	35		30				100	10168	mag%		36	45											glov														0
+Greedy		1	1	1	1		1				100	10169	gold%		40	80											glov														0
+Greedy		1	1	1	20		15				100	10169	gold%		81	120											glov														0
+Greedy		1	1	1	35		30				100	10169	gold%		121	160											glov														0
+Tangerine		1	1	1	1		1				100	10170	res-ltng		10	20											glov														0
+Ocher		1	1	1	25		20				100	10170	res-ltng		21	30											glov														0
+Coral		1	1	1	45		40				100	10170	res-ltng		31	40											glov														0
+Amber		1	1	1	65		60				100	10170	res-ltng		41	50											glov														0
+Azure		1	1	1	1		1				100	10171	res-cold		10	20											glov														0
+Lapis		1	1	1	25		20				100	10171	res-cold		21	30											glov														0
+Cobalt		1	1	1	45		40				100	10171	res-cold		31	40											glov														0
+Sapphire		1	1	1	65		60				100	10171	res-cold		41	50											glov														0
+Crimson		1	1	1	1		1				100	10172	res-fire		10	20											glov														0
+Burgundy		1	1	1	25		20				100	10172	res-fire		21	30											glov														0
+Garnet		1	1	1	45		40				100	10172	res-fire		31	40											glov														0
+Ruby		1	1	1	65		60				100	10172	res-fire		41	50											glov														0
+Beryl		1	1	1	1		1				100	10173	res-pois		10	20											glov														0
+Jade		1	1	1	25		20				100	10173	res-pois		21	30											glov														0
+Viridian		1	1	1	45		40				100	10173	res-pois		31	40											glov														0
+Emerald		1	1	1	65		60				100	10173	res-pois		41	50											glov														0
+Prismatic		1	1	1	1		1				100	10174	res-all		4	6											glov														0
+Prismatic		1	1	1	25		20				100	10174	res-all		7	9											glov														0
+Prismatic		1	1	1	45		40				100	10174	res-all		10	12											glov														0
+Prismatic		1	1	1	65		60				100	10174	res-all		13	15											glov														0
+Tank’s		1	1	1	25		20				100	10175	hp%		2	3											glov														0
+Tank’s		1	1	1	50		45				100	10175	hp%		4	5											glov														0
+Life’s		1	1	1	1	26	1				100	10176	hp		10	20											glov														0
+Jackal’s		1	1	1	15		10				100	10176	hp		21	30											glov														0
+Fox’s		1	1	1	25		20				100	10176	hp		31	40											glov														0
+Wolf’s		1	1	1	35		30				100	10176	hp		41	50											glov														0
+Tiger’s		1	1	1	45		40				100	10176	hp		51	60											glov														0
+Mammoth’s		1	1	1	55		50				100	10176	hp		61	70											glov														0
+Colosuss’s		1	1	1	65		60				100	10176	hp		71	80											glov														0
+Whale’s		1	1	1	75		70				100	10176	hp		81	90											glov														0
+Lizard's		1	1	1	1	26	1				100	10177	mana		10	20											glov														0
+Snake's		1	1	1	15		10				100	10177	mana		21	35											glov														0
+Serpent's		1	1	1	25		20				100	10177	mana		36	55											glov														0
+Drake's		1	1	1	35		30				100	10177	mana		56	80											glov														0
+Dragon's		1	1	1	45		40				100	10177	mana		81	110											glov														0
+Ember		1	1	1	1	26	1				100	10178	fire-min		5	6	fire-max		10	12							glov														0
+Smoldering		1	1	1	35		26				100	10178	fire-min		30	35	fire-max		40	50							glov														0
+Smoking		1	1	1	47		37				100	10178	fire-min		80	90	fire-max		120	135							glov														0
+Flaming		1	1	1	61		51				100	10178	fire-min		180	200	fire-max		250	280							glov														0
+Scorching		1	1	1	77		67				100	10178	fire-min		300	320	fire-max		370	410							glov														0
+Static		1	1	1	1	26	1				100	10179	ltng-min		1	1	ltng-max		14	17							glov														0
+Glowing		1	1	1	35		26				100	10179	ltng-min		1	1	ltng-max		69	84							glov														0
+Buzzing		1	1	1	47		37				100	10179	ltng-min		1	1	ltng-max		199	224							glov														0
+Arcing		1	1	1	61		51				100	10179	ltng-min		1	1	ltng-max		429	479							glov														0
+Shocking		1	1	1	77		67				100	10179	ltng-min		1	1	ltng-max		669	709							glov														0
+Cold		1	1	1	1	26	1				100	10180	cold-len		50	50	cold-min		5	6	cold-max		10	12			glov														0
+Snowflake		1	1	1	35		26				100	10180	cold-len		50	50	cold-min		30	35	cold-max		40	50			glov														0
+Shivering		1	1	1	47		37				100	10180	cold-len		50	50	cold-min		80	90	cold-max		120	135			glov														0
+Boreal		1	1	1	61		51				100	10180	cold-len		50	50	cold-min		180	200	cold-max		250	280			glov														0
+Hibernal		1	1	1	77		67				100	10180	cold-len		50	50	cold-min		300	320	cold-max		370	410			glov														0
+Conduit		1	1	1	1		1				100	10181	extra-ltng		10	20											glov														0
+Conduit		1	1	1	30		25				100	10181	extra-ltng		21	30											glov														0
+Numbing		1	1	1	1		1				100	10181	extra-cold		10	20											glov														0
+Numbing		1	1	1	30		25				100	10181	extra-cold		21	30											glov														0
+Inferno		1	1	1	1		1				100	10181	extra-fire		10	20											glov														0
+Inferno		1	1	1	30		25				100	10181	extra-fire		21	30											glov														0
+Infectious		1	1	1	1		1				100	10181	extra-pois		10	20											glov														0
+Infectious		1	1	1	30		25				100	10181	extra-pois		21	30											glov														0
+Scintillating		1	1	1	1		1				100	10181	extra-magi		10	20											glov														0
+Scintillating		1	1	1	30		25				100	10181	extra-magi		21	30											glov														0
+Discharging		1	1	1	1		1				100	10182	pierce-ltng		4	6											glov														0
+Discharging		1	1	1	30		25				100	10182	pierce-ltng		7	9											glov														0
+Frigid		1	1	1	1		1				100	10182	pierce-cold		4	6											glov														0
+Frigid		1	1	1	30		25				100	10182	pierce-cold		7	9											glov														0
+Wildfire		1	1	1	1		1				100	10182	pierce-fire		4	6											glov														0
+Wildfire		1	1	1	30		25				100	10182	pierce-fire		7	9											glov														0
+Malicious		1	1	1	1		1				100	10182	pierce-pois		4	6											glov														0
+Malicious		1	1	1	30		25				100	10182	pierce-pois		7	9											glov														0
+Lethal		1	1	1	1		1				100	10182	pierce-phys		4	6											glov														0
+Lethal		1	1	1	30		25				100	10182	pierce-phys		7	9											glov														0
+Superior		1	1	1	50		42				5	10183	allskills		1	1											glov														0
+Warm		1	1	1	10		7				500	10184	half-freeze		1	1											glov														0
+Lightning		1	1	1	25		20				100	10185	res-ltng-max		1	2											glov														0
+Lightning		1	1	1	45		35				100	10185	res-ltng-max		3	4											glov														0
+Lightning		1	1	1	65		55				100	10185	res-ltng-max		5	6											glov														0
+Lightning		1	1	1	85		75				100	10185	res-ltng-max		7	8											glov														0
+Cold		1	1	1	25		20				100	10186	res-cold-max		1	2											glov														0
+Cold		1	1	1	45		35				100	10186	res-cold-max		3	4											glov														0
+Cold		1	1	1	65		55				100	10186	res-cold-max		5	6											glov														0
+Cold		1	1	1	85		75				100	10186	res-cold-max		7	8											glov														0
+Fire		1	1	1	25		20				100	10187	res-fire-max		1	2											glov														0
+Fire		1	1	1	45		35				100	10187	res-fire-max		3	4											glov														0
+Fire		1	1	1	65		55				100	10187	res-fire-max		5	6											glov														0
+Fire		1	1	1	85		75				100	10187	res-fire-max		7	8											glov														0
+Poison		1	1	1	25		20				100	10188	res-pois-max		1	2											glov														0
+Poison		1	1	1	45		35				100	10188	res-pois-max		3	4											glov														0
+Poison		1	1	1	65		55				100	10188	res-pois-max		5	6											glov														0
+Poison		1	1	1	85		75				100	10188	res-pois-max		7	8											glov														0
+Poison		1	1	1	40		35				200	10189	res-all-max		1	1											glov														0
+Poison		1	1	1	80		70				200	10189	res-all-max		2	2											glov														0
+Blood Letting		1	1	1	1	26	1				100	10190	heal-kill		1	3											glov														0
+Murderous		1	1	1	26		20				100	10190	heal-kill		4	10											glov														0
+Blood Sucking		1	1	1	50		40				100	10190	heal-kill		11	25											glov														0
+Triumphant		1	1	1	1	26	1				100	10191	mana-kill		1	2											glov														0
+Victorious		1	1	1	26		20				100	10191	mana-kill		3	4											glov														0
+Aureolin		1	1	1	50		40				100	10191	mana-kill		5	6											glov														0
+Bulky		1	1	1	25		20				100	10192	red-dmg%		3	4											glov														0
+Bulky		1	1	1	50		40				100	10192	red-dmg%		5	6											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	6	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	7	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	8	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	9	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	10	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	11	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	12	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	13	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	14	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	15	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	16	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	17	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	18	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	19	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	20	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	21	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	22	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	23	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	24	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	25	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	26	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	27	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	28	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	29	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	30	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	31	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	32	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	33	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	34	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	35	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	36	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	37	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	38	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	39	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	40	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	41	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	42	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	43	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	44	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	45	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	46	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	47	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	48	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	49	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	50	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	51	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	52	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	53	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	54	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	55	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	56	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	57	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	58	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	59	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	60	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	61	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	62	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	63	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	64	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	65	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	66	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	67	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	68	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	69	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	70	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	71	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	72	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	73	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	74	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	75	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	76	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	77	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	78	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	79	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	80	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	81	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	82	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	83	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	84	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	85	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	86	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	87	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	88	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	89	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	90	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	91	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	92	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	93	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	94	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	95	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	96	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	97	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	98	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	99	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	100	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	101	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	102	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	103	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	104	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	105	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	106	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	107	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	108	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	109	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	110	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	111	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	112	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	113	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	114	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	115	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	116	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	117	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	118	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	119	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	120	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	121	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	122	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	123	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	124	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	125	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	126	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	128	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	130	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	131	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	132	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	133	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	134	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	135	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	137	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	138	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	139	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	140	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	141	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	142	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	143	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	144	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	145	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	146	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	147	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	148	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	149	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	150	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	151	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	152	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	153	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	154	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	155	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	221	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	222	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	223	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	224	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	225	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	226	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	227	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	228	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	229	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	230	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	231	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	232	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	233	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	234	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	235	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	236	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	237	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	238	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	239	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	240	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	241	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	242	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	243	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	244	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	245	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	246	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	247	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	248	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	249	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	250	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	251	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	252	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	253	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	254	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	255	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	256	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	257	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	258	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	259	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	260	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	261	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	262	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	263	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	264	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	265	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	266	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	267	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	268	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	269	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	270	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	271	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	272	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	273	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	274	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	275	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	276	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	277	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	278	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	279	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	280	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	364	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	365	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	366	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	367	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	368	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	369	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	370	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	371	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	374	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	376	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	378	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	380	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	381	1	2											glov														0
+Skillful		1	1	1	30		30				5	10193	skill	383	1	2											glov														0
+Bronze		1	1	1	1		1				100	10194	att	0	20	40											glov														0
+Iron		1	1	1	15		10				100	10194	att	0	41	60											glov														0
+Steel		1	1	1	25		20				100	10194	att	0	61	80											glov														0
+Silver		1	1	1	35		30				100	10194	att	0	81	100											glov														0
+Gold		1	1	1	45		40				100	10194	att	0	101	120											glov														0
+Platinum		1	1	1	55		50				100	10194	att	0	121	140											glov														0
+Meteoric		1	1	1	65		60				100	10194	att	0	141	160											glov														0
+Leech		1	1	1	6		4				100	10195	lifesteal		4	7											glov														0
+Locust		1	1	1	20		15				100	10195	lifesteal		8	10											glov														0
+Bat		1	1	1	6		4				100	10196	manasteal		4	7											glov														0
+Vampire		1	1	1	20		15				100	10196	manasteal		8	10											glov														0
+Crushing		1	1	1	25		20				100	10197	crush		10	20											glov														0
+Balancing		1	1	1	1		1				100	10198	balance1		8	11											glov														0
+Stable		1	1	1	30		25				100	10198	balance1		12	15											glov														0
+Apprentice’s		1	1	1	1		1				100	10132	cast1		5	10											glov														0
+Magus’s		1	1	1	50		40				100	10132	cast1		11	15											glov														0
+Jagged		1	1	1	1		1				100	10161	dmg%	0	20	30											helm														0
+Deadly		1	1	1	15		10				100	10161	dmg%	0	31	40											helm														0
+Vicious		1	1	1	30		25				100	10161	dmg%	0	41	50											helm														0
+Brutal		1	1	1	45		40				100	10161	dmg%	0	51	60											helm														0
+Massive		1	1	1	60		55				100	10161	dmg%	0	61	70											helm														0
+Savage		1	1	1	75		70				100	10161	dmg%	0	71	80											helm														0
+Savage		1	1	1	20		15				100	10162	deadly		5	10											helm														0
+Devastating		1	1	1	40		35				100	10162	deadly		11	15											helm														0
+Havoc		1	1	1	60		55				100	10162	deadly		16	20											helm														0
+Red		1	1	1	1		1				100	10164	dmg-min		3	6											helm														0
+Sanguinary		1	1	1	15		10				100	10164	dmg-min		7	10											helm														0
+Bloody		1	1	1	30		25				100	10164	dmg-min		11	14											helm														0
+Scarlet		1	1	1	50		45				100	10164	dmg-min		15	18											helm														0
+Jagged		1	1	1	1		1				100	10165	dmg-max		3	6											helm														0
+Forked		1	1	1	15		10				100	10165	dmg-max		7	10											helm														0
+Serrated		1	1	1	30		25				100	10165	dmg-max		11	14											helm														0
+Vermillion		1	1	1	50		45				100	10165	dmg-max		15	18											helm														0
+Rookie’s		1	1	1	1		1				200	10166	addxp		3	6											helm														0
+Student’s		1	1	1	20		15				200	10166	addxp		7	10											helm														0
+Scholar’s		1	1	1	35		30				200	10166	addxp		10	15											helm														0
+Lucky		1	1	1	1		1				100	10168	mag%		15	25											helm														0
+Lucky		1	1	1	20		15				100	10168	mag%		26	35											helm														0
+Lucky		1	1	1	35		30				100	10168	mag%		36	45											helm														0
+Greedy		1	1	1	1		1				100	10169	gold%		40	80											helm														0
+Greedy		1	1	1	20		15				100	10169	gold%		81	120											helm														0
+Greedy		1	1	1	35		30				100	10169	gold%		121	160											helm														0
+Tangerine		1	1	1	1		1				100	10170	res-ltng		10	20											helm														0
+Ocher		1	1	1	25		20				100	10170	res-ltng		21	30											helm														0
+Coral		1	1	1	45		40				100	10170	res-ltng		31	40											helm														0
+Amber		1	1	1	65		60				100	10170	res-ltng		41	50											helm														0
+Azure		1	1	1	1		1				100	10171	res-cold		10	20											helm														0
+Lapis		1	1	1	25		20				100	10171	res-cold		21	30											helm														0
+Cobalt		1	1	1	45		40				100	10171	res-cold		31	40											helm														0
+Sapphire		1	1	1	65		60				100	10171	res-cold		41	50											helm														0
+Crimson		1	1	1	1		1				100	10172	res-fire		10	20											helm														0
+Burgundy		1	1	1	25		20				100	10172	res-fire		21	30											helm														0
+Garnet		1	1	1	45		40				100	10172	res-fire		31	40											helm														0
+Ruby		1	1	1	65		60				100	10172	res-fire		41	50											helm														0
+Beryl		1	1	1	1		1				100	10173	res-pois		10	20											helm														0
+Jade		1	1	1	25		20				100	10173	res-pois		21	30											helm														0
+Viridian		1	1	1	45		40				100	10173	res-pois		31	40											helm														0
+Emerald		1	1	1	65		60				100	10173	res-pois		41	50											helm														0
+Prismatic		1	1	1	1		1				100	10174	res-all		4	6											helm														0
+Prismatic		1	1	1	25		20				100	10174	res-all		7	9											helm														0
+Prismatic		1	1	1	45		40				100	10174	res-all		10	12											helm														0
+Prismatic		1	1	1	65		60				100	10174	res-all		13	15											helm														0
+Tank’s		1	1	1	25		20				100	10175	hp%		2	3											helm														0
+Tank’s		1	1	1	50		45				100	10175	hp%		4	5											helm														0
+Life’s		1	1	1	1	26	1				100	10176	hp		10	20											helm														0
+Jackal’s		1	1	1	15		10				100	10176	hp		21	30											helm														0
+Fox’s		1	1	1	25		20				100	10176	hp		31	40											helm														0
+Wolf’s		1	1	1	35		30				100	10176	hp		41	50											helm														0
+Tiger’s		1	1	1	45		40				100	10176	hp		51	60											helm														0
+Mammoth’s		1	1	1	55		50				100	10176	hp		61	70											helm														0
+Colosuss’s		1	1	1	65		60				100	10176	hp		71	80											helm														0
+Whale’s		1	1	1	75		70				100	10176	hp		81	90											helm														0
+Lizard's		1	1	1	1	26	1				100	10177	mana		10	20											helm														0
+Snake's		1	1	1	15		10				100	10177	mana		21	35											helm														0
+Serpent's		1	1	1	25		20				100	10177	mana		36	55											helm														0
+Drake's		1	1	1	35		30				100	10177	mana		56	80											helm														0
+Dragon's		1	1	1	45		40				100	10177	mana		81	110											helm														0
+Ember		1	1	1	1	26	1				100	10178	fire-min		5	6	fire-max		10	12							helm														0
+Smoldering		1	1	1	35		26				100	10178	fire-min		30	35	fire-max		40	50							helm														0
+Smoking		1	1	1	47		37				100	10178	fire-min		80	90	fire-max		120	135							helm														0
+Flaming		1	1	1	61		51				100	10178	fire-min		180	200	fire-max		250	280							helm														0
+Scorching		1	1	1	77		67				100	10178	fire-min		300	320	fire-max		370	410							helm														0
+Static		1	1	1	1	26	1				100	10179	ltng-min		1	1	ltng-max		14	17							helm														0
+Glowing		1	1	1	35		26				100	10179	ltng-min		1	1	ltng-max		69	84							helm														0
+Buzzing		1	1	1	47		37				100	10179	ltng-min		1	1	ltng-max		199	224							helm														0
+Arcing		1	1	1	61		51				100	10179	ltng-min		1	1	ltng-max		429	479							helm														0
+Shocking		1	1	1	77		67				100	10179	ltng-min		1	1	ltng-max		669	709							helm														0
+Cold		1	1	1	1	26	1				100	10180	cold-len		50	50	cold-min		5	6	cold-max		10	12			helm														0
+Snowflake		1	1	1	35		26				100	10180	cold-len		50	50	cold-min		30	35	cold-max		40	50			helm														0
+Shivering		1	1	1	47		37				100	10180	cold-len		50	50	cold-min		80	90	cold-max		120	135			helm														0
+Boreal		1	1	1	61		51				100	10180	cold-len		50	50	cold-min		180	200	cold-max		250	280			helm														0
+Hibernal		1	1	1	77		67				100	10180	cold-len		50	50	cold-min		300	320	cold-max		370	410			helm														0
+Conduit		1	1	1	1		1				100	10181	extra-ltng		10	20											helm														0
+Conduit		1	1	1	30		25				100	10181	extra-ltng		21	30											helm														0
+Numbing		1	1	1	1		1				100	10181	extra-cold		10	20											helm														0
+Numbing		1	1	1	30		25				100	10181	extra-cold		21	30											helm														0
+Inferno		1	1	1	1		1				100	10181	extra-fire		10	20											helm														0
+Inferno		1	1	1	30		25				100	10181	extra-fire		21	30											helm														0
+Infectious		1	1	1	1		1				100	10181	extra-pois		10	20											helm														0
+Infectious		1	1	1	30		25				100	10181	extra-pois		21	30											helm														0
+Scintillating		1	1	1	1		1				100	10181	extra-magi		10	20											helm														0
+Scintillating		1	1	1	30		25				100	10181	extra-magi		21	30											helm														0
+Discharging		1	1	1	1		1				100	10182	pierce-ltng		4	6											helm														0
+Discharging		1	1	1	30		25				100	10182	pierce-ltng		7	9											helm														0
+Frigid		1	1	1	1		1				100	10182	pierce-cold		4	6											helm														0
+Frigid		1	1	1	30		25				100	10182	pierce-cold		7	9											helm														0
+Wildfire		1	1	1	1		1				100	10182	pierce-fire		4	6											helm														0
+Wildfire		1	1	1	30		25				100	10182	pierce-fire		7	9											helm														0
+Malicious		1	1	1	1		1				100	10182	pierce-pois		4	6											helm														0
+Malicious		1	1	1	30		25				100	10182	pierce-pois		7	9											helm														0
+Lethal		1	1	1	1		1				100	10182	pierce-phys		4	6											helm														0
+Lethal		1	1	1	30		25				100	10182	pierce-phys		7	9											helm														0
+Superior		1	1	1	50		42				5	10183	allskills		1	1											helm														0
+Warm		1	1	1	10		7				500	10184	half-freeze		1	1											helm														0
+Lightning		1	1	1	25		20				100	10185	res-ltng-max		1	2											helm														0
+Lightning		1	1	1	45		35				100	10185	res-ltng-max		3	4											helm														0
+Lightning		1	1	1	65		55				100	10185	res-ltng-max		5	6											helm														0
+Lightning		1	1	1	85		75				100	10185	res-ltng-max		7	8											helm														0
+Cold		1	1	1	25		20				100	10186	res-cold-max		1	2											helm														0
+Cold		1	1	1	45		35				100	10186	res-cold-max		3	4											helm														0
+Cold		1	1	1	65		55				100	10186	res-cold-max		5	6											helm														0
+Cold		1	1	1	85		75				100	10186	res-cold-max		7	8											helm														0
+Fire		1	1	1	25		20				100	10187	res-fire-max		1	2											helm														0
+Fire		1	1	1	45		35				100	10187	res-fire-max		3	4											helm														0
+Fire		1	1	1	65		55				100	10187	res-fire-max		5	6											helm														0
+Fire		1	1	1	85		75				100	10187	res-fire-max		7	8											helm														0
+Poison		1	1	1	25		20				100	10188	res-pois-max		1	2											helm														0
+Poison		1	1	1	45		35				100	10188	res-pois-max		3	4											helm														0
+Poison		1	1	1	65		55				100	10188	res-pois-max		5	6											helm														0
+Poison		1	1	1	85		75				100	10188	res-pois-max		7	8											helm														0
+Poison		1	1	1	40		35				200	10189	res-all-max		1	1											helm														0
+Poison		1	1	1	80		70				200	10189	res-all-max		2	2											helm														0
+Blood Letting		1	1	1	1	26	1				100	10190	heal-kill		1	3											helm														0
+Murderous		1	1	1	26		20				100	10190	heal-kill		4	10											helm														0
+Blood Sucking		1	1	1	50		40				100	10190	heal-kill		11	25											helm														0
+Triumphant		1	1	1	1	26	1				100	10191	mana-kill		1	2											helm														0
+Victorious		1	1	1	26		20				100	10191	mana-kill		3	4											helm														0
+Aureolin		1	1	1	50		40				100	10191	mana-kill		5	6											helm														0
+Bulky		1	1	1	25		20				100	10192	red-dmg%		4	6											helm														0
+Bulky		1	1	1	50		40				100	10192	red-dmg%		7	9											helm														0
+Bulky		1	1	1	70		50				100	10192	red-dmg%		10	12											helm														0
+Skillful		1	1	1	30		30				5	10193	skill	6	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	7	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	8	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	9	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	10	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	11	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	12	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	13	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	14	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	15	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	16	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	17	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	18	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	19	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	20	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	21	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	22	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	23	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	24	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	25	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	26	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	27	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	28	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	29	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	30	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	31	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	32	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	33	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	34	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	35	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	36	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	37	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	38	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	39	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	40	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	41	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	42	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	43	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	44	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	45	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	46	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	47	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	48	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	49	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	50	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	51	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	52	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	53	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	54	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	55	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	56	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	57	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	58	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	59	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	60	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	61	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	62	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	63	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	64	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	65	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	66	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	67	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	68	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	69	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	70	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	71	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	72	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	73	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	74	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	75	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	76	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	77	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	78	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	79	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	80	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	81	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	82	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	83	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	84	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	85	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	86	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	87	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	88	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	89	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	90	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	91	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	92	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	93	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	94	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	95	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	96	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	97	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	98	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	99	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	100	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	101	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	102	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	103	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	104	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	105	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	106	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	107	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	108	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	109	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	110	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	111	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	112	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	113	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	114	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	115	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	116	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	117	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	118	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	119	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	120	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	121	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	122	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	123	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	124	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	125	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	126	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	128	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	130	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	131	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	132	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	133	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	134	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	135	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	137	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	138	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	139	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	140	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	141	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	142	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	143	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	144	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	145	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	146	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	147	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	148	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	149	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	150	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	151	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	152	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	153	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	154	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	155	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	221	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	222	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	223	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	224	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	225	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	226	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	227	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	228	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	229	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	230	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	231	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	232	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	233	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	234	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	235	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	236	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	237	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	238	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	239	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	240	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	241	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	242	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	243	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	244	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	245	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	246	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	247	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	248	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	249	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	250	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	251	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	252	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	253	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	254	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	255	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	256	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	257	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	258	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	259	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	260	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	261	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	262	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	263	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	264	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	265	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	266	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	267	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	268	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	269	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	270	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	271	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	272	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	273	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	274	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	275	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	276	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	277	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	278	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	279	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	280	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	364	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	365	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	366	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	367	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	368	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	369	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	370	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	371	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	374	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	376	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	378	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	380	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	381	1	2											helm							phlm	pelt						0
+Skillful		1	1	1	30		30				5	10193	skill	383	1	2											helm							phlm	pelt						0
+Bronze		1	1	1	1		1				100	10194	att	0	25	50											helm														0
+Iron		1	1	1	15		10				100	10194	att	0	51	75											helm														0
+Steel		1	1	1	25		20				100	10194	att	0	76	100											helm														0
+Silver		1	1	1	35		30				100	10194	att	0	101	125											helm														0
+Gold		1	1	1	45		40				100	10194	att	0	126	150											helm														0
+Platinum		1	1	1	55		50				100	10194	att	0	151	175											helm														0
+Meteoric		1	1	1	65		60				100	10194	att	0	176	200											helm														0
+Balancing		1	1	1	1		1				100	10198	balance1		8	11											helm														0
+Stable		1	1	1	30		25				100	10198	balance1		12	15											helm														0
+Maiden's		1	1	1	30		25	ama			100	10123	ama		1	1											helm							phlm	pelt						0
+Monk's		1	1	1	30		25	pal			100	10123	pal		1	1											helm							phlm	pelt						0
+Summoner's		1	1	1	30		25	nec			100	10123	nec		1	1											helm							phlm	pelt						0
+Angel's		1	1	1	30		25	sor			100	10123	sor		1	1											helm							phlm	pelt						0
+Slayer's		1	1	1	30		25	bar			100	10123	bar		1	1											helm							pelt							0
+Shaman's		1	1	1	30		25	dru			100	10123	dru		1	1											helm							phlm							0
+Magekiller's		1	1	1	30		25	ass			100	10123	ass		1	1											helm							phlm	pelt						0
+Maiden's		1	1	1	60		40	ama			100	10123	ama		2	2											helm							phlm	pelt						0
+Monk's		1	1	1	60		40	pal			100	10123	pal		2	2											helm							phlm	pelt						0
+Summoner's		1	1	1	60		40	nec			100	10123	nec		2	2											helm							phlm	pelt						0
+Angel's		1	1	1	60		40	sor			100	10123	sor		2	2											helm							phlm	pelt						0
+Slayer's		1	1	1	60		40	bar			100	10123	bar		2	2											helm							pelt							0
+Shaman's		1	1	1	60		40	dru			100	10123	dru		2	2											helm							phlm							0
+Magekiller's		1	1	1	60		40	ass			100	10123	ass		2	2											helm							phlm	pelt						0
+Mechanist's		1	1	1	1		1				100	10101	sock		1	1											helm														0
+Artificer's		1	1	1	33		25				100	10101	sock		2	2											helm														0
+Jeweler's		1	1	1	55		47				100	10101	sock		3	3											helm														0
+Jagged		1	1	1	1		1				100	10161	dmg%	0	25	50											tors														0
+Deadly		1	1	1	15		10				100	10161	dmg%	0	51	75											tors														0
+Vicious		1	1	1	30		25				100	10161	dmg%	0	76	100											tors														0
+Brutal		1	1	1	45		35				100	10161	dmg%	0	101	125											tors														0
+Massive		1	1	1	60		40				100	10161	dmg%	0	126	150											tors														0
+Savage		1	1	1	75		45				100	10161	dmg%	0	151	175											tors														0
+Rampaging		1	1	1	85		50				100	10161	dmg%	0	176	200											tors														0
+Savage		1	1	1	20		15				100	10162	deadly		5	10											tors														0
+Devastating		1	1	1	40		35				100	10162	deadly		11	15											tors														0
+Havoc		1	1	1	60		55				100	10162	deadly		16	20											tors														0
+Rookie’s		1	1	1	1		1				200	10166	addxp		3	6											tors														0
+Student’s		1	1	1	20		15				200	10166	addxp		7	10											tors														0
+Scholar’s		1	1	1	35		30				200	10166	addxp		10	15											tors														0
+Lucky		1	1	1	1		1				100	10168	mag%		15	25											tors														0
+Lucky		1	1	1	20		15				100	10168	mag%		26	35											tors														0
+Lucky		1	1	1	35		30				100	10168	mag%		36	45											tors														0
+Greedy		1	1	1	1		1				100	10169	gold%		40	80											tors														0
+Greedy		1	1	1	20		15				100	10169	gold%		81	120											tors														0
+Greedy		1	1	1	35		30				100	10169	gold%		121	160											tors														0
+Tangerine		1	1	1	1		1				100	10170	res-ltng		10	20											tors														0
+Ocher		1	1	1	25		20				100	10170	res-ltng		21	30											tors														0
+Coral		1	1	1	45		40				100	10170	res-ltng		31	40											tors														0
+Amber		1	1	1	65		60				100	10170	res-ltng		41	50											tors														0
+Azure		1	1	1	1		1				100	10171	res-cold		10	20											tors														0
+Lapis		1	1	1	25		20				100	10171	res-cold		21	30											tors														0
+Cobalt		1	1	1	45		40				100	10171	res-cold		31	40											tors														0
+Sapphire		1	1	1	65		60				100	10171	res-cold		41	50											tors														0
+Crimson		1	1	1	1		1				100	10172	res-fire		10	20											tors														0
+Burgundy		1	1	1	25		20				100	10172	res-fire		21	30											tors														0
+Garnet		1	1	1	45		40				100	10172	res-fire		31	40											tors														0
+Ruby		1	1	1	65		60				100	10172	res-fire		41	50											tors														0
+Beryl		1	1	1	1		1				100	10173	res-pois		10	20											tors														0
+Jade		1	1	1	25		20				100	10173	res-pois		21	30											tors														0
+Viridian		1	1	1	45		40				100	10173	res-pois		31	40											tors														0
+Emerald		1	1	1	65		60				100	10173	res-pois		41	50											tors														0
+Prismatic		1	1	1	1		1				100	10174	res-all		4	6											tors														0
+Prismatic		1	1	1	25		20				100	10174	res-all		7	9											tors														0
+Prismatic		1	1	1	45		40				100	10174	res-all		10	12											tors														0
+Prismatic		1	1	1	65		60				100	10174	res-all		13	15											tors														0
+Tank’s		1	1	1	25		20				100	10175	hp%		3	4											tors														0
+Tank’s		1	1	1	40		30				100	10175	hp%		5	6											tors														0
+Tank’s		1	1	1	55		35				100	10175	hp%		7	8											tors														0
+Tank’s		1	1	1	70		40				100	10175	hp%		9	10											tors														0
+Life’s		1	1	1	1	26	1				100	10176	hp		10	25											tors														0
+Jackal’s		1	1	1	15		10				100	10176	hp		26	40											tors														0
+Fox’s		1	1	1	25		20				100	10176	hp		41	55											tors														0
+Wolf’s		1	1	1	35		30				100	10176	hp		56	70											tors														0
+Tiger’s		1	1	1	45		40				100	10176	hp		71	85											tors														0
+Mammoth’s		1	1	1	55		50				100	10176	hp		86	100											tors														0
+Colosuss’s		1	1	1	65		60				100	10176	hp		101	115											tors														0
+Whale’s		1	1	1	75		70				100	10176	hp		116	130											tors														0
+Lizard's		1	1	1	1	26	1				100	10177	mana		10	20											tors														0
+Snake's		1	1	1	15		10				100	10177	mana		21	35											tors														0
+Serpent's		1	1	1	25		20				100	10177	mana		36	55											tors														0
+Drake's		1	1	1	35		30				100	10177	mana		56	80											tors														0
+Dragon's		1	1	1	45		40				100	10177	mana		81	110											tors														0
+Conduit		1	1	1	1		1				100	10181	extra-ltng		10	20											tors														0
+Conduit		1	1	1	30		25				100	10181	extra-ltng		21	30											tors														0
+Numbing		1	1	1	1		1				100	10181	extra-cold		10	20											tors														0
+Numbing		1	1	1	30		25				100	10181	extra-cold		21	30											tors														0
+Inferno		1	1	1	1		1				100	10181	extra-fire		10	20											tors														0
+Inferno		1	1	1	30		25				100	10181	extra-fire		21	30											tors														0
+Infectious		1	1	1	1		1				100	10181	extra-pois		10	20											tors														0
+Infectious		1	1	1	30		25				100	10181	extra-pois		21	30											tors														0
+Scintillating		1	1	1	1		1				100	10181	extra-magi		10	20											tors														0
+Scintillating		1	1	1	30		25				100	10181	extra-magi		21	30											tors														0
+Discharging		1	1	1	1		1				100	10182	pierce-ltng		4	6											tors														0
+Discharging		1	1	1	30		25				100	10182	pierce-ltng		7	9											tors														0
+Frigid		1	1	1	1		1				100	10182	pierce-cold		4	6											tors														0
+Frigid		1	1	1	30		25				100	10182	pierce-cold		7	9											tors														0
+Wildfire		1	1	1	1		1				100	10182	pierce-fire		4	6											tors														0
+Wildfire		1	1	1	30		25				100	10182	pierce-fire		7	9											tors														0
+Malicious		1	1	1	1		1				100	10182	pierce-pois		4	6											tors														0
+Malicious		1	1	1	30		25				100	10182	pierce-pois		7	9											tors														0
+Lethal		1	1	1	1		1				100	10182	pierce-phys		4	6											tors														0
+Lethal		1	1	1	30		25				100	10182	pierce-phys		7	9											tors														0
+Superior		1	1	1	50		42				5	10183	allskills		1	1											tors														0
+Warm		1	1	1	10		7				500	10184	half-freeze		1	1											tors														0
+Lightning		1	1	1	25		20				100	10185	res-ltng-max		1	2											tors														0
+Lightning		1	1	1	45		35				100	10185	res-ltng-max		3	4											tors														0
+Lightning		1	1	1	65		55				100	10185	res-ltng-max		5	6											tors														0
+Lightning		1	1	1	85		75				100	10185	res-ltng-max		7	8											tors														0
+Cold		1	1	1	25		20				100	10186	res-cold-max		1	2											tors														0
+Cold		1	1	1	45		35				100	10186	res-cold-max		3	4											tors														0
+Cold		1	1	1	65		55				100	10186	res-cold-max		5	6											tors														0
+Cold		1	1	1	85		75				100	10186	res-cold-max		7	8											tors														0
+Fire		1	1	1	25		20				100	10187	res-fire-max		1	2											tors														0
+Fire		1	1	1	45		35				100	10187	res-fire-max		3	4											tors														0
+Fire		1	1	1	65		55				100	10187	res-fire-max		5	6											tors														0
+Fire		1	1	1	85		75				100	10187	res-fire-max		7	8											tors														0
+Poison		1	1	1	25		20				100	10188	res-pois-max		1	2											tors														0
+Poison		1	1	1	45		35				100	10188	res-pois-max		3	4											tors														0
+Poison		1	1	1	65		55				100	10188	res-pois-max		5	6											tors														0
+Poison		1	1	1	85		75				100	10188	res-pois-max		7	8											tors														0
+Poison		1	1	1	40		35				200	10189	res-all-max		1	1											tors														0
+Poison		1	1	1	80		70				200	10189	res-all-max		2	2											tors														0
+Blood Letting		1	1	1	1	26	1				100	10190	heal-kill		1	3											tors														0
+Murderous		1	1	1	26		20				100	10190	heal-kill		4	10											tors														0
+Blood Sucking		1	1	1	50		40				100	10190	heal-kill		11	25											tors														0
+Triumphant		1	1	1	1	26	1				100	10191	mana-kill		1	2											tors														0
+Victorious		1	1	1	26		20				100	10191	mana-kill		3	4											tors														0
+Aureolin		1	1	1	50		40				100	10191	mana-kill		5	6											tors														0
+Bulky		1	1	1	25		20				100	10192	red-dmg%		5	8											tors														0
+Bulky		1	1	1	40		30				100	10192	red-dmg%		9	12											tors														0
+Bulky		1	1	1	55		35				100	10192	red-dmg%		13	16											tors														0
+Bulky		1	1	1	70		40				100	10192	red-dmg%		17	20											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	6	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	7	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	8	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	9	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	10	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	11	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	12	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	13	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	14	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	15	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	16	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	17	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	18	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	19	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	20	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	21	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	22	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	23	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	24	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	25	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	26	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	27	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	28	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	29	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	30	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	31	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	32	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	33	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	34	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	35	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	36	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	37	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	38	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	39	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	40	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	41	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	42	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	43	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	44	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	45	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	46	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	47	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	48	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	49	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	50	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	51	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	52	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	53	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	54	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	55	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	56	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	57	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	58	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	59	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	60	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	61	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	62	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	63	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	64	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	65	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	66	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	67	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	68	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	69	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	70	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	71	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	72	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	73	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	74	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	75	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	76	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	77	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	78	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	79	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	80	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	81	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	82	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	83	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	84	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	85	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	86	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	87	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	88	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	89	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	90	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	91	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	92	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	93	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	94	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	95	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	96	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	97	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	98	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	99	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	100	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	101	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	102	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	103	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	104	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	105	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	106	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	107	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	108	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	109	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	110	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	111	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	112	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	113	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	114	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	115	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	116	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	117	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	118	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	119	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	120	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	121	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	122	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	123	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	124	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	125	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	126	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	128	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	130	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	131	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	132	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	133	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	134	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	135	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	137	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	138	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	139	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	140	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	141	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	142	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	143	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	144	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	145	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	146	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	147	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	148	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	149	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	150	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	151	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	152	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	153	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	154	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	155	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	221	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	222	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	223	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	224	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	225	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	226	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	227	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	228	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	229	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	230	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	231	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	232	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	233	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	234	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	235	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	236	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	237	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	238	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	239	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	240	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	241	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	242	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	243	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	244	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	245	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	246	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	247	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	248	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	249	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	250	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	251	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	252	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	253	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	254	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	255	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	256	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	257	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	258	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	259	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	260	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	261	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	262	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	263	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	264	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	265	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	266	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	267	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	268	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	269	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	270	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	271	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	272	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	273	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	274	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	275	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	276	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	277	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	278	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	279	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	280	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	364	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	365	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	366	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	367	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	368	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	369	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	370	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	371	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	374	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	376	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	378	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	380	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	381	1	2											tors														0
+Skillful		1	1	1	30		30				5	10193	skill	383	1	2											tors														0
+Bronze		1	1	1	1		1				100	10194	att	0	25	50											tors														0
+Iron		1	1	1	15		10				100	10194	att	0	51	75											tors														0
+Steel		1	1	1	25		20				100	10194	att	0	76	100											tors														0
+Silver		1	1	1	35		30				100	10194	att	0	101	125											tors														0
+Gold		1	1	1	45		40				100	10194	att	0	126	150											tors														0
+Platinum		1	1	1	55		50				100	10194	att	0	151	175											tors														0
+Meteoric		1	1	1	65		60				100	10194	att	0	176	200											tors														0
+Balancing		1	1	1	1		1				100	10198	balance1		10	20											tors														0
+Stable		1	1	1	30		25				100	10198	balance1		21	30											tors														0
+Maiden's		1	1	1	30		25	ama			100	10123	ama		1	1											tors														0
+Monk's		1	1	1	30		25	pal			100	10123	pal		1	1											tors														0
+Summoner's		1	1	1	30		25	nec			100	10123	nec		1	1											tors														0
+Angel's		1	1	1	30		25	sor			100	10123	sor		1	1											tors														0
+Slayer's		1	1	1	30		25	bar			100	10123	bar		1	1											tors														0
+Shaman's		1	1	1	30		25	dru			100	10123	dru		1	1											tors														0
+Magekiller's		1	1	1	30		25	ass			100	10123	ass		1	1											tors														0
+Maiden's		1	1	1	60		40	ama			100	10123	ama		2	2											tors														0
+Monk's		1	1	1	60		40	pal			100	10123	pal		2	2											tors														0
+Summoner's		1	1	1	60		40	nec			100	10123	nec		2	2											tors														0
+Angel's		1	1	1	60		40	sor			100	10123	sor		2	2											tors														0
+Slayer's		1	1	1	60		40	bar			100	10123	bar		2	2											tors														0
+Shaman's		1	1	1	60		40	dru			100	10123	dru		2	2											tors														0
+Magekiller's		1	1	1	60		40	ass			100	10123	ass		2	2											tors														0
+Apprentice’s		1	1	1	1		1				100	10132	cast1		5	15											tors														0
+Magus’s		1	1	1	50		40				100	10132	cast1		16	30											tors														0
+Mechanist's		1	1	1	1		1				100	10101	sock		1	1											tors														0
+Artificer's		1	1	1	33		25				100	10101	sock		2	2											tors														0
+Jeweler's		1	1	1	55		47				100	10101	sock		3	3											tors														0
+Jagged		1	1	1	1		1				100	10161	dmg%	0	25	50											shld														0
+Deadly		1	1	1	15		10				100	10161	dmg%	0	51	75											shld														0
+Vicious		1	1	1	30		25				100	10161	dmg%	0	76	100											shld														0
+Brutal		1	1	1	45		35				100	10161	dmg%	0	101	125											shld														0
+Massive		1	1	1	60		40				100	10161	dmg%	0	126	150											shld														0
+Savage		1	1	1	75		45				100	10161	dmg%	0	151	175											shld														0
+Rampaging		1	1	1	85		50				100	10161	dmg%	0	176	200											shld														0
+Savage		1	1	1	20		15				100	10162	deadly		5	10											shld														0
+Devastating		1	1	1	40		35				100	10162	deadly		11	15											shld														0
+Havoc		1	1	1	60		55				100	10162	deadly		16	20											shld														0
+Rookie’s		1	1	1	1		1				200	10166	addxp		3	6											shld														0
+Student’s		1	1	1	20		15				200	10166	addxp		7	10											shld														0
+Lucky		1	1	1	1		1				100	10168	mag%		15	25											shld														0
+Lucky		1	1	1	20		15				100	10168	mag%		26	35											shld														0
+Lucky		1	1	1	35		30				100	10168	mag%		36	45											shld														0
+Greedy		1	1	1	1		1				100	10169	gold%		40	80											shld														0
+Greedy		1	1	1	20		15				100	10169	gold%		81	120											shld														0
+Greedy		1	1	1	35		30				100	10169	gold%		121	160											shld														0
+Tangerine		1	1	1	1		1				100	10170	res-ltng		10	20											shld														0
+Ocher		1	1	1	25		20				100	10170	res-ltng		21	30											shld														0
+Coral		1	1	1	45		40				100	10170	res-ltng		31	40											shld														0
+Amber		1	1	1	65		60				100	10170	res-ltng		41	50											shld														0
+Azure		1	1	1	1		1				100	10171	res-cold		10	20											shld														0
+Lapis		1	1	1	25		20				100	10171	res-cold		21	30											shld														0
+Cobalt		1	1	1	45		40				100	10171	res-cold		31	40											shld														0
+Sapphire		1	1	1	65		60				100	10171	res-cold		41	50											shld														0
+Crimson		1	1	1	1		1				100	10172	res-fire		10	20											shld														0
+Burgundy		1	1	1	25		20				100	10172	res-fire		21	30											shld														0
+Garnet		1	1	1	45		40				100	10172	res-fire		31	40											shld														0
+Ruby		1	1	1	65		60				100	10172	res-fire		41	50											shld														0
+Beryl		1	1	1	1		1				100	10173	res-pois		10	20											shld														0
+Jade		1	1	1	25		20				100	10173	res-pois		21	30											shld														0
+Viridian		1	1	1	45		40				100	10173	res-pois		31	40											shld														0
+Emerald		1	1	1	65		60				100	10173	res-pois		41	50											shld														0
+Prismatic		1	1	1	1		1				100	10174	res-all		4	6											shld														0
+Prismatic		1	1	1	25		20				100	10174	res-all		7	9											shld														0
+Prismatic		1	1	1	45		40				100	10174	res-all		10	12											shld														0
+Prismatic		1	1	1	65		60				100	10174	res-all		13	15											shld														0
+Tank’s		1	1	1	25		20				100	10175	hp%		3	4											shld														0
+Tank’s		1	1	1	40		30				100	10175	hp%		5	6											shld														0
+Tank’s		1	1	1	55		35				100	10175	hp%		7	8											shld														0
+Tank’s		1	1	1	70		40				100	10175	hp%		9	10											shld														0
+Life’s		1	1	1	1	26	1				100	10176	hp		10	25											shld														0
+Jackal’s		1	1	1	15		10				100	10176	hp		26	40											shld														0
+Fox’s		1	1	1	25		20				100	10176	hp		41	55											shld														0
+Wolf’s		1	1	1	35		30				100	10176	hp		56	70											shld														0
+Tiger’s		1	1	1	45		40				100	10176	hp		71	85											shld														0
+Mammoth’s		1	1	1	55		50				100	10176	hp		86	100											shld														0
+Colosuss’s		1	1	1	65		60				100	10176	hp		101	115											shld														0
+Whale’s		1	1	1	75		70				100	10176	hp		116	130											shld														0
+Lizard's		1	1	1	1	26	1				100	10177	mana		10	20											shld														0
+Snake's		1	1	1	15		10				100	10177	mana		21	35											shld														0
+Serpent's		1	1	1	25		20				100	10177	mana		36	55											shld														0
+Drake's		1	1	1	35		30				100	10177	mana		56	80											shld														0
+Dragon's		1	1	1	45		40				100	10177	mana		81	110											shld														0
+Conduit		1	1	1	1		1				100	10181	extra-ltng		10	20											shld														0
+Conduit		1	1	1	30		25				100	10181	extra-ltng		21	30											shld														0
+Numbing		1	1	1	1		1				100	10181	extra-cold		10	20											shld														0
+Numbing		1	1	1	30		25				100	10181	extra-cold		21	30											shld														0
+Inferno		1	1	1	1		1				100	10181	extra-fire		10	20											shld														0
+Inferno		1	1	1	30		25				100	10181	extra-fire		21	30											shld														0
+Infectious		1	1	1	1		1				100	10181	extra-pois		10	20											shld														0
+Infectious		1	1	1	30		25				100	10181	extra-pois		21	30											shld														0
+Scintillating		1	1	1	1		1				100	10181	extra-magi		10	20											shld														0
+Scintillating		1	1	1	30		25				100	10181	extra-magi		21	30											shld														0
+Discharging		1	1	1	1		1				100	10182	pierce-ltng		4	6											shld														0
+Discharging		1	1	1	30		25				100	10182	pierce-ltng		7	9											shld														0
+Frigid		1	1	1	1		1				100	10182	pierce-cold		4	6											shld														0
+Frigid		1	1	1	30		25				100	10182	pierce-cold		7	9											shld														0
+Wildfire		1	1	1	1		1				100	10182	pierce-fire		4	6											shld														0
+Wildfire		1	1	1	30		25				100	10182	pierce-fire		7	9											shld														0
+Malicious		1	1	1	1		1				100	10182	pierce-pois		4	6											shld														0
+Malicious		1	1	1	30		25				100	10182	pierce-pois		7	9											shld														0
+Lethal		1	1	1	1		1				100	10182	pierce-phys		4	6											shld														0
+Lethal		1	1	1	30		25				100	10182	pierce-phys		7	9											shld														0
+Superior		1	1	1	50		42				5	10183	allskills		1	1											shld														0
+Warm		1	1	1	10		7				500	10184	half-freeze		1	1											shld														0
+Lightning		1	1	1	25		20				100	10185	res-ltng-max		1	2											shld														0
+Lightning		1	1	1	45		35				100	10185	res-ltng-max		3	4											shld														0
+Lightning		1	1	1	65		55				100	10185	res-ltng-max		5	6											shld														0
+Lightning		1	1	1	85		75				100	10185	res-ltng-max		7	8											shld														0
+Cold		1	1	1	25		20				100	10186	res-cold-max		1	2											shld														0
+Cold		1	1	1	45		35				100	10186	res-cold-max		3	4											shld														0
+Cold		1	1	1	65		55				100	10186	res-cold-max		5	6											shld														0
+Cold		1	1	1	85		75				100	10186	res-cold-max		7	8											shld														0
+Fire		1	1	1	25		20				100	10187	res-fire-max		1	2											shld														0
+Fire		1	1	1	45		35				100	10187	res-fire-max		3	4											shld														0
+Fire		1	1	1	65		55				100	10187	res-fire-max		5	6											shld														0
+Fire		1	1	1	85		75				100	10187	res-fire-max		7	8											shld														0
+Poison		1	1	1	25		20				100	10188	res-pois-max		1	2											shld														0
+Poison		1	1	1	45		35				100	10188	res-pois-max		3	4											shld														0
+Poison		1	1	1	65		55				100	10188	res-pois-max		5	6											shld														0
+Poison		1	1	1	85		75				100	10188	res-pois-max		7	8											shld														0
+Poison		1	1	1	40		35				200	10189	res-all-max		1	1											shld														0
+Poison		1	1	1	80		70				200	10189	res-all-max		2	2											shld														0
+Blood Letting		1	1	1	1	26	1				100	10190	heal-kill		1	3											shld														0
+Murderous		1	1	1	26		20				100	10190	heal-kill		4	10											shld														0
+Blood Sucking		1	1	1	50		40				100	10190	heal-kill		11	25											shld														0
+Triumphant		1	1	1	1	26	1				100	10191	mana-kill		1	2											shld														0
+Victorious		1	1	1	26		20				100	10191	mana-kill		3	4											shld														0
+Aureolin		1	1	1	50		40				100	10191	mana-kill		5	6											shld														0
+Bulky		1	1	1	25		20				100	10192	red-dmg%		5	8											shld														0
+Bulky		1	1	1	40		30				100	10192	red-dmg%		9	12											shld														0
+Bulky		1	1	1	55		35				100	10192	red-dmg%		13	16											shld														0
+Bulky		1	1	1	70		40				100	10192	red-dmg%		17	20											shld														0
+Skillful		1	1	1	30		30				5	10193	skill	6	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	7	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	8	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	9	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	10	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	11	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	12	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	13	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	14	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	15	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	16	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	17	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	18	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	19	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	20	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	21	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	22	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	23	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	24	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	25	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	26	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	27	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	28	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	29	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	30	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	31	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	32	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	33	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	34	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	35	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	36	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	37	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	38	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	39	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	40	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	41	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	42	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	43	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	44	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	45	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	46	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	47	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	48	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	49	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	50	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	51	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	52	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	53	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	54	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	55	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	56	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	57	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	58	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	59	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	60	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	61	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	62	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	63	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	64	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	65	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	66	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	67	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	68	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	69	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	70	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	71	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	72	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	73	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	74	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	75	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	76	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	77	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	78	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	79	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	80	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	81	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	82	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	83	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	84	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	85	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	86	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	87	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	88	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	89	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	90	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	91	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	92	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	93	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	94	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	95	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	96	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	97	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	98	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	99	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	100	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	101	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	102	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	103	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	104	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	105	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	106	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	107	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	108	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	109	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	110	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	111	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	112	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	113	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	114	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	115	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	116	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	117	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	118	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	119	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	120	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	121	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	122	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	123	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	124	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	125	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	126	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	128	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	130	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	131	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	132	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	133	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	134	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	135	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	137	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	138	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	139	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	140	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	141	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	142	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	143	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	144	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	145	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	146	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	147	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	148	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	149	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	150	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	151	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	152	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	153	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	154	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	155	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	221	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	222	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	223	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	224	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	225	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	226	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	227	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	228	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	229	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	230	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	231	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	232	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	233	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	234	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	235	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	236	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	237	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	238	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	239	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	240	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	241	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	242	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	243	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	244	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	245	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	246	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	247	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	248	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	249	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	250	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	251	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	252	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	253	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	254	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	255	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	256	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	257	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	258	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	259	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	260	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	261	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	262	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	263	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	264	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	265	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	266	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	267	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	268	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	269	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	270	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	271	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	272	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	273	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	274	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	275	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	276	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	277	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	278	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	279	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	280	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	364	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	365	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	366	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	367	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	368	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	369	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	370	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	371	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	374	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	376	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	378	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	380	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	381	1	2											shld							ashd							0
+Skillful		1	1	1	30		30				5	10193	skill	383	1	2											shld							ashd							0
+Bronze		1	1	1	1		1				100	10194	att	0	25	50											shld														0
+Iron		1	1	1	15		10				100	10194	att	0	51	75											shld														0
+Steel		1	1	1	25		20				100	10194	att	0	76	100											shld														0
+Silver		1	1	1	35		30				100	10194	att	0	101	125											shld														0
+Gold		1	1	1	45		40				100	10194	att	0	126	150											shld														0
+Platinum		1	1	1	55		50				100	10194	att	0	151	175											shld														0
+Meteoric		1	1	1	65		60				100	10194	att	0	176	200											shld														0
+Balancing		1	1	1	1		1				100	10198	balance1		10	20											shld														0
+Stable		1	1	1	30		25				100	10198	balance1		21	30											shld														0
+Maiden's		1	1	1	30		25	ama			100	10123	ama		1	1											shld							ashd							0
+Monk's		1	1	1	30		25	pal			100	10123	pal		1	1											shld														0
+Summoner's		1	1	1	30		25	nec			100	10123	nec		1	1											shld							ashd							0
+Angel's		1	1	1	30		25	sor			100	10123	sor		1	1											shld							ashd							0
+Slayer's		1	1	1	30		25	bar			100	10123	bar		1	1											shld							ashd							0
+Shaman's		1	1	1	30		25	dru			100	10123	dru		1	1											shld							ashd							0
+Magekiller's		1	1	1	30		25	ass			100	10123	ass		1	1											shld							ashd							0
+Maiden's		1	1	1	60		40	ama			100	10123	ama		2	2											shld							ashd							0
+Monk's		1	1	1	60		40	pal			100	10123	pal		2	2											shld														0
+Summoner's		1	1	1	60		40	nec			100	10123	nec		2	2											shld							ashd							0
+Angel's		1	1	1	60		40	sor			100	10123	sor		2	2											shld							ashd							0
+Slayer's		1	1	1	60		40	bar			100	10123	bar		2	2											shld							ashd							0
+Shaman's		1	1	1	60		40	dru			100	10123	dru		2	2											shld							ashd							0
+Magekiller's		1	1	1	60		40	ass			100	10123	ass		2	2											shld							ashd							0
+Apprentice’s		1	1	1	1		1				100	10132	cast1		5	15											shld														0
+Magus’s		1	1	1	50		40				100	10132	cast1		16	30											shld														0
+Mechanist's		1	1	1	1		1				100	10101	sock		1	1											shld														0
+Artificer's		1	1	1	33		25				100	10101	sock		2	2											shld														0
+Jeweler's		1	1	1	55		47				100	10101	sock		3	3											shld														0
+Jagged		1	1	1	1		1				100	10101	dmg%	0	10	15											belt														0
+Deadly		1	1	1	15		10				100	10101	dmg%	0	16	20											belt														0
+Vicious		1	1	1	30		25				100	10101	dmg%	0	21	25											belt														0
+Brutal		1	1	1	45		40				100	10101	dmg%	0	26	30											belt														0
+Massive		1	1	1	60		55				100	10101	dmg%	0	31	40											belt														0
+Savage		1	1	1	20		15				100	10102	deadly		5	10											belt														0
+Ready		1	1	1	1		1				100	10103	swing1		5	7											belt														0
+Swift		1	1	1	30		25				100	10103	swing2		8	10											belt														0
+Red		1	1	1	1		1				100	10104	dmg-min		1	3											belt														0
+Sanguinary		1	1	1	15		10				100	10104	dmg-min		4	6											belt														0
+Bloody		1	1	1	30		25				100	10104	dmg-min		7	9											belt														0
+Scarlet		1	1	1	50		45				100	10104	dmg-min		10	12											belt														0
+Jagged		1	1	1	1		1				100	10105	dmg-max		1	3											belt														0
+Forked		1	1	1	15		10				100	10105	dmg-max		4	6											belt														0
+Serrated		1	1	1	30		25				100	10105	dmg-max		7	9											belt														0
+Vermillion		1	1	1	50		45				100	10105	dmg-max		10	12											belt														0
+Rookie’s		1	1	1	1		1				100	10106	addxp		3	5											belt														0
+Student’s		1	1	1	20		15				100	10106	addxp		6	9											belt														0
+Scholar’s		1	1	1	35		30				100	10106	addxp		10	15											belt														0
+Lucky		1	1	1	1		1				100	10107	mag%		15	25											belt														0
+Lucky		1	1	1	20		15				100	10107	mag%		26	35											belt														0
+Lucky		1	1	1	35		30				100	10107	mag%		36	45											belt														0
+Greedy		1	1	1	1		1				100	10108	gold%		40	60											belt														0
+Greedy		1	1	1	20		15				100	10108	gold%		61	80											belt														0
+Greedy		1	1	1	35		30				100	10108	gold%		81	100											belt														0
+Bronze		1	1	1	1		1				100	10109	att	0	20	40											belt														0
+Iron		1	1	1	15		10				100	10109	att	0	41	60											belt														0
+Steel		1	1	1	25		20				100	10109	att	0	61	80											belt														0
+Silver		1	1	1	35		30				100	10109	att	0	81	100											belt														0
+Gold		1	1	1	45		40				100	10109	att	0	101	120											belt														0
+Platinum		1	1	1	55		50				100	10109	att	0	121	140											belt														0
+Meteoric		1	1	1	65		60				100	10109	att	0	141	160											belt														0
+Tangerine		1	1	1	1		1				100	10110	res-ltng		10	20											belt														0
+Ocher		1	1	1	25		20				100	10110	res-ltng		21	30											belt														0
+Coral		1	1	1	45		40				100	10110	res-ltng		31	40											belt														0
+Azure		1	1	1	1		1				100	10111	res-cold		10	20											belt														0
+Lapis		1	1	1	25		20				100	10111	res-cold		21	30											belt														0
+Cobalt		1	1	1	45		40				100	10111	res-cold		31	40											belt														0
+Crimson		1	1	1	1		1				100	10112	res-fire		10	20											belt														0
+Burgundy		1	1	1	25		20				100	10112	res-fire		21	30											belt														0
+Garnet		1	1	1	45		40				100	10112	res-fire		31	40											belt														0
+Beryl		1	1	1	1		1				100	10113	res-pois		10	20											belt														0
+Jade		1	1	1	25		20				100	10113	res-pois		21	30											belt														0
+Viridian		1	1	1	45		40				100	10113	res-pois		31	40											belt														0
+Prismatic		1	1	1	1		1				100	10114	res-all		4	6											belt														0
+Prismatic		1	1	1	25		20				100	10114	res-all		7	9											belt														0
+Prismatic		1	1	1	45		40				100	10114	res-all		10	12											belt														0
+Tank’s		1	1	1	25		20				100	10175	hp%		2	3											belt														0
+Tank’s		1	1	1	50		45				100	10175	hp%		4	5											belt														0
+Life’s		1	1	1	1	26	1				100	10176	hp		10	20											belt														0
+Jackal’s		1	1	1	15		10				100	10176	hp		21	30											belt														0
+Fox’s		1	1	1	25		20				100	10176	hp		31	40											belt														0
+Wolf’s		1	1	1	35		30				100	10176	hp		41	50											belt														0
+Tiger’s		1	1	1	45		40				100	10176	hp		51	60											belt														0
+Mammoth’s		1	1	1	55		50				100	10176	hp		61	70											belt														0
+Colosuss’s		1	1	1	65		60				100	10176	hp		71	80											belt														0
+Whale’s		1	1	1	75		70				100	10176	hp		81	90											belt														0
+Ember		1	1	1	1	26	1				100	10118	fire-min		5	6	fire-max		10	12							belt														0
+Smoldering		1	1	1	35		26				100	10118	fire-min		30	35	fire-max		40	50							belt														0
+Smoking		1	1	1	47		37				100	10118	fire-min		80	90	fire-max		120	135							belt														0
+Flaming		1	1	1	61		51				100	10118	fire-min		180	200	fire-max		250	280							belt														0
+Static		1	1	1	1	26	1				100	10119	ltng-min		1	1	ltng-max		14	17							belt														0
+Glowing		1	1	1	35		26				100	10119	ltng-min		1	1	ltng-max		69	84							belt														0
+Buzzing		1	1	1	47		37				100	10119	ltng-min		1	1	ltng-max		199	224							belt														0
+Arcing		1	1	1	61		51				100	10119	ltng-min		1	1	ltng-max		429	479							belt														0
+Cold		1	1	1	1	26	1				100	10120	cold-len		50	50	cold-min		5	6	cold-max		10	12			belt														0
+Snowflake		1	1	1	35		26				100	10120	cold-len		50	50	cold-min		30	35	cold-max		40	50			belt														0
+Shivering		1	1	1	47		37				100	10120	cold-len		50	50	cold-min		80	90	cold-max		120	135			belt														0
+Boreal		1	1	1	61		51				100	10120	cold-len		50	50	cold-min		180	200	cold-max		250	280			belt														0
+Conduit		1	1	1	1		1				100	10121	extra-ltng		5	10											belt														0
+Conduit		1	1	1	30		25				100	10121	extra-ltng		11	15											belt														0
+Conduit		1	1	1	50		45				100	10121	extra-ltng		16	20											belt														0
+Numbing		1	1	1	1		1				100	10121	extra-cold		5	10											belt														0
+Numbing		1	1	1	30		25				100	10121	extra-cold		11	15											belt														0
+Numbing		1	1	1	50		45				100	10121	extra-cold		16	20											belt														0
+Inferno		1	1	1	1		1				100	10121	extra-fire		5	10											belt														0
+Inferno		1	1	1	30		25				100	10121	extra-fire		11	15											belt														0
+Inferno		1	1	1	50		45				100	10121	extra-fire		16	20											belt														0
+Infectious		1	1	1	1		1				100	10121	extra-pois		5	10											belt														0
+Infectious		1	1	1	30		25				100	10121	extra-pois		11	15											belt														0
+Infectious		1	1	1	50		45				100	10121	extra-pois		16	20											belt														0
+Scintillating		1	1	1	1		1				100	10121	extra-magi		5	10											belt														0
+Scintillating		1	1	1	30		25				100	10121	extra-magi		11	15											belt														0
+Scintillating		1	1	1	50		45				100	10121	extra-magi		16	20											belt														0
+Discharging		1	1	1	1		1				100	10122	pierce-ltng		2	3											belt														0
+Discharging		1	1	1	30		25				100	10122	pierce-ltng		4	5											belt														0
+Discharging		1	1	1	50		45				100	10122	pierce-ltng		6	7											belt														0
+Frigid		1	1	1	1		1				100	10122	pierce-cold		2	3											belt														0
+Frigid		1	1	1	30		25				100	10122	pierce-cold		4	5											belt														0
+Frigid		1	1	1	50		45				100	10122	pierce-cold		6	7											belt														0
+Wildfire		1	1	1	1		1				100	10122	pierce-fire		2	3											belt														0
+Wildfire		1	1	1	30		25				100	10122	pierce-fire		4	5											belt														0
+Wildfire		1	1	1	50		45				100	10122	pierce-fire		6	7											belt														0
+Malicious		1	1	1	1		1				100	10122	pierce-pois		2	3											belt														0
+Malicious		1	1	1	30		25				100	10122	pierce-pois		4	5											belt														0
+Malicious		1	1	1	50		45				100	10122	pierce-pois		6	7											belt														0
+Lethal		1	1	1	1		1				100	10122	pierce-phys		2	3											belt														0
+Lethal		1	1	1	30		25				100	10122	pierce-phys		4	5											belt														0
+Lethal		1	1	1	50		45				100	10122	pierce-phys		6	7											belt														0
+Maiden's		1	1	1	30		25	ama			100	10123	ama		1	1											belt														0
+Monk's		1	1	1	30		25	pal			100	10123	pal		1	1											belt														0
+Summoner's		1	1	1	30		25	nec			100	10123	nec		1	1											belt														0
+Angel's		1	1	1	30		25	sor			100	10123	sor		1	1											belt														0
+Slayer's		1	1	1	30		25	bar			100	10123	bar		1	1											belt														0
+Shaman's		1	1	1	30		25	dru			100	10123	dru		1	1											belt														0
+Magekiller's		1	1	1	30		25	ass			100	10123	ass		1	1											belt														0
+Warm		1	1	1	10		7				300	10124	half-freeze		1	1											belt														0
+Leech		1	1	1	6		4				100	10125	lifesteal		3	5											belt														0
+Locust		1	1	1	20		15				100	10125	lifesteal		6	8											belt														0
+Bat		1	1	1	6		4				100	10126	manasteal		3	5											belt														0
+Vampire		1	1	1	20		15				100	10126	manasteal		6	8											belt														0
+Lightning		1	1	1	25		20				100	10127	res-ltng-max		1	2											belt														0
+Lightning		1	1	1	45		35				100	10127	res-ltng-max		3	4											belt														0
+Cold		1	1	1	25		20				100	10128	res-cold-max		1	2											belt														0
+Cold		1	1	1	45		35				100	10128	res-cold-max		3	4											belt														0
+Fire		1	1	1	25		20				100	10129	res-fire-max		1	2											belt														0
+Fire		1	1	1	45		35				100	10129	res-fire-max		3	4											belt														0
+Poison		1	1	1	25		20				100	10130	res-pois-max		1	2											belt														0
+Poison		1	1	1	45		35				100	10130	res-pois-max		3	4											belt														0
+Prismatic		1	1	1	40		35				200	10131	res-all-max		1	1											belt														0
+Apprentice’s		1	1	1	1		1				100	10132	cast1		5	10											belt														0
+Magus’s		1	1	1	50		40				100	10132	cast1		11	15											belt														0
+Blood Letting		1	1	1	1	26	1				100	10133	heal-kill		1	2											belt														0
+Murderous		1	1	1	26		20				100	10133	heal-kill		3	7											belt														0
+Blood Sucking		1	1	1	50		40				100	10133	heal-kill		8	15											belt														0
+Triumphant		1	1	1	1	26	1				100	10134	mana-kill		1	1											belt														0
+Victorious		1	1	1	26		20				100	10134	mana-kill		2	2											belt														0
+Aureolin		1	1	1	50		40				100	10134	mana-kill		3	3											belt														0
+Bulky		1	1	1	25		20				100	10192	red-dmg%		5	6											belt														0
+Bulky		1	1	1	40		30				100	10192	red-dmg%		7	8											belt														0
+Bulky		1	1	1	55		35				100	10192	red-dmg%		9	10											belt														0
+Bulky		1	1	1	70		40				100	10192	red-dmg%		11	12											belt														0
+Balancing		1	1	1	1		1				100	10198	balance1		10	20											belt														0
+Stable		1	1	1	30		25				100	10198	balance1		21	30											belt														0
+Jagged		1	1	1	1		1				100	10064	dmg%	0	50	100											weap														0
+Deadly		1	1	1	15		10				100	10064	dmg%	0	101	150											weap														0
+Vicious		1	1	1	25		25				100	10064	dmg%	0	151	200											weap														0
+Brutal		1	1	1	35		40				100	10064	dmg%	0	201	250											weap														0
+Massive		1	1	1	45		55				100	10064	dmg%	0	251	300											weap														0
+Savage		1	1	1	55		70				50	10064	dmg%	0	301	350											weap														0
+Savage		1	1	1	65		70				20	10064	dmg%	0	351	400											weap														0
+Savage		1	1	1	75		70				10	10064	dmg%	0	401	450											weap														0
+Savage		1	1	1	85		70				5	10064	dmg%	0	451	500											weap														0
+Savage		1	1	1	20		15				100	10065	deadly		10	15											weap														0
+Devastating		1	1	1	40		35				100	10065	deadly		16	20											weap														0
+Havoc		1	1	1	60		55				100	10065	deadly		21	25											weap														0
+Ready		1	1	1	1		1				100	10066	swing1		10	20											weap														0
+Swift		1	1	1	20		15				100	10066	swing2		21	30											weap														0
+Quick		1	1	1	40		25				100	10066	swing2		31	40											weap														0
+Quick		1	1	1	60		35				50	10066	swing2		41	50											weap														0
+Quick		1	1	1	80		45				20	10066	swing2		51	60											weap														0
+Red		1	1	1	1		1				100	10067	dmg-min		3	6											weap														0
+Sanguinary		1	1	1	15		10				100	10067	dmg-min		7	15											weap														0
+Bloody		1	1	1	30		25				100	10067	dmg-min		16	25											weap														0
+Scarlet		1	1	1	50		45				100	10067	dmg-min		26	40											weap														0
+Jagged		1	1	1	1		1				100	10167	dmg-max		3	6											weap														0
+Forked		1	1	1	15		10				100	10167	dmg-max		7	15											weap														0
+Serrated		1	1	1	30		25				100	10167	dmg-max		16	25											weap														0
+Vermillion		1	1	1	50		45				100	10167	dmg-max		26	40											weap														0
+Rookie’s		1	1	1	1		1				100	10068	addxp		4	7											weap														0
+Student’s		1	1	1	20		15				100	10068	addxp		8	11											weap														0
+Scholar’s		1	1	1	35		30				100	10068	addxp		12	15											weap														0
+Lucky		1	1	1	1		1				100	10069	mag%		15	25											weap														0
+Lucky		1	1	1	20		15				100	10069	mag%		26	35											weap														0
+Lucky		1	1	1	35		30				100	10069	mag%		36	45											weap														0
+Greedy		1	1	1	1		1				100	10070	gold%		40	80											weap														0
+Greedy		1	1	1	20		15				100	10070	gold%		81	120											weap														0
+Greedy		1	1	1	35		30				100	10070	gold%		121	160											weap														0
+Bronze		1	1	1	1		1				100	10071	att	0	20	40											weap														0
+Iron		1	1	1	15		10				100	10071	att	0	41	80											weap														0
+Steel		1	1	1	25		20				100	10071	att	0	81	150											weap														0
+Silver		1	1	1	35		30				100	10071	att	0	151	250											weap														0
+Gold		1	1	1	45		40				50	10071	att	0	251	400											weap														0
+Platinum		1	1	1	55		50				20	10071	att	0	401	600											weap														0
+Meteoric		1	1	1	65		60				10	10071	att	0	601	900											weap														0
+Pacing		1	1	1	20		15				100	10080	move2		5	10											weap														0
+Haste		1	1	1	35		25				100	10080	move2		11	15											weap														0
+Haste		1	1	1	50		35				100	10080	move2		16	20											weap														0
+Ember		1	1	1	1	26	1				100	10081	fire-min		5	6	fire-max		10	12							weap														0
+Smoldering		1	1	1	35		26				100	10081	fire-min		50	60	fire-max		70	100							weap														0
+Smoking		1	1	1	47		37				100	10081	fire-min		150	200	fire-max		280	350							weap														0
+Flaming		1	1	1	61		51				100	10081	fire-min		500	600	fire-max		700	800							weap														0
+Scorching		1	1	1	77		67				100	10081	fire-min		1200	1400	fire-max		1600	1900							weap														0
+Static		1	1	1	1	26	1				100	10082	ltng-min		1	1	ltng-max		14	17							weap														0
+Glowing		1	1	1	35		26				100	10082	ltng-min		1	1	ltng-max		119	159							weap														0
+Buzzing		1	1	1	47		37				100	10082	ltng-min		1	1	ltng-max		429	549							weap														0
+Arcing		1	1	1	61		51				100	10082	ltng-min		1	1	ltng-max		1199	1399							weap														0
+Shocking		1	1	1	77		67				100	10082	ltng-min		1	1	ltng-max		2799	3299							weap														0
+Cold		1	1	1	1	26	1				100	10083	cold-len		50	50	cold-min		5	6	cold-max		10	12			weap														0
+Snowflake		1	1	1	35		26				100	10083	cold-len		50	50	cold-min		50	60	cold-max		70	100			weap														0
+Shivering		1	1	1	47		37				100	10083	cold-len		50	50	cold-min		150	200	cold-max		280	350			weap														0
+Boreal		1	1	1	61		51				100	10083	cold-len		50	50	cold-min		500	600	cold-max		700	800			weap														0
+Hibernal		1	1	1	77		67				100	10083	cold-len		50	50	cold-min		1200	1400	cold-max		1600	1900			weap														0
+Conduit		1	1	1	1		1				100	10084	extra-ltng		10	20											weap														0
+Conduit		1	1	1	30		25				100	10084	extra-ltng		21	30											weap														0
+Conduit		1	1	1	50		45				100	10084	extra-ltng		31	40											weap														0
+Conduit		1	1	1	70		60				100	10084	extra-ltng		41	50											weap														0
+Numbing		1	1	1	1		1				100	10084	extra-cold		10	20											weap														0
+Numbing		1	1	1	30		25				100	10084	extra-cold		21	30											weap														0
+Numbing		1	1	1	50		45				100	10084	extra-cold		31	40											weap														0
+Numbing		1	1	1	70		60				100	10084	extra-cold		41	50											weap														0
+Inferno		1	1	1	1		1				100	10084	extra-fire		10	20											weap														0
+Inferno		1	1	1	30		25				100	10084	extra-fire		21	30											weap														0
+Inferno		1	1	1	50		45				100	10084	extra-fire		31	40											weap														0
+Inferno		1	1	1	70		60				100	10084	extra-fire		41	50											weap														0
+Infectious		1	1	1	1		1				100	10084	extra-pois		10	20											weap														0
+Infectious		1	1	1	30		25				100	10084	extra-pois		21	30											weap														0
+Infectious		1	1	1	50		45				100	10084	extra-pois		31	40											weap														0
+Infectious		1	1	1	70		60				100	10084	extra-pois		41	50											weap														0
+Scintillating		1	1	1	1		1				100	10084	extra-magi		10	20											weap														0
+Scintillating		1	1	1	30		25				100	10084	extra-magi		21	30											weap														0
+Scintillating		1	1	1	50		45				100	10084	extra-magi		31	40											weap														0
+Scintillating		1	1	1	70		60				100	10084	extra-magi		41	50											weap														0
+Discharging		1	1	1	1		1				100	10085	pierce-ltng		4	6											weap														0
+Discharging		1	1	1	30		25				100	10085	pierce-ltng		7	9											weap														0
+Discharging		1	1	1	50		45				100	10085	pierce-ltng		10	12											weap														0
+Discharging		1	1	1	70		60				100	10085	pierce-ltng		13	15											weap														0
+Frigid		1	1	1	1		1				100	10085	pierce-cold		4	6											weap														0
+Frigid		1	1	1	30		25				100	10085	pierce-cold		7	9											weap														0
+Frigid		1	1	1	50		45				100	10085	pierce-cold		10	12											weap														0
+Frigid		1	1	1	70		60				100	10085	pierce-cold		13	15											weap														0
+Wildfire		1	1	1	1		1				100	10085	pierce-fire		4	6											weap														0
+Wildfire		1	1	1	30		25				100	10085	pierce-fire		7	9											weap														0
+Wildfire		1	1	1	50		45				100	10085	pierce-fire		10	12											weap														0
+Wildfire		1	1	1	70		60				100	10085	pierce-fire		13	15											weap														0
+Malicious		1	1	1	1		1				100	10085	pierce-pois		4	6											weap														0
+Malicious		1	1	1	30		25				100	10085	pierce-pois		7	9											weap														0
+Malicious		1	1	1	50		45				100	10085	pierce-pois		10	12											weap														0
+Malicious		1	1	1	70		60				100	10085	pierce-pois		13	15											weap														0
+Lethal		1	1	1	1		1				100	10085	pierce-phys		4	6											weap														0
+Lethal		1	1	1	30		25				100	10085	pierce-phys		7	9											weap														0
+Lethal		1	1	1	50		45				100	10085	pierce-phys		10	12											weap														0
+Lethal		1	1	1	70		60				100	10085	pierce-phys		13	15											weap														0
+Maiden's		1	1	1	30		25	ama			100	10087	ama		1	1											weap														0
+Valkyrie's		1	1	1	80		70	ama			100	10087	ama		2	2											weap														0
+Monk's		1	1	1	30		25	pal			100	10087	pal		1	1											weap														0
+Priest's		1	1	1	80		70	pal			100	10087	pal		2	2											weap														0
+Summoner's		1	1	1	30		25	nec			100	10087	nec		1	1											weap														0
+Necromancer's		1	1	1	80		70	nec			100	10087	nec		2	2											weap														0
+Angel's		1	1	1	30		25	sor			100	10087	sor		1	1											weap														0
+Arch-Angel's		1	1	1	80		70	sor			100	10087	sor		2	2											weap														0
+Slayer's		1	1	1	30		25	bar			100	10087	bar		1	1											weap														0
+Berserker's		1	1	1	80		70	bar			100	10087	bar		2	2											weap														0
+Shaman's		1	1	1	30		25	dru			100	10087	dru		1	1											weap														0
+Hierophant's		1	1	1	80		70	dru			100	10087	dru		2	2											weap														0
+Magekiller's		1	1	1	30		25	ass			100	10087	ass		1	1											weap														0
+Witch-hunter's		1	1	1	80		70	ass			100	10087	ass		2	2											weap														0
+Fletcher's		1	1	1	20		15	ama			100	10087	skilltab	0	1	1											weap														0
+Bowyer's		1	1	1	40		30	ama			100	10087	skilltab	0	2	2											weap														0
+Acrobat's		1	1	1	20		15	ama			100	10087	skilltab	1	1	1											weap														0
+Gymnast's		1	1	1	40		30	ama			100	10087	skilltab	1	2	2											weap														0
+Harpoonist's		1	1	1	20		15	ama			100	10087	skilltab	2	1	1											weap														0
+Spearmaiden's		1	1	1	40		30	ama			100	10087	skilltab	2	2	2											weap														0
+Burning		1	1	1	20		15	sor			100	10087	skilltab	3	1	1											weap														0
+Blazing		1	1	1	40		30	sor			100	10087	skilltab	3	2	2											weap														0
+Sparking		1	1	1	20		15	sor			100	10087	skilltab	4	1	1											weap														0
+Charged		1	1	1	40		30	sor			100	10087	skilltab	4	2	2											weap														0
+Chilling		1	1	1	20		15	sor			100	10087	skilltab	5	1	1											weap														0
+Freezing		1	1	1	40		30	sor			100	10087	skilltab	5	2	2											weap														0
+Hexing		1	1	1	20		15	nec			100	10087	skilltab	6	1	1											weap														0
+Blighting		1	1	1	40		30	nec			100	10087	skilltab	6	2	2											weap														0
+Fungal		1	1	1	20		15	nec			100	10087	skilltab	7	1	1											weap														0
+Noxious		1	1	1	40		30	nec			100	10087	skilltab	7	2	2											weap														0
+Graverobber's		1	1	1	20		15	nec			100	10087	skilltab	8	1	1											weap														0
+Vodoun		1	1	1	40		30	nec			100	10087	skilltab	8	2	2											weap														0
+Lion Branded		1	1	1	20		15	pal			100	10087	skilltab	9	1	1											weap														0
+Hawk Branded		1	1	1	40		30	pal			100	10087	skilltab	9	2	2											weap														0
+Captain's		1	1	1	20		15	pal			100	10087	skilltab	10	1	1											weap														0
+Commander's		1	1	1	40		30	pal			100	10087	skilltab	10	2	2											weap														0
+Preserver's		1	1	1	20		15	pal			100	10087	skilltab	11	1	1											weap														0
+Warder's		1	1	1	40		30	pal			100	10087	skilltab	11	2	2											weap														0
+Expert's		1	1	1	20		15	bar			100	10087	skilltab	12	1	1											weap														0
+Veteran's		1	1	1	40		30	bar			100	10087	skilltab	12	2	2											weap														0
+Fanatic		1	1	1	20		15	bar			100	10087	skilltab	13	1	1											weap														0
+Raging		1	1	1	40		30	bar			100	10087	skilltab	13	2	2											weap														0
+Sounding		1	1	1	20		15	bar			100	10087	skilltab	14	1	1											weap														0
+Resonant		1	1	1	40		30	bar			100	10087	skilltab	14	2	2											weap														0
+Trainer's		1	1	1	20		15	dru			100	10087	skilltab	15	1	1											weap														0
+Caretaker's		1	1	1	40		30	dru			100	10087	skilltab	15	2	2											weap														0
+Spiritual		1	1	1	20		15	dru			100	10087	skilltab	16	1	1											weap														0
+Feral		1	1	1	40		30	dru			100	10087	skilltab	16	2	2											weap														0
+Nature's		1	1	1	20		15	dru			100	10087	skilltab	17	1	1											weap														0
+Terra's		1	1	1	40		30	dru			100	10087	skilltab	17	2	2											weap														0
+Entrapping		1	1	1	20		15	ass			100	10087	skilltab	18	1	1											weap														0
+Trickster's		1	1	1	40		30	ass			100	10087	skilltab	18	2	2											weap														0
+Mentalist's		1	1	1	20		15	ass			100	10087	skilltab	19	1	1											weap														0
+Psychic		1	1	1	40		30	ass			100	10087	skilltab	19	2	2											weap														0
+Shogukusha's		1	1	1	20		15	ass			100	10087	skilltab	20	1	1											weap														0
+Sensei's		1	1	1	40		30	ass			100	10087	skilltab	20	2	2											weap														0
+Superior		1	1	1	50		42				100	10088	allskills		1	1											weap														0
+Leech		1	1	1	6		4				200	10090	lifesteal		4	7											weap														0
+Locust		1	1	1	20		15				200	10090	lifesteal		8	10											weap														0
+Bat		1	1	1	6		4				200	10091	manasteal		4	7											weap														0
+Vampire		1	1	1	20		15				200	10091	manasteal		8	10											weap														0
+Crushing		1	1	1	25		20				200	10092	crush		10	20											weap														0
+Apprentice’s		1	1	1	1		1				100	10098	cast1		10	20											weap														0
+Magus’s		1	1	1	30		20				100	10098	cast1		21	30											weap														0
+Magus’s		1	1	1	50		30				100	10098	cast1		31	40											weap														0
+Magus’s		1	1	1	70		40				100	10098	cast1		41	50											weap														0
+Blood Letting		1	1	1	1	26	1				100	10099	heal-kill		1	3											weap														0
+Murderous		1	1	1	26		20				100	10099	heal-kill		4	10											weap														0
+Blood Sucking		1	1	1	50		40				100	10099	heal-kill		11	25											weap														0
+Triumphant		1	1	1	1	26	1				100	10100	mana-kill		1	2											weap														0
+Victorious		1	1	1	26		20				100	10100	mana-kill		3	4											weap														0
+Aureolin		1	1	1	50		40				100	10100	mana-kill		5	6											weap														0
+Mechanist's		1	1	1	1		1				100	10101	sock		1	1											weap														0
+Artificer's		1	1	1	33		25				100	10101	sock		2	2											weap														0
+Jeweler's		1	1	1	55		47				100	10101	sock		3	3											weap														0
+Cultist's		1	1	1	28		25				100	10102	openwounds		20	40	deep-wounds		150	250							weap														0
+Bloodthirster's		1	1	1	48		45				100	10102	openwounds		20	40	deep-wounds		400	600							weap														0
+Gorelust's		1	1	1	68		65				100	10102	openwounds		20	40	deep-wounds		800	1100							weap														0
+Jagged		1	1	1	1		1				100	10064	dmg%	0	15	20											jewl														0
+Deadly		1	1	1	15		10				100	10064	dmg%	0	21	25											jewl														0
+Vicious		1	1	1	25		25				100	10064	dmg%	0	26	30											jewl														0
+Brutal		1	1	1	35		40				100	10064	dmg%	0	31	35											jewl														0
+Massive		1	1	1	45		55				100	10064	dmg%	0	36	40											jewl														0
+Savage		1	1	1	55		70				100	10064	dmg%	0	41	45											jewl														0
+Ready		1	1	1	1		1				100	10066	swing1		5	10											jewl														0
+Swift		1	1	1	40		25				100	10066	swing2		10	15											jewl														0
+Red		1	1	1	1		1				100	10067	dmg-min		3	6											jewl														0
+Sanguinary		1	1	1	15		10				100	10067	dmg-min		7	10											jewl														0
+Bloody		1	1	1	30		25				100	10067	dmg-min		11	14											jewl														0
+Scarlet		1	1	1	50		45				100	10067	dmg-min		15	18											jewl														0
+Jagged		1	1	1	1		1				100	10167	dmg-max		3	6											jewl														0
+Forked		1	1	1	15		10				100	10167	dmg-max		7	10											jewl														0
+Serrated		1	1	1	30		25				100	10167	dmg-max		11	14											jewl														0
+Vermillion		1	1	1	50		45				100	10167	dmg-max		15	18											jewl														0
+Rookie’s		1	1	1	1		1				100	10068	addxp		3	5											jewl														0
+Student’s		1	1	1	20		15				100	10068	addxp		6	8											jewl														0
+Scholar’s		1	1	1	35		30				100	10068	addxp		9	11											jewl														0
+Lucky		1	1	1	1		1				100	10069	mag%		10	15											jewl														0
+Lucky		1	1	1	20		15				100	10069	mag%		16	20											jewl														0
+Lucky		1	1	1	35		30				100	10069	mag%		21	25											jewl														0
+Bronze		1	1	1	1		1				100	10071	att	0	20	40											jewl														0
+Iron		1	1	1	15		10				100	10071	att	0	41	60											jewl														0
+Steel		1	1	1	25		20				100	10071	att	0	61	80											jewl														0
+Silver		1	1	1	35		30				100	10071	att	0	81	100											jewl														0
+Gold		1	1	1	45		40				100	10071	att	0	101	120											jewl														0
+Platinum		1	1	1	55		50				100	10071	att	0	121	140											jewl														0
+Meteoric		1	1	1	65		60				100	10071	att	0	141	160											jewl														0
+Ember		1	1	1	1	26	1				100	10081	fire-min		3	4	fire-max		5	6							jewl														0
+Smoldering		1	1	1	35		26				100	10081	fire-min		15	17	fire-max		23	25							jewl														0
+Smoking		1	1	1	47		37				100	10081	fire-min		25	28	fire-max		35	38							jewl														0
+Flaming		1	1	1	61		51				100	10081	fire-min		42	46	fire-max		52	56							jewl														0
+Scorching		1	1	1	77		67				100	10081	fire-min		59	64	fire-max		79	84							jewl														0
+Static		1	1	1	1	26	1				100	10082	ltng-min		1	1	ltng-max		7	9							jewl														0
+Glowing		1	1	1	35		26				100	10082	ltng-min		1	1	ltng-max		37	41							jewl														0
+Buzzing		1	1	1	47		37				100	10082	ltng-min		1	1	ltng-max		59	65							jewl														0
+Arcing		1	1	1	61		51				100	10082	ltng-min		1	1	ltng-max		93	101							jewl														0
+Shocking		1	1	1	77		67				100	10082	ltng-min		1	1	ltng-max		137	147							jewl														0
+Cold		1	1	1	1	26	1				100	10083	cold-len		50	50	cold-min		3	4	cold-max		5	6			jewl														0
+Snowflake		1	1	1	35		26				100	10083	cold-len		50	50	cold-min		15	17	cold-max		23	25			jewl														0
+Shivering		1	1	1	47		37				100	10083	cold-len		50	50	cold-min		25	28	cold-max		35	38			jewl														0
+Boreal		1	1	1	61		51				100	10083	cold-len		50	50	cold-min		42	46	cold-max		52	56			jewl														0
+Hibernal		1	1	1	77		67				100	10083	cold-len		50	50	cold-min		59	64	cold-max		79	84			jewl														0
+Conduit		1	1	1	1		1				100	10084	extra-ltng		2	3											jewl														0
+Conduit		1	1	1	30		25				100	10084	extra-ltng		4	5											jewl														0
+Conduit		1	1	1	50		45				100	10084	extra-ltng		6	7											jewl														0
+Conduit		1	1	1	70		60				100	10084	extra-ltng		8	9											jewl														0
+Numbing		1	1	1	1		1				100	10084	extra-cold		2	3											jewl														0
+Numbing		1	1	1	30		25				100	10084	extra-cold		4	5											jewl														0
+Numbing		1	1	1	50		45				100	10084	extra-cold		6	7											jewl														0
+Numbing		1	1	1	70		60				100	10084	extra-cold		8	9											jewl														0
+Inferno		1	1	1	1		1				100	10084	extra-fire		2	3											jewl														0
+Inferno		1	1	1	30		25				100	10084	extra-fire		4	5											jewl														0
+Inferno		1	1	1	50		45				100	10084	extra-fire		6	7											jewl														0
+Inferno		1	1	1	70		60				100	10084	extra-fire		8	9											jewl														0
+Infectious		1	1	1	1		1				100	10084	extra-pois		2	3											jewl														0
+Infectious		1	1	1	30		25				100	10084	extra-pois		4	5											jewl														0
+Infectious		1	1	1	50		45				100	10084	extra-pois		6	7											jewl														0
+Infectious		1	1	1	70		60				100	10084	extra-pois		8	9											jewl														0
+Scintillating		1	1	1	1		1				100	10084	extra-magi		2	3											jewl														0
+Scintillating		1	1	1	30		25				100	10084	extra-magi		4	5											jewl														0
+Scintillating		1	1	1	50		45				100	10084	extra-magi		6	7											jewl														0
+Scintillating		1	1	1	70		60				100	10084	extra-magi		8	9											jewl														0
+Discharging		1	1	1	1		1				100	10085	pierce-ltng		1	1											jewl														0
+Discharging		1	1	1	30		25				100	10085	pierce-ltng		2	2											jewl														0
+Discharging		1	1	1	50		45				100	10085	pierce-ltng		3	3											jewl														0
+Discharging		1	1	1	70		60				100	10085	pierce-ltng		4	4											jewl														0
+Frigid		1	1	1	1		1				100	10085	pierce-cold		1	1											jewl														0
+Frigid		1	1	1	30		25				100	10085	pierce-cold		2	2											jewl														0
+Frigid		1	1	1	50		45				100	10085	pierce-cold		3	3											jewl														0
+Frigid		1	1	1	70		60				100	10085	pierce-cold		4	4											jewl														0
+Wildfire		1	1	1	1		1				100	10085	pierce-fire		1	1											jewl														0
+Wildfire		1	1	1	30		25				100	10085	pierce-fire		2	2											jewl														0
+Wildfire		1	1	1	50		45				100	10085	pierce-fire		3	3											jewl														0
+Wildfire		1	1	1	70		60				100	10085	pierce-fire		4	4											jewl														0
+Malicious		1	1	1	1		1				100	10085	pierce-pois		1	1											jewl														0
+Malicious		1	1	1	30		25				100	10085	pierce-pois		2	2											jewl														0
+Malicious		1	1	1	50		45				100	10085	pierce-pois		3	3											jewl														0
+Malicious		1	1	1	70		60				100	10085	pierce-pois		4	4											jewl														0
+Lethal		1	1	1	1		1				100	10085	pierce-phys		1	1											jewl														0
+Lethal		1	1	1	30		25				100	10085	pierce-phys		2	2											jewl														0
+Lethal		1	1	1	50		45				100	10085	pierce-phys		3	3											jewl														0
+Lethal		1	1	1	70		60				100	10085	pierce-phys		4	4											jewl														0
+Apprentice’s		1	1	1	1		1				100	10098	cast1		1	2											jewl														0
+Magus’s		1	1	1	30		20				100	10098	cast1		2	3											jewl														0
+Magus’s		1	1	1	50		30				100	10098	cast1		3	4											jewl														0
+Magus’s		1	1	1	70		40				100	10098	cast1		4	5											jewl														0
+Blood Letting		1	1	1	1	26	1				100	10099	heal-kill		2	3											jewl														0
+Murderous		1	1	1	26		20				100	10099	heal-kill		4	8											jewl														0
+Blood Sucking		1	1	1	50		40				100	10099	heal-kill		9	15											jewl														0
+Triumphant		1	1	1	1	26	1				100	10100	mana-kill		1	1											jewl														0
+Victorious		1	1	1	26		20				100	10100	mana-kill		2	3											jewl														0
+Aureolin		1	1	1	50		40				100	10100	mana-kill		4	5											jewl														0
+Cultist's		1	1	1	28	68	25				100	10101	openwounds		5	10	deep-wounds		50	60							jewl														0
+Bloodthirster's		1	1	1	48		45				100	10101	openwounds		5	10	deep-wounds		80	100							jewl														0
+Gorelust's		1	1	1	68		65				100	10101	openwounds		5	10	deep-wounds		120	150							jewl														0
+Jagged		1	1	1	1		1				100	10064	dmg%	0	20	35											misl														0
+Deadly		1	1	1	15		10				100	10064	dmg%	0	36	50											misl														0
+Vicious		1	1	1	25		25				100	10064	dmg%	0	51	65											misl														0
+Brutal		1	1	1	35		40				100	10064	dmg%	0	66	80											misl														0
+Savage		1	1	1	20		15				100	10065	deadly		10	15											misl														0
+Devastating		1	1	1	40		35				100	10065	deadly		16	20											misl														0
+Havoc		1	1	1	60		55				100	10065	deadly		21	25											misl														0
+Ready		1	1	1	1		1				100	10066	swing1		5	10											misl														0
+Swift		1	1	1	20		15				100	10066	swing2		11	15											misl														0
+Quick		1	1	1	40		25				100	10066	swing2		16	20											misl														0
+Quick		1	1	1	60		35				100	10066	swing2		21	25											misl														0
+Quick		1	1	1	80		45				100	10066	swing2		26	30											misl														0
+Red		1	1	1	1		1				100	10067	dmg-min		3	6											misl														0
+Sanguinary		1	1	1	15		10				100	10067	dmg-min		7	15											misl														0
+Bloody		1	1	1	30		25				100	10067	dmg-min		16	25											misl														0
+Jagged		1	1	1	1		1				100	10167	dmg-max		3	6											misl														0
+Forked		1	1	1	15		10				100	10167	dmg-max		7	15											misl														0
+Serrated		1	1	1	30		25				100	10167	dmg-max		16	25											misl														0
+Rookie’s		1	1	1	1		1				100	10068	addxp		3	6											misl														0
+Student’s		1	1	1	20		15				100	10068	addxp		7	10											misl														0
+Lucky		1	1	1	1		1				100	10069	mag%		15	25											misl														0
+Lucky		1	1	1	20		15				100	10069	mag%		26	35											misl														0
+Lucky		1	1	1	35		30				100	10069	mag%		36	45											misl														0
+Greedy		1	1	1	1		1				100	10070	gold%		40	80											misl														0
+Greedy		1	1	1	20		15				100	10070	gold%		81	120											misl														0
+Greedy		1	1	1	35		30				100	10070	gold%		121	160											misl														0
+Bronze		1	1	1	1		1				100	10071	att	0	25	50											misl														0
+Iron		1	1	1	15		10				100	10071	att	0	51	75											misl														0
+Steel		1	1	1	25		20				100	10071	att	0	76	100											misl														0
+Silver		1	1	1	35		30				100	10071	att	0	101	125											misl														0
+Gold		1	1	1	45		40				50	10071	att	0	126	150											misl														0
+Platinum		1	1	1	55		50				20	10071	att	0	151	175											misl														0
+Meteoric		1	1	1	65		60				10	10071	att	0	176	200											misl														0
+Pacing		1	1	1	20		15				100	10080	move2		5	10											misl														0
+Haste		1	1	1	35		25				100	10080	move2		11	15											misl														0
+Haste		1	1	1	50		35				100	10080	move2		16	20											misl														0
+Ember		1	1	1	1	26	1				100	10081	fire-min		5	6	fire-max		10	12							misl														0
+Smoldering		1	1	1	35		26				100	10081	fire-min		50	60	fire-max		70	100							misl														0
+Smoking		1	1	1	47		37				100	10081	fire-min		150	200	fire-max		280	350							misl														0
+Flaming		1	1	1	61		51				100	10081	fire-min		500	600	fire-max		700	800							misl														0
+Cold		1	1	1	1	26	1				100	10083	cold-len		50	50	cold-min		5	6	cold-max		10	12			misl														0
+Snowflake		1	1	1	35		26				100	10083	cold-len		50	50	cold-min		50	60	cold-max		70	100			misl														0
+Shivering		1	1	1	47		37				100	10083	cold-len		50	50	cold-min		150	200	cold-max		280	350			misl														0
+Boreal		1	1	1	61		51				100	10083	cold-len		50	50	cold-min		500	600	cold-max		700	800			misl														0
+Numbing		1	1	1	1		1				100	10084	extra-cold		10	20											misl														0
+Numbing		1	1	1	30		25				100	10084	extra-cold		21	30											misl														0
+Numbing		1	1	1	50		45				100	10084	extra-cold		31	40											misl														0
+Inferno		1	1	1	1		1				100	10084	extra-fire		10	20											misl														0
+Inferno		1	1	1	30		25				100	10084	extra-fire		21	30											misl														0
+Inferno		1	1	1	50		45				100	10084	extra-fire		31	40											misl														0
+Scintillating		1	1	1	1		1				100	10084	extra-magi		10	20											misl														0
+Scintillating		1	1	1	30		25				100	10084	extra-magi		21	30											misl														0
+Scintillating		1	1	1	50		45				100	10084	extra-magi		31	40											misl														0
+Frigid		1	1	1	1		1				100	10085	pierce-cold		4	6											misl														0
+Frigid		1	1	1	30		25				100	10085	pierce-cold		7	9											misl														0
+Frigid		1	1	1	50		45				100	10085	pierce-cold		10	12											misl														0
+Wildfire		1	1	1	1		1				100	10085	pierce-fire		4	6											misl														0
+Wildfire		1	1	1	30		25				100	10085	pierce-fire		7	9											misl														0
+Wildfire		1	1	1	50		45				100	10085	pierce-fire		10	12											misl														0
+Lethal		1	1	1	1		1				100	10085	pierce-phys		4	6											misl														0
+Lethal		1	1	1	30		25				100	10085	pierce-phys		7	9											misl														0
+Lethal		1	1	1	50		45				100	10085	pierce-phys		10	12											misl														0
+Superior		1	1	1	50		42				100	10088	allskills		1	1											misl														0
+Leech		1	1	1	6		4				200	10090	lifesteal		4	7											misl														0
+Locust		1	1	1	20		15				200	10090	lifesteal		8	10											misl														0
+Bat		1	1	1	6		4				200	10091	manasteal		4	7											misl														0
+Vampire		1	1	1	20		15				200	10091	manasteal		8	10											misl														0
+Crushing		1	1	1	25		20				200	10092	crush		10	20											misl														0
+Blood Letting		1	1	1	1	26	1				100	10099	heal-kill		1	3											misl														0
+Murderous		1	1	1	26		20				100	10099	heal-kill		4	10											misl														0
+Blood Sucking		1	1	1	50		40				100	10099	heal-kill		11	25											misl														0
+Triumphant		1	1	1	1	26	1				100	10100	mana-kill		1	2											misl														0
+Victorious		1	1	1	26		20				100	10100	mana-kill		3	4											misl														0
+Aureolin		1	1	1	50		40				100	10100	mana-kill		5	6											misl														0
+Penetrating		1	1	1	15		10				100	10102	pierce		5	10											misl														0
+Puncturing		1	1	1	30		25				100	10102	pierce		11	20											misl														0
+Piercing		1	1	1	45		40				100	10102	pierce		21	30											misl														0
+Impaling		1	1	1	60		55				100	10102	pierce		31	40											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	6	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	6	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	12	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	12	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	16	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	16	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	21	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	21	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	22	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	22	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	26	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	26	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	27	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	27	36	45											misl														0
+Specialist		1	1	1	40		30				100	10103	oskill	31	25	35											misl														0
+Specialist		1	1	1	60		40				100	10103	oskill	31	36	45											misl														0
+Acrobat's		1	1	1	20		15	ama			100	125	skilltab	1	1	1											ajav														0
+Gymnast's		1	1	1	40		30	ama			100	125	skilltab	1	2	2											ajav														0
+Harpoonist's		1	1	1	20		15	ama			100	125	skilltab	2	1	1											ajav														0
+Spearmaiden's		1	1	1	40		30	ama			100	125	skilltab	2	2	2											ajav														0
+Acrobat's		1	1	1	20		15	ama			100	125	skilltab	1	1	1											aspe														0
+Gymnast's		1	1	1	40		30	ama			100	125	skilltab	1	2	2											aspe														0
+Harpoonist's		1	1	1	20		15	ama			100	125	skilltab	2	1	1											aspe														0
+Spearmaiden's		1	1	1	40		30	ama			100	125	skilltab	2	2	2											aspe														0
+Fletcher's		1	1	1	20		15	ama			100	125	skilltab	0	1	1											abow														0
+Bowyer's		1	1	1	40		30	ama			100	125	skilltab	0	2	2											abow														0
+Acrobat's		1	1	1	20		15	ama			100	125	skilltab	1	1	1											abow														0
+Gymnast's		1	1	1	40		30	ama			100	125	skilltab	1	2	2											abow														0
+Burning		1	1	1	20		15	sor			100	125	skilltab	3	1	1											staf														0
+Blazing		1	1	1	40		30	sor			100	125	skilltab	3	2	2											staf														0
+Sparking		1	1	1	20		15	sor			100	125	skilltab	4	1	1											staf														0
+Charged		1	1	1	40		30	sor			100	125	skilltab	4	2	2											staf														0
+Chilling		1	1	1	20		15	sor			100	125	skilltab	5	1	1											staf														0
+Freezing		1	1	1	40		30	sor			100	125	skilltab	5	2	2											staf														0
+Burning		1	1	1	20		15	sor			100	125	skilltab	3	1	1											orb														0
+Blazing		1	1	1	40		30	sor			100	125	skilltab	3	2	2											orb														0
+Sparking		1	1	1	20		15	sor			100	125	skilltab	4	1	1											orb														0
+Charged		1	1	1	40		30	sor			100	125	skilltab	4	2	2											orb														0
+Chilling		1	1	1	20		15	sor			100	125	skilltab	5	1	1											orb														0
+Freezing		1	1	1	40		30	sor			100	125	skilltab	5	2	2											orb														0
+Hexing		1	1	1	20		15	nec			100	125	skilltab	6	1	1											wand														0
+Blighting		1	1	1	40		30	nec			100	125	skilltab	6	2	2											wand														0
+Fungal		1	1	1	20		15	nec			100	125	skilltab	7	1	1											wand														0
+Noxious		1	1	1	40		30	nec			100	125	skilltab	7	2	2											wand														0
+Graverobber's		1	1	1	20		15	nec			100	125	skilltab	8	1	1											wand														0
+Vodoun		1	1	1	40		30	nec			100	125	skilltab	8	2	2											wand														0
+Hexing		1	1	1	20		15	nec			100	125	skilltab	6	1	1											head														0
+Blighting		1	1	1	40		30	nec			100	125	skilltab	6	2	2											head														0
+Fungal		1	1	1	20		15	nec			100	125	skilltab	7	1	1											head														0
+Noxious		1	1	1	40		30	nec			100	125	skilltab	7	2	2											head														0
+Graverobber's		1	1	1	20		15	nec			100	125	skilltab	8	1	1											head														0
+Vodoun		1	1	1	40		30	nec			100	125	skilltab	8	2	2											head														0
+Fungal		1	1	1	20		15	nec			100	125	skilltab	7	1	1											knif							tkni							0
+Noxious		1	1	1	40		30	nec			100	125	skilltab	7	2	2											knif							tkni							0
+Lion Branded		1	1	1	20		15	pal			100	125	skilltab	9	1	1											scep														0
+Hawk Branded		1	1	1	40		30	pal			100	125	skilltab	9	2	2											scep														0
+Captain's		1	1	1	20		15	pal			100	125	skilltab	10	1	1											scep														0
+Commander's		1	1	1	40		30	pal			100	125	skilltab	10	2	2											scep														0
+Lion Branded		1	1	1	20		15	pal			100	125	skilltab	9	1	1											2hsw														0
+Hawk Branded		1	1	1	40		30	pal			100	125	skilltab	9	2	2											2hsw														0
+Captain's		1	1	1	20		15	pal			100	125	skilltab	10	1	1											2hsw														0
+Commander's		1	1	1	40		30	pal			100	125	skilltab	10	2	2											2hsw														0
+Lion Branded		1	1	1	20		15	pal			100	125	skilltab	9	1	1											ashd														0
+Hawk Branded		1	1	1	40		30	pal			100	125	skilltab	9	2	2											ashd														0
+Captain's		1	1	1	20		15	pal			100	125	skilltab	10	1	1											ashd														0
+Commander's		1	1	1	40		30	pal			100	125	skilltab	10	2	2											ashd														0
+Expert's		1	1	1	20		15	bar			100	125	skilltab	12	1	1											phlm														0
+Veteran's		1	1	1	40		30	bar			100	125	skilltab	12	2	2											phlm														0
+Fanatic		1	1	1	20		15	bar			100	125	skilltab	13	1	1											phlm														0
+Raging		1	1	1	40		30	bar			100	125	skilltab	13	2	2											phlm														0
+Sounding		1	1	1	20		15	bar			100	125	skilltab	14	1	1											phlm														0
+Resonant		1	1	1	40		30	bar			100	125	skilltab	14	2	2											phlm														0
+Trainer's		1	1	1	20		15	dru			100	125	skilltab	15	1	1											club														0
+Caretaker's		1	1	1	40		30	dru			100	125	skilltab	15	2	2											club														0
+Spiritual		1	1	1	20		15	dru			100	125	skilltab	16	1	1											club														0
+Feral		1	1	1	40		30	dru			100	125	skilltab	16	2	2											club														0
+Nature's		1	1	1	20		15	dru			100	125	skilltab	17	1	1											club														0
+Terra's		1	1	1	40		30	dru			100	125	skilltab	17	2	2											club														0
+Trainer's		1	1	1	20		15	dru			100	125	skilltab	15	1	1											pelt														0
+Caretaker's		1	1	1	40		30	dru			100	125	skilltab	15	2	2											pelt														0
+Spiritual		1	1	1	20		15	dru			100	125	skilltab	16	1	1											pelt														0
+Feral		1	1	1	40		30	dru			100	125	skilltab	16	2	2											pelt														0
+Nature's		1	1	1	20		15	dru			100	125	skilltab	17	1	1											pelt														0
+Terra's		1	1	1	40		30	dru			100	125	skilltab	17	2	2											pelt														0
+Entrapping		1	1	1	20		15	ass			100	125	skilltab	18	1	1											h2h														0
+Trickster's		1	1	1	40		30	ass			100	125	skilltab	18	2	2											h2h														0
+Mentalist's		1	1	1	20		15	ass			100	125	skilltab	19	1	1											h2h														0
+Psychic		1	1	1	40		30	ass			100	125	skilltab	19	2	2											h2h														0
+Shogukusha's		1	1	1	20		15	ass			100	125	skilltab	20	1	1											h2h														0
+Sensei's		1	1	1	40		30	ass			100	125	skilltab	20	2	2											h2h														0
+Entrapping		1	1	1	20		15	ass			100	125	skilltab	18	1	1											knif							tkni							0
+Trickster's		1	1	1	40		30	ass			100	125	skilltab	18	2	2											knif							tkni							0
+Mentalist's		1	1	1	20		15	ass			100	125	skilltab	19	1	1											knif							tkni							0
+Psychic		1	1	1	40		30	ass			100	125	skilltab	19	2	2											knif							tkni							0
+Shogukusha's		1	1	1	20		15	ass			100	125	skilltab	20	1	1											knif							tkni							0
+Sensei's		1	1	1	40		30	ass			100	125	skilltab	20	2	2											knif							tkni							0
+Champion's	671	1	1	1	1		1				2	150	map-glob-monsterrarity		30	40											t1m	t2m													0
+Flaming	672	1	1	1	1		1				2	151	map-mon-extra-fire		5	10	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m													0
 Ember	673	1	1	1	1		1				2	151	map-mon-extra-fire		10	15	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
 Smoldering	674	1	1	1	1		1				2	151	map-mon-extra-fire		15	20	map-glob-density		23	25	map-play-addxp		5	6			t3m	t4m													0
-Hibernal	675	1	1	1	1		1				2	152	map-mon-extra-cold		5	10	map-glob-density		13	15	map-play-mag-gold%		15	20			t1m	t2m	t3m												0
+Hibernal	675	1	1	1	1		1				2	152	map-mon-extra-cold		5	10	map-glob-density		13	15	map-play-mag-gold%		15	20			t1m	t2m													0
 Snowflake	676	1	1	1	1		1				2	152	map-mon-extra-cold		10	15	map-glob-density		15	18	map-play-mag-gold%		25	30			t2m	t3m													0
 Shivering	677	1	1	1	1		1				2	152	map-mon-extra-cold		15	20	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Static	678	1	1	1	1		1				2	153	map-mon-extra-ltng		5	10	map-glob-density		13	20	map-play-addxp		3	4			t1m	t2m	t3m												0
+Static	678	1	1	1	1		1				2	153	map-mon-extra-ltng		5	10	map-glob-density		13	20	map-play-addxp		3	4			t1m	t2m													0
 Glowing	679	1	1	1	1		1				2	153	map-mon-extra-ltng		10	15	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
 Arcing	680	1	1	1	1		1				2	153	map-mon-extra-ltng		15	20	map-glob-density		23	25	map-play-addxp		5	6			t3m	t4m													0
-Toxic	681	1	1	1	1		1				2	154	map-mon-extra-pois		5	10	map-glob-density		15	20	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Toxic	681	1	1	1	1		1				2	154	map-mon-extra-pois		5	10	map-glob-density		15	20	map-play-mag-gold%		5	10			t1m	t2m													0
 Pestilent	682	1	1	1	1		1				2	154	map-mon-extra-pois		10	15	map-glob-density		20	25	map-play-mag-gold%		15	20			t2m	t3m													0
 Septic	683	1	1	1	1		1				2	154	map-mon-extra-pois		15	20	map-glob-density		25	30	map-play-mag-gold%		25	30			t3m	t4m													0
-Magic	684	1	1	1	1		1				2	155	map-mon-extra-mag		5	10	map-glob-density		13	18	map-play-mag-gold%		10	15																	0
-Arcane	685	1	1	1	1		1				2	155	map-mon-extra-mag		10	15	map-glob-density		18	23	map-play-mag-gold%		15	20																	0
-Ancient	686	1	1	1	1		1				2	155	map-mon-extra-mag		15	20	map-glob-density		23	25	map-play-mag-gold%		20	25																	0
-Promoted	687	1	1	1	1		1				2	300	map-glob-arealevel		1	1	map-play-addxp		3	4	map-play-mag-gold%		15	20																	0
-Elevated	688	1	1	1	1		1				2	300	map-glob-arealevel		1	1	map-play-addxp		4	5	map-play-mag-gold%		20	25																	0
-Ascended	689	1	1	1	1		1				2	300	map-glob-arealevel		1	1	map-play-addxp		5	6	map-play-mag-gold%		30	35																	0
-Silver	690	1	1	1	1		1				2	156	map-mon-att-pierce		30	50	map-glob-density		8	10	map-play-mag-gold%		15	20			t1m	t2m	t3m												0
+Magic	684	1	1	1	1		1					155	map-mon-extra-mag		5	10	map-glob-density		13	18	map-play-mag-gold%		10	15																	0
+Arcane	685	1	1	1	1		1					155	map-mon-extra-mag		10	15	map-glob-density		18	23	map-play-mag-gold%		15	20																	0
+Ancient	686	1	1	1	1		1					155	map-mon-extra-mag		15	20	map-glob-density		23	25	map-play-mag-gold%		20	25																	0
+Promoted	687	1		1	1		1					300	map-glob-arealevel		1	1	map-play-addxp		3	4	map-play-mag-gold%		15	20																	0
+Elevated	688	1		1	1		1					300	map-glob-arealevel		1	1	map-play-addxp		4	5	map-play-mag-gold%		20	25																	0
+Ascended	689	1		1	1		1					300	map-glob-arealevel		1	1	map-play-addxp		5	6	map-play-mag-gold%		30	35																	0
+Silver	690	1	1	1	1		1				2	156	map-mon-att-pierce		30	50	map-glob-density		8	10	map-play-mag-gold%		15	20			t1m	t2m													0
 Shining	691	1	1	1	1		1				2	156	map-mon-att-pierce		50	70	map-glob-density		15	18	map-play-mag-gold%		30	35			t2m	t3m													0
 Opulent	692	1	1	1	1		1				2	156	map-mon-att-pierce		70	90	map-glob-density		18	20	map-play-mag-gold%		45	50			t3m	t4m													0
-Fast	693	1	1	1	1		1				2	305	map-mon-att-cast-speed		40	60	map-glob-density		15	20	map-play-addxp		3	4			t1m	t2m	t3m												0
+Fast	693	1	1	1	1		1				2	305	map-mon-att-cast-speed		40	60	map-glob-density		15	20	map-play-addxp		3	4			t1m	t2m													0
 Speedy	694	1	1	1	1		1				2	305	map-mon-att-cast-speed		60	80	map-glob-density		20	25	map-play-addxp		4	5			t2m	t3m													0
 Ludicrous	695	1	1	1	1		1				2	305	map-mon-att-cast-speed		80	100	map-glob-density		25	30	map-play-addxp		5	6			t3m	t4m													0
-Large	696	1	1	1	1		1				1	311	map-mon-hp%		5	15	map-glob-density		15	20	map-play-addxp		6	8			t1m	t2m	t3m												0
-Huge	697	1	1	1	1		1				1	311	map-mon-hp%		15	25	map-glob-density		20	25	map-play-addxp		8	10			t2m	t3m													0
-Colossal	698	1	1	1	1		1				1	311	map-mon-hp%		25	35	map-glob-density		25	30	map-play-addxp		10	12			t3m	t4m													0
-Strong	699	1	1	1	1		1				2	158	map-mon-ed%		10	15	map-play-addxp		4	5	map-play-mag-gold%		10	15			t1m	t2m	t3m												0
+Large	696	1	1	1	1		1				1	311	map-mon-hp%		5	10	map-glob-density		15	20	map-play-addxp		6	8			t1m	t2m													0
+Huge	697	1	1	1	1		1				1	311	map-mon-hp%		10	15	map-glob-density		20	25	map-play-addxp		8	10			t2m	t3m													0
+Colossal	698	1	1	1	1		1				1	311	map-mon-hp%		15	20	map-glob-density		25	30	map-play-addxp		10	12			t3m	t4m													0
+Strong	699	1	1	1	1		1				2	158	map-mon-ed%		10	15	map-play-addxp		4	5	map-play-mag-gold%		10	15			t1m	t2m													0
 Mighty	700	1	1	1	1		1				2	158	map-mon-ed%		15	20	map-play-addxp		5	6	map-play-mag-gold%		25	30			t2m	t3m													0
 Formidable	701	1	1	1	1		1				2	158	map-mon-ed%		20	25	map-play-addxp		6	7	map-play-mag-gold%		40	45			t3m	t4m													0
-Splashing	702	1	1	1	1		1				2	157	map-mon-splash	358	100	1	map-glob-density		8	13	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Splashing	702	1	1	1	1		1				2	157	map-mon-splash	358	100	1	map-glob-density		8	13	map-play-mag-gold%		5	10			t1m	t2m													0
 Splashing	703	1	1	1	1		1				2	157	map-mon-splash	358	100	1	map-glob-density		18	23	map-play-mag-gold%		20	25			t2m	t3m													0
 Splashing	704	1	1	1	1		1				2	157	map-mon-splash	358	100	1	map-glob-density		23	25	map-play-mag-gold%		35	40			t3m	t4m													0
-Bloody	705	1	1	1	1		1				2	312	map-mon-openwounds		5	10	map-play-addxp		4	5	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Bloody	705	1	1	1	1		1				2	312	map-mon-openwounds		5	10	map-play-addxp		4	5	map-play-mag-gold%		5	10			t1m	t2m													0
 Gory	706	1	1	1	1		1				2	312	map-mon-openwounds		10	15	map-play-addxp		5	6	map-play-mag-gold%		20	25			t2m	t3m													0
 Sanguinary	707	1	1	1	1		1				2	312	map-mon-openwounds		15	20	map-play-addxp		6	7	map-play-mag-gold%		35	40			t3m	t4m													0
-Unhealthy	708	1	1	1	1		1				2	315	map-play-regen		-40	-30	map-play-addxp		3	4	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Unhealthy	708	1	1	1	1		1				2	315	map-play-regen		-40	-30	map-play-addxp		3	4	map-play-mag-gold%		5	10			t1m	t2m													0
 Sickly	709	1	1	1	1		1				2	315	map-play-regen		-60	-50	map-play-addxp		4	5	map-play-mag-gold%		20	25			t2m	t3m													0
 Diseased	710	1	1	1	1		1				2	315	map-play-regen		-80	-70	map-play-addxp		5	6	map-play-mag-gold%		35	40			t3m	t4m													0
-Crushing	711	1	1	1	1		1				2	163	map-mon-crush		15	25	map-glob-density		8	10	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Crushing	711	1	1	1	1		1				2	163	map-mon-crush		15	25	map-glob-density		8	10	map-play-mag-gold%		5	10			t1m	t2m													0
 Smashing	712	1	1	1	1		1				2	163	map-mon-crush		25	35	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Obliterating	713	1	1	1	1		1				2	163	map-mon-crush		35	45	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Sparking	714	1	1	1	1		1				2	164	map-mon-phys-as-extra-ltng		60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Sparking	714	1	1	1	1		1				2	164	map-mon-phys-as-extra-ltng		60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m													0
 Shocking	715	1	1	1	1		1				2	164	map-mon-phys-as-extra-ltng		70	90	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Thunderous	716	1	1	1	1		1				2	164	map-mon-phys-as-extra-ltng		80	100	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Chilling	717	1	1	1	1		1				2	165	map-mon-phys-as-extra-cold	25	60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Chilling	717	1	1	1	1		1				2	165	map-mon-phys-as-extra-cold	25	60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m													0
 Boreal	718	1	1	1	1		1				2	165	map-mon-phys-as-extra-cold	25	70	90	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Glacial	719	1	1	1	1		1				2	165	map-mon-phys-as-extra-cold	25	80	100	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Smoking	720	1	1	1	1		1				2	166	map-mon-phys-as-extra-fire		60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Smoking	720	1	1	1	1		1				2	166	map-mon-phys-as-extra-fire		60	80	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m													0
 Molten	721	1	1	1	1		1				2	166	map-mon-phys-as-extra-fire		70	90	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Volcanic	722	1	1	1	1		1				2	166	map-mon-phys-as-extra-fire		80	100	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Poisonous	723	1	1	1	1		1				2	167	map-mon-phys-as-extra-pois	125	123	163	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Poisonous	723	1	1	1	1		1				2	167	map-mon-phys-as-extra-pois	125	123	163	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m													0
 Envenomed	724	1	1	1	1		1				2	167	map-mon-phys-as-extra-pois	125	143	184	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Plagued	725	1	1	1	1		1				2	167	map-mon-phys-as-extra-pois	125	163	205	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
-Runic	726	1	1	1	1		1				2	168	map-mon-phys-as-extra-mag		8	10	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m	t3m												0
+Runic	726	1	1	1	1		1				2	168	map-mon-phys-as-extra-mag		8	10	map-glob-density		13	15	map-play-mag-gold%		5	10			t1m	t2m													0
 Taboo	727	1	1	1	1		1				2	168	map-mon-phys-as-extra-mag		10	12	map-glob-density		15	18	map-play-mag-gold%		20	25			t2m	t3m													0
 Occult	728	1	1	1	1		1				2	168	map-mon-phys-as-extra-mag		12	14	map-glob-density		18	20	map-play-mag-gold%		35	40			t3m	t4m													0
 Stygian	729	1	1	1	1		1				1	169	map-glob-add-mon-doll		690	690	map-glob-density		25	30	map-play-mag-gold%		40	45			t1m	t2m	t3m					t4m							0
 Lustful	730	1	1	1	1		1				1	169	map-glob-add-mon-succ		885	885	map-glob-density		25	30	map-play-mag-gold%		45	50			t1m	t2m	t3m					t4m							0
-Vampiric	731	1	1	1	1		1				1	169	map-glob-add-mon-vamp		697	697	map-glob-density		18	20	map-play-mag-gold%		15	20			t1m	t2m	t3m					t4m							0
+Vampiric	731	1	1	1	1		1				1	169	map-glob-add-mon-vamp		1170	1170	map-glob-density		18	20	map-play-mag-gold%		15	20			t1m	t2m	t3m					t4m							0
 Bovine	732	1	1	1	1		1				1	169	map-glob-add-mon-cow		391	391	map-glob-density		25	30	map-play-mag-gold%		15	20			t1m	t2m	t3m					t4m							0
 Reanimated	733	1	1	1	1		1				1	169	map-glob-add-mon-horde		698	698	map-glob-density		25	30	map-play-mag-gold%		35	40			t1m	t2m	t3m					t4m							0
 Ghastly	734	1	1	1	1		1				1	169	map-glob-add-mon-ghost		1111	1111	map-glob-density		18	20	map-play-mag-gold%		15	20			t1m	t2m	t3m					t4m							0
-Blood Letting	735	1	1	1	13		12				2	200	heal-kill		1	5											weap	ring	circ	tors	helm	shld	misl								0
-Murderous	736	100	1	1	51		44				0	200	heal-kill		2	5											weap	circ	tors	helm	shld	misl									0
-Blood Sucking	737	100	1	1	32		26				2	200	heal-kill		1	3											jewl														0
-Channeling	738	100	1	1	14		14				3	201	extra-ltng		2	2											mcha	mchp													0
-Cold	739	100	1	1	14		14				3	201	extra-cold		2	2											mcha	mchp													0
-Cinder	740	100	1	1	14		14				3	201	extra-fire		2	2											mcha	mchp													0
-Morbid	741	100	1	1	14		14				3	201	extra-pois		2	2											mcha	mchp													0
-Sparkling	742	100	1	1	14		14				3	201	extra-magi		2	2											mcha	mchp													0
-Discharging	743	100	1	1	28		28				3	201	extra-ltng		2	3											mcha														0
-Frigid	744	100	1	1	28		28				3	201	extra-cold		2	3											mcha														0
-Wildfire	745	100	1	1	28		28				3	201	extra-fire		2	3											mcha														0
-Malicious	746	100	1	1	28		28				3	201	extra-pois		2	3											mcha														0
-Effervescent	747	100	1	1	28		28				3	201	extra-magi		2	3											mcha														0
-Conduit	748	100	1	1	42		42				2	201	extra-ltng		3	3											mcha														0
-Numbing	749	100	1	1	42		42				2	201	extra-cold		3	3											mcha														0
-Inferno	750	100	1	1	42		42				2	201	extra-fire		3	3											mcha														0
-Infectious	751	100	1	1	42		42				2	201	extra-pois		3	3											mcha														0
-Scintillating	752	100	1	1	42		42				2	201	extra-magi		3	3											mcha														0
-Visceral	753	100	1	1	75		69				1	105	dmg%		301	400									1	blac	weap							staf	wand	orb					0
-Divine	754	100	1	1	45		37				0	142	att-undead		326	450	dmg-undead		276	350						lgld	miss														0
-Celestial	755	100	1	1	55		41				0	123	att-demon		301	400	dmg-demon		201	300					1	dgld	miss														0
-Grandmaster's	756	100	1	1	69		61				0	111	att		251	300	dmg%		151	200					1	dgld	miss														0
-Supporting	757	1	1	1	25	50	18				2	105	dmg%		10	20											tors	shld													0
-Reinforcing	758	1	1	1	35	60	28				2	105	dmg%		20	40											tors	shld													0
-Empowering	759	1	1	1	45		38				2	105	dmg%		40	60											tors	shld													0
-Bolstering	760	1	1	1	55		48				2	105	dmg%		60	80											tors	shld													0
-Fortifying	761	1	1	1	65		58				2	105	dmg%		80	120											tors	shld													0
-Embattled	762	1	1	1	75		68				2	105	dmg%		120	160											tors	shld													0
-Rampaging	763	1	1	1	85		78				1	105	dmg%		160	200											tors														0
-Lancer's	764	100	1	1	60		45	ama			1	125	skilltab	2	3	3									1	lgld	aspe														0
-Archer's	765	100	1	1	60		45	ama			1	125	skilltab	0	3	3									1	lgld	miss														0
-Artificer's	766	100	1	1	33		25				2	122	sock	3													weap	shld	tors					thro							0
-Artificer's	767	100	1		33		25				2	122	sock	3													weap	shld	helm	tors				thro							0
-Lancer's	768	100	1		60		45	ama			1	125	skilltab	2	3	3									1	lgld	circ	glov													0
-Maiden's	769	1	1	1	36		27	ama			1	125	ama		1	1											tors	shld	helm												95000
-Monk's	770	1	1	1	36		27	pal			1	125	pal		1	1											tors	shld	helm												95000
-Summoner's	771	1	1	1	36		27	nec			1	125	nec		1	1											tors	shld	helm												95000
-Angel's	772	1	1	1	36		27	sor			1	125	sor		1	1											tors	shld	helm												95000
-Slayer's	773	1	1	1	36		27	bar			1	125	bar		1	1											tors	shld	helm												95000
-Shaman's	774	100	1	1	36		27	dru			1	125	dru		1	1											tors	shld	helm												95000
-Magekiller's	775	100	1	1	36		27	ass			1	125	ass		1	1											tors	shld	helm												95000
-Cerulean	776	100	1	1	49		41				2	115	mana		21	30									1	cblu	jewl														0
-Lancer's	777	100	1		60		45	ama			1	125	skilltab	2	3	3									1	lgld	amul														0
+Champion's	831	1	1		1		1				12	150	map-glob-monsterrarity		45	60											t1m	t2m													0
+Champion's	832	1	1		1		1				12	150	map-glob-monsterrarity		60	75											t2m	t3m													0
+Champion's	833	1	1		1		1				12	150	map-glob-monsterrarity		75	90											t3m	t4m													0
+Flaming	834	1	1		1		1				12	151	map-mon-extra-fire		8	15	map-glob-density		26	36	map-play-addxp		6	8			t1m	t2m													0
+Ember	835	1	1		1		1				12	151	map-mon-extra-fire		15	23	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+Smoldering	836	1	1		1		1				12	151	map-mon-extra-fire		23	30	map-glob-density		46	50	map-play-addxp		10	12			t3m	t4m													0
+Hibernal	837	1	1		1		1				12	152	map-mon-extra-cold		8	15	map-glob-density		26	30	map-play-mag-gold%		30	40			t1m	t2m													0
+Snowflake	838	1	1		1		1				12	152	map-mon-extra-cold		15	23	map-glob-density		30	36	map-play-mag-gold%		50	60			t2m	t3m													0
+Shivering	839	1	1		1		1				12	152	map-mon-extra-cold		23	30	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Static	840	1	1		1		1				12	153	map-mon-extra-ltng		8	15	map-glob-density		26	40	map-play-addxp		6	8			t1m	t2m													0
+Glowing	841	1	1		1		1				12	153	map-mon-extra-ltng		15	23	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+Arcing	842	1	1		1		1				12	153	map-mon-extra-ltng		23	30	map-glob-density		46	50	map-play-addxp		10	12			t3m	t4m													0
+Toxic	843	1	1		1		1				12	154	map-mon-extra-pois		8	15	map-glob-density		30	40	map-play-mag-gold%		10	20			t1m	t2m													0
+Pestilent	844	1	1		1		1				12	154	map-mon-extra-pois		15	23	map-glob-density		40	50	map-play-mag-gold%		30	40			t2m	t3m													0
+Septic	845	1	1		1		1				12	154	map-mon-extra-pois		23	30	map-glob-density		50	60	map-play-mag-gold%		50	60			t3m	t4m													0
+Silver	849	1	1		1		1				12	156	map-mon-att-pierce		45	75	map-glob-density		16	20	map-play-mag-gold%		30	40			t1m	t2m													0
+Shining	850	1	1		1		1				12	156	map-mon-att-pierce		75	105	map-glob-density		30	36	map-play-mag-gold%		60	70			t2m	t3m													0
+Opulent	851	1	1		1		1				12	156	map-mon-att-pierce		105	135	map-glob-density		36	40	map-play-mag-gold%		90	100			t3m	t4m													0
+Fast	852	1	1		1		1				12	305	map-mon-att-cast-speed		60	90	map-glob-density		30	40	map-play-addxp		6	8			t1m	t2m													0
+Speedy	853	1	1		1		1				12	305	map-mon-att-cast-speed		90	120	map-glob-density		40	50	map-play-addxp		8	10			t2m	t3m													0
+Ludicrous	854	1	1		1		1				12	305	map-mon-att-cast-speed		120	150	map-glob-density		50	60	map-play-addxp		10	12			t3m	t4m													0
+Large	855	1	1		1		1				6	311	map-mon-hp%		10	20	map-glob-density		30	40	map-play-addxp		12	16			t1m	t2m													0
+Huge	856	1	1		1		1				6	311	map-mon-hp%		20	30	map-glob-density		40	50	map-play-addxp		16	20			t2m	t3m													0
+Colossal	857	1	1		1		1				6	311	map-mon-hp%		30	40	map-glob-density		50	60	map-play-addxp		20	24			t3m	t4m													0
+Strong	858	1	1		1		1				12	158	map-mon-ed%		15	23	map-play-addxp		8	10	map-play-mag-gold%		20	30			t1m	t2m													0
+Mighty	859	1	1		1		1				12	158	map-mon-ed%		23	30	map-play-addxp		10	12	map-play-mag-gold%		50	60			t2m	t3m													0
+Formidable	860	1	1		1		1				12	158	map-mon-ed%		30	38	map-play-addxp		12	14	map-play-mag-gold%		80	90			t3m	t4m													0
+Splashing	861	1	1		1		1				12	157	map-mon-splash	358	150	2	map-glob-density		16	26	map-play-mag-gold%		10	20			t1m	t2m													0
+Splashing	862	1	1		1		1				12	157	map-mon-splash	358	150	2	map-glob-density		36	46	map-play-mag-gold%		40	50			t2m	t3m													0
+Splashing	863	1	1		1		1				12	157	map-mon-splash	358	150	2	map-glob-density		46	50	map-play-mag-gold%		70	80			t3m	t4m													0
+Bloody	864	1	1		1		1				12	312	map-mon-openwounds		8	15	map-play-addxp		8	10	map-play-mag-gold%		10	20			t1m	t2m													0
+Gory	865	1	1		1		1				12	312	map-mon-openwounds		15	23	map-play-addxp		10	12	map-play-mag-gold%		40	50			t2m	t3m													0
+Sanguinary	866	1	1		1		1				12	312	map-mon-openwounds		23	30	map-play-addxp		12	14	map-play-mag-gold%		70	80			t3m	t4m													0
+Unhealthy	867	1	1		1		1				12	315	map-play-regen		-60	-45	map-play-addxp		6	8	map-play-mag-gold%		10	20			t1m	t2m													0
+Sickly	868	1	1		1		1				12	315	map-play-regen		-90	-75	map-play-addxp		8	10	map-play-mag-gold%		40	50			t2m	t3m													0
+Diseased	869	1	1		1		1				12	315	map-play-regen		-120	-105	map-play-addxp		10	12	map-play-mag-gold%		70	80			t3m	t4m													0
+Crushing	870	1	1		1		1				12	163	map-mon-crush		23	38	map-glob-density		16	20	map-play-mag-gold%		10	20			t1m	t2m													0
+Smashing	871	1	1		1		1				12	163	map-mon-crush		38	53	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Obliterating	872	1	1		1		1				12	163	map-mon-crush		53	68	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Sparking	873	1	1		1		1				12	164	map-mon-phys-as-extra-ltng		90	120	map-glob-density		26	30	map-play-mag-gold%		10	20			t1m	t2m													0
+Shocking	874	1	1		1		1				12	164	map-mon-phys-as-extra-ltng		105	135	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Thunderous	875	1	1		1		1				12	164	map-mon-phys-as-extra-ltng		120	150	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Chilling	876	1	1		1		1				12	165	map-mon-phys-as-extra-cold	25	90	120	map-glob-density		26	30	map-play-mag-gold%		10	20			t1m	t2m													0
+Boreal	877	1	1		1		1				12	165	map-mon-phys-as-extra-cold	25	105	135	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Glacial	878	1	1		1		1				12	165	map-mon-phys-as-extra-cold	25	120	150	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Smoking	879	1	1		1		1				12	166	map-mon-phys-as-extra-fire		90	120	map-glob-density		26	30	map-play-mag-gold%		10	20			t1m	t2m													0
+Molten	880	1	1		1		1				12	166	map-mon-phys-as-extra-fire		105	135	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Volcanic	881	1	1		1		1				12	166	map-mon-phys-as-extra-fire		120	150	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Poisonous	882	1	1		1		1				12	167	map-mon-phys-as-extra-pois	125	185	245	map-glob-density		26	30	map-play-mag-gold%		10	20			t1m	t2m													0
+Envenomed	883	1	1		1		1				12	167	map-mon-phys-as-extra-pois	125	215	276	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Plagued	884	1	1		1		1				12	167	map-mon-phys-as-extra-pois	125	245	308	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
+Runic	885	1	1		1		1				12	168	map-mon-phys-as-extra-mag		12	15	map-glob-density		26	30	map-play-mag-gold%		10	20			t1m	t2m													0
+Taboo	886	1	1		1		1				12	168	map-mon-phys-as-extra-mag		15	18	map-glob-density		30	36	map-play-mag-gold%		40	50			t2m	t3m													0
+Occult	887	1	1		1		1				12	168	map-mon-phys-as-extra-mag		18	21	map-glob-density		36	40	map-play-mag-gold%		70	80			t3m	t4m													0
 Souless	778	1	1	1	1		1				1	169	map-glob-add-mon-souls		918	918	map-glob-density		25	30	map-play-mag-gold%		50	60			t1m	t2m	t3m					t4m							0
 Shamanic	779	1	1	1	1		1				1	169	map-glob-add-mon-fetish		785	785	map-glob-density		20	25	map-play-mag-gold%		25	30			t1m	t2m	t3m					t4m							0
-Strange	780	100	1		32		24				5	110	att		151	300									1	lgld	misl														0
-Unearthly	781	100	1		25		18				1	123	att-demon		101	150	dmg-demon		51	100							misl														0
-Plague	782	100	1	1	50		37				1	140	dmg-pois	150	626	626									1	dgrn	weap	misl													0
-Savage	783	1	1		26		19				7	105	dmg%		66	80									1	dgld	misl														0
-Cardinal	784	100	1	1	38		30				4	103	dmg-min		10	14									1	dred	jewl	misl													0
-Penetrating	785	100	1	1	15		10				4	143	pierce		5	10											misl														0
-Puncturing	786	100	1	1	30		25				3	143	pierce		11	20											misl														0
-Piercing	787	100	1	1	45		40				2	143	pierce		21	30											misl														0
-Impaling	788	100	1		60		55				2	143	pierce		31	40											misl														0
-Devout	789	100	1	1	3		1				4	142	att-undead		25	50	dmg-undead		10	25							misl														0
-Consecrated	790	100	1	1	15		11				4	142	att-undead		25	75	dmg-undead		25	75							misl														0
-Pure	791	100	1		25		18				3	142	att-undead		76	175	dmg-undead		76	125						lgld	misl														0
-Duplicated	792	1	1	1	1		1				1	169	map-glob-extra-boss		1	1											t1m	t2m	t3m												0
+Duplicated	792	1	1	1	1		1				1	169	map-glob-extra-boss		1	1											t1m	t2m													0
 Champion's	793	1	1	1	1		1				2	150	map-glob-monsterrarity		40	50											t2m	t3m													0
 Champion's	794	1	1	1	1		1				2	150	map-glob-monsterrarity		50	60											t3m	t4m													0
-Shrieking	795	1	1	1	1		1				1	169	map-glob-add-mon-shriek		1047	1047	map-glob-density		25	30	map-play-mag-gold%		20	30			t1m	t2m	t3m					t4m							0
-Crimson	796	100	1	1	38		30				4	103	dmg-min		5	8									1	dred	misl														0
-Serpent's	797	1	1	1	14		10				3	115	mana		11	20											ring	amul	belt												0
-Serpent's	798	1	1	1	37		27				2	115	mana		11	20											boot	glov													0
-Jagged	799	1	1	1	1		1				9	105	dmg%		10	20											misl							staf	wand	orb					0
-Deadly	800	1	1	1	5		3				9	105	dmg%		21	30											misl							staf	wand	orb					0
-Vicious	801	1	1	1	8		6				8	105	dmg%		31	40											misl							staf	wand	orb					0
-Brutal	802	1	1	1	14		10				8	105	dmg%		41	50											misl							staf	wand	orb					0
-Massive	803	1	1	1	20		15				7	105	dmg%		51	65									1	dgld	misl							staf	wand	orb					0
-Assamic	804	100	1	1	3	28	1				2	123	att-demon		25	50	dmg-demon		10	25							misl							wand	orb						0
-Arcadian	805	100	1	1	15	40	11				2	123	att-demon		51	100	dmg-demon		26	50							misl							wand	orb						0
-Cultist's	806	100	1	1	28	53	25				4	170	openwounds		20	20	deep-wounds		30	40							weap	misl						staf	wand	orb					0
-Bloodthirster's	807	100	1	1	48		45				4	170	openwounds		20	20	deep-wounds		136	190							weap	misl						staf	wand	orb					0
-Gorelust's	808	100	1	1	68		65				4	170	openwounds		20	20	deep-wounds		224	310							weap	misl						staf	wand	orb					0
-Cultist's	809	100	1	1	28	53	25				3	170	openwounds		5	5	deep-wounds		30	40							jewl														0
-Bloodthirster's	810	100	1	1	48		45				3	170	openwounds		5	5	deep-wounds		65	85							jewl														0
-Gorelust's	811	100	1	1	68		65				3	170	openwounds		5	5	deep-wounds		95	125							jewl														0
-Ember	812	100	1	1	25	50	18				3	138	fire-min		16	25	fire-max		31	60					1	dred	circ														0
-Snowflake	813	100	1	1	25	50	18				3	137	cold-len		25	25	cold-min		6	9	cold-max		19	30	1	lblu	circ														0
-Virulent	814	100	1	1	76		66				1	140	dmg-pois	50	3780	3780									1	dgrn	weap	misl													0
-Infectious	815	100	1	1	76		66				1	140	dmg-pois	50	4535	4535									1	dgrn	knif	sc9						tkni							0
-Fine	816	100	1		28		21				4	111	att		10	10	dmg-max		2	2							schp														0
-Shimmering	817	100	1		33		25				1	116	res-all		3	3											schp														0
-Lapis	818	100	1	1	14		10				2	117	res-cold		7	7											schp														0
-Russet	819	100	1	1	14		10				2	118	res-fire		7	7											schp														0
-Ocher	820	100	1	1	14		10				2	119	res-ltng		7	7											schp														0
-Viridian	821	100	1	1	14		10				2	120	res-pois		7	7											schp														0
-Sizzling	822	100	1	1	10	29	8				2	171	pierce-fire		2	4											miss	scep	crys	orb	assn										0
-Singeing	823	100	1	1	30	59	26				2	171	pierce-fire		4	6											miss	scep	crys	orb	assn										0
-Infernal	824	100	1	1	60		53				2	171	pierce-fire		6	10											miss	scep	crys	orb	assn										0
-Frigid	825	100	1	1	10	29	8				2	171	pierce-cold		2	4											miss	scep	crys	orb	assn										0
-Frostbitten	826	100	1	1	30	59	26				2	171	pierce-cold		4	6											miss	scep	crys	orb	assn										0
-Subzero	827	100	1	1	60		53				2	171	pierce-cold		6	10											miss	scep	crys	orb	assn										0
-Crackling	828	100	1	1	10	29	8				2	171	pierce-ltng		2	4											jave	scep	crys	orb	assn										0
-Jolting	829	100	1	1	30	59	26				2	171	pierce-ltng		4	6											jave	scep	crys	orb	assn										0
-Surging	830	100	1	1	60		53				2	171	pierce-ltng		6	10											jave	scep	crys	orb	assn										0
-Decaying	831	100	1	1	10	29	9				2	171	pierce-pois		2	4											jave	wand	assn												0
-Festering	832	100	1	1	30	59	26				2	171	pierce-pois		4	6											jave	wand	assn												0
-Necrotic	833	100	1	1	60		53				2	171	pierce-pois		6	10											jave	wand	assn												0
-Sizzling	822	100	1	1	10	29	8				2	171	pierce-fire		3	6											staf														0
-Singeing	823	100	1	1	30	59	26				2	171	pierce-fire		6	10											staf														0
-Infernal	824	100	1	1	60		53				2	171	pierce-fire		10	15											staf														0
-Frigid	825	100	1	1	10	29	8				2	171	pierce-cold		3	6											staf														0
-Frostbitten	826	100	1	1	30	59	26				2	171	pierce-cold		6	10											staf														0
-Subzero	827	100	1	1	60		53				2	171	pierce-cold		10	15											staf														0
-Crackling	828	100	1	1	10	29	8				2	171	pierce-ltng		3	6											staf	aspe													0
-Jolting	829	100	1	1	30	59	26				2	171	pierce-ltng		6	10											staf	aspe													0
-Surging	830	100	1	1	60		53				2	171	pierce-ltng		10	15											staf	aspe													0
-Maiden's	831	1	1	1	60		53	ama			1	125	ama		1	1											ring														0
-Monk's	832	1	1	1	60		53	pal			1	125	pal		1	1											ring														0
-Summoner's	833	1	1	1	60		53	nec			1	125	nec		1	1											ring														0
-Angel's	834	1	1	1	60		53	sor			1	125	sor		1	1											ring														0
-Slayer's	835	1	1	1	60		53	bar			1	125	bar		1	1											ring														0
-Shaman's	836	100	1	1	60		53	dru			1	125	dru		1	1											ring														0
-Magekiller's	837	100	1	1	60		53	ass			1	125	ass		1	1											ring														0
-Flaming	838	100	1	1	1	26	1				2	2000	fire-min		2	3	fire-max		4	6							glov	ring	amul												0
-Flaming	839	100	1	1	25		20				2	2000	fire-min		18	22	fire-max		30	35							glov	ring	amul												0
-Flaming	840	100	1	1	40		35				2	2000	fire-min		40	45	fire-max		50	55							glov	ring	amul												0
-Flaming	841	100	1	1	60		55				2	2000	fire-min		65	70	fire-max		80	90							glov	ring	amul												0
-Shocking	842	100	1	1	1	26	1				2	2001	ltng-min		1	1	ltng-max		6	9							glov	ring	amul												0
-Shocking	843	100	1	1	25		20				2	2001	ltng-min		1	1	ltng-max		50	55							glov	ring	amul												0
-Shocking	844	100	1	1	40		35				2	2001	ltng-min		1	1	ltng-max		90	100							glov	ring	amul												0
-Shocking	845	100	1	1	60		55				2	2001	ltng-min		1	1	ltng-max		145	160							glov	ring	amul												0
-Freezing	846	100	1	1	1	26	1				2	2002	cold-min		2	3	cold-max		4	5	cold-len		25	25			glov	ring	amul												0
-Freezing	847	100	1	1	25		20				2	2002	cold-min		16	20	cold-max		25	30	cold-len		25	25			glov	ring	amul												0
-Freezing	848	100	1	1	40		35				2	2002	cold-min		35	40	cold-max		45	50	cold-len		25	25			glov	ring	amul												0
-Freezing	849	100	1	1	60		55				2	2002	cold-min		60	65	cold-max		75	85	cold-len		25	25			glov	ring	amul												0
+Rampant	795	1	1	1	1		1				2	169	map-glob-add-mon-shriek		1169	1169	map-glob-density		25	30	map-play-mag-gold%		20	30			t1m	t2m	t3m					t4m							0
+of Sturdiness	921	1	1		1		1				18	157	map-mon-ac%		75	150	map-play-addxp		6	8	map-play-mag-gold%		20	30			t1m	t2m													0
+of Stability	922	1	1		1		1				18	157	map-mon-ac%		150	225	map-play-addxp		8	10	map-play-mag-gold%		50	60			t2m	t3m													0
+of Vigor	923	1	1		1		1				18	157	map-mon-ac%		225	300	map-play-addxp		10	12	map-play-mag-gold%		80	90			t3m	t4m													0
+of Crimson	924	1	1		1		1				18	158	map-mon-abs-fire%		6	9	map-glob-density		26	36	map-play-addxp		6	8			t1m	t2m													0
+of Crimson	925	1	1		1		1				18	158	map-mon-abs-fire%		9	12	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+of Crimson	926	1	1		1		1				18	158	map-mon-abs-fire%		12	15	map-glob-density		46	50	map-play-addxp		10	12			t3m	t4m													0
+of Tangerine	927	1	1		1		1				18	159	map-mon-abs-ltng%		6	9	map-glob-density		26	36	map-play-addxp		6	8			t1m	t2m													0
+of Tangerine	928	1	1		1		1				18	159	map-mon-abs-ltng%		9	12	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+of Tangerine	929	1	1		1		1				18	159	map-mon-abs-ltng%		12	15	map-glob-density		40	50	map-play-addxp		10	12			t3m	t4m													0
+of Opal	930	1	1		1		1				18	160	map-mon-abs-mag%		6	9	map-glob-density		26	36	map-play-addxp		6	8			t1m	t2m													0
+of Opal	931	1	1		1		1				18	160	map-mon-abs-mag%		9	12	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+of Opal	932	1	1		1		1				18	160	map-mon-abs-mag%		12	15	map-glob-density		40	50	map-play-addxp		10	12			t3m	t4m													0
+of Azure	933	1	1		1		1				18	161	map-mon-abs-cold%		6	9	map-glob-density		26	36	map-play-addxp		6	8			t1m	t2m													0
+of Azure	934	1	1		1		1				18	161	map-mon-abs-cold%		9	12	map-glob-density		36	46	map-play-addxp		8	10			t2m	t3m													0
+of Azure	935	1	1		1		1				18	161	map-mon-abs-cold%		12	15	map-glob-density		36	50	map-play-addxp		10	12			t3m	t4m													0
+of Protection	936	1	1		1		1				18	306	map-mon-red-dmg		150	300	map-glob-density		26	30	map-play-mag-gold%		30	40			t1m	t2m													0
+of Security	937	1	1		1		1				18	306	map-mon-red-dmg		450	600	map-glob-density		30	36	map-play-mag-gold%		60	70			t2m	t3m													0
+of Safety	938	1	1		1		1				18	306	map-mon-red-dmg		750	900	map-glob-density		36	46	map-play-mag-gold%		90	100			t3m	t4m													0
+of Swiftness	939	1	1		1		1				18	307	map-mon-velocity%		30	45	map-glob-density		30	40	map-play-addxp		6	8			t1m	t2m													0
+of Quickness	940	1	1		1		1				18	307	map-mon-velocity%		45	60	map-glob-density		40	50	map-play-addxp		8	10			t2m	t3m													0
+of Velocity	941	1	1		1		1				18	307	map-mon-velocity%		60	75	map-glob-density		50	60	map-play-addxp		10	12			t3m	t4m													0
+of Regeneration	942	1	1		1		1				18	308	map-mon-regen		1536	2340	map-play-addxp		6	8	map-play-mag-gold%		40	50			t1m	t2m													0
+of Renewal	943	1	1		1		1				18	308	map-mon-regen		2340	3072	map-play-addxp		8	10	map-play-mag-gold%		70	80			t2m	t3m													0
+of Rebirth	944	1	1		1		1				18	308	map-mon-regen		3072	3840	map-play-addxp		10	12	map-play-mag-gold%		100	110			t3m	t4m													0
+of the Leech	945	1	1		1		1				18	309	map-mon-lifesteal-hp%		8	16	map-glob-density		26	30	map-play-addxp		10	12			t1m	t2m													0
+of the Parasite	946	1	1		1		1				18	309	map-mon-lifesteal-hp%		16	24	map-glob-density		30	40	map-play-addxp		12	14			t2m	t3m													0
+of the Bloodsucker	947	1	1		1		1				18	309	map-mon-lifesteal-hp%		24	32	map-glob-density		36	40	map-play-addxp		14	16			t3m	t4m													0
+of Resilience	948	1	1		1		1				18	310	map-mon-balance1		60	90	map-glob-density		30	40	map-play-mag-gold%		20	30			t1m	t2m													0
+of Hardiness	949	1	1		1		1				18	310	map-mon-balance1		90	120	map-glob-density		40	50	map-play-mag-gold%		50	60			t2m	t3m													0
+of Fortitude	950	1	1		1		1				18	310	map-mon-balance1		120	150	map-glob-density		50	60	map-play-mag-gold%		80	90			t3m	t4m													0
+of Health	951	1	1		1		1				9	316	map-mon-hp%		10	20	map-glob-density		30	40	map-play-addxp		12	16			t1m	t2m													0
+of Vitality	952	1	1		1		1				9	316	map-mon-hp%		20	30	map-glob-density		40	50	map-play-addxp		16	20			t2m	t3m													0
+of Vim	953	1	1		1		1				9	316	map-mon-hp%		30	40	map-glob-density		50	60	map-play-addxp		20	24			t3m	t4m													0
+of Imbalance	954	1	1		1		1				18	313	map-play-balance1		-30	-15	map-glob-density		30	40	map-play-addxp		6	8			t1m	t2m													0
+of Inequality	955	1	1		1		1				18	313	map-play-balance1		-45	-30	map-glob-density		40	50	map-play-addxp		8	10			t2m	t3m													0
+of Uneveness	956	1	1		1		1				18	313	map-play-balance1		-60	-45	map-glob-density		50	60	map-play-addxp		10	12			t3m	t4m													0
+of Warding	957	1	1		1		1				18	164	map-mon-curseresist-hp%		30	60	map-play-addxp		10	12	map-play-mag-gold%		40	50			t1m	t2m													0
+of Guarding	958	1	1		1		1				18	164	map-mon-curseresist-hp%		60	90	map-play-addxp		12	14	map-play-mag-gold%		70	80			t2m	t3m													0
+of Preservation	959	1	1		1		1				18	164	map-mon-curseresist-hp%		90	120	map-play-addxp		14	16	map-play-mag-gold%		100	110			t3m														0
+of Hindrance	960	1	1		1		1				18	166	map-play-res-all		-23	-15	map-play-addxp		8	10	map-play-mag-gold%		30	40			t1m	t2m													0
+of Aversion	961	1	1		1		1				18	166	map-play-res-all		-30	-23	map-play-addxp		10	12	map-play-mag-gold%		60	70			t2m	t3m													0
+of Permeability	962	1	1		1		1				18	166	map-play-res-all		-38	-30	map-play-addxp		12	14	map-play-mag-gold%		100	110			t3m	t4m													0
+of Cracking	963	1	1		1		1				18	165	map-play-ac%		-45	-30	map-glob-density		26	36	map-play-mag-gold%		30	40			t1m	t2m													0
+of Crumbling	964	1	1		1		1				18	165	map-play-ac%		-60	-45	map-glob-density		30	36	map-play-mag-gold%		60	70			t2m	t3m													0
+of Disintegration	965	1	1		1		1				18	165	map-play-ac%		-75	-60	map-glob-density		36	40	map-play-mag-gold%		90	100			t3m	t4m													0
+of Fumbling	966	1	1		1		1				18	314	map-play-block		-30	-15	map-glob-density		26	36	map-play-mag-gold%		30	40			t1m	t2m													0
+of Bumbling	967	1	1		1		1				18	314	map-play-block		-45	-30	map-glob-density		36	46	map-play-mag-gold%		60	70			t2m	t3m													0
+of Blundering	968	1	1		1		1				18	314	map-play-block		-60	-45	map-glob-density		46	50	map-play-mag-gold%		80	100			t3m	t4m													0
+of the Smith	969	1	1		1		1				9	318	map-mon-dropweapons		2	2											t1m	t2m													0
+of the Smith	970	1	1		1		1				9	318	map-mon-dropweapons		4	4											t2m	t3m													0
+of the Smith	971	1	1		1		1				9	318	map-mon-dropweapons		6	6											t3m														0
+of the Armorer	972	1	1		1		1				9	318	map-mon-droparmor		2	2											t1m	t2m													0
+of the Armorer	973	1	1		1		1				9	318	map-mon-droparmor		4	4											t2m	t3m													0
+of the Armorer	974	1	1		1		1				9	318	map-mon-droparmor		6	6											t3m														0
+of the Crafter	975	1	1		1		1				5	318	map-mon-dropcrafting		2	2											t1m	t2m													0
+of the Crafter	976	1	1		1		1				5	318	map-mon-dropcrafting		4	4											t2m	t3m													0
+of the Crafter	977	1	1		1		1				5	318	map-mon-dropcrafting		6	6											t3m														0
+of the Jeweler	837				1		1				1	319	map-mon-dropjewelry		1	1											t1m	t2m													0
+of the Jeweler	838				1		1				1	319	map-mon-dropjewelry		2	2											t2m	t3m													0
+of the Jeweler	839				1		1				1	319	map-mon-dropjewelry		3	3											t3m														0
+of the Smith	840	1	1	1	1		1				2	318	map-mon-dropweapons		1	1											t1m	t2m													0
+of the Smith	841	1	1	1	1		1				2	318	map-mon-dropweapons		2	2											t2m	t3m													0
+of the Smith	842	1	1	1	1		1				2	318	map-mon-dropweapons		3	3											t3m														0
+of the Armorer	843	1	1	1	1		1				2	318	map-mon-droparmor		1	1											t1m	t2m													0
+of the Armorer	844	1	1	1	1		1				2	318	map-mon-droparmor		2	2											t2m	t3m													0
+of the Armorer	845	1	1	1	1		1				2	318	map-mon-droparmor		3	3											t3m														0
+of the Crafter	846	1	1	1	1		1				1	318	map-mon-dropcrafting		1	1											t1m	t2m													0
+of the Crafter	847	1	1	1	1		1				1	318	map-mon-dropcrafting		2	2											t2m	t3m													0
+of the Crafter	848	1	1	1	1		1				1	318	map-mon-dropcrafting		3	3											t3m														0
+of Darkness	829	1			1		1					317	map-play-lightradius		-100	-80	map-glob-density		5	8	map-play-mag-gold%		15	20			t1m	t2m													0
+of Darkness	830	1			1		1					317	map-play-lightradius		-140	-100	map-glob-density		8	10	map-play-mag-gold%		25	30			t2m	t3m													0
+of Darkness	831	1			1		1					317	map-play-lightradius		-180	-140	map-glob-density		10	13	map-play-mag-gold%		35	40			t3m	t4m													0
+of Sturdiness	749	1	1	1	1		1				4	157	map-mon-ac%		50	100	map-play-addxp		3	4	map-play-mag-gold%		10	15			t1m	t2m													0
+of Stability	750	1	1	1	1		1				4	157	map-mon-ac%		100	150	map-play-addxp		4	5	map-play-mag-gold%		25	30			t2m	t3m													0
+of Vigor	751	1	1	1	1		1				4	157	map-mon-ac%		150	200	map-play-addxp		5	6	map-play-mag-gold%		40	45			t3m	t4m													0
+of Crimson	752	1	1	1	1		1				4	158	map-mon-abs-fire%		4	6	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m													0
+of Crimson	753	1	1	1	1		1				4	158	map-mon-abs-fire%		6	8	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
+of Crimson	754	1	1	1	1		1				4	158	map-mon-abs-fire%		8	10	map-glob-density		23	25	map-play-addxp		5	6			t3m	t4m													0
+of Tangerine	755	1	1	1	1		1				4	159	map-mon-abs-ltng%		4	6	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m													0
+of Tangerine	756	1	1	1	1		1				4	159	map-mon-abs-ltng%		6	8	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
+of Tangerine	757	1	1	1	1		1				4	159	map-mon-abs-ltng%		8	10	map-glob-density		20	25	map-play-addxp		5	6			t3m	t4m													0
+of Opal	758	1	1	1	1		1				4	160	map-mon-abs-mag%		4	6	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m													0
+of Opal	759	1	1	1	1		1				4	160	map-mon-abs-mag%		6	8	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
+of Opal	760	1	1	1	1		1				4	160	map-mon-abs-mag%		8	10	map-glob-density		20	25	map-play-addxp		5	6			t3m	t4m													0
+of Azure	761	1	1	1	1		1				4	161	map-mon-abs-cold%		4	6	map-glob-density		13	18	map-play-addxp		3	4			t1m	t2m													0
+of Azure	762	1	1	1	1		1				4	161	map-mon-abs-cold%		6	8	map-glob-density		18	23	map-play-addxp		4	5			t2m	t3m													0
+of Azure	763	1	1	1	1		1				4	161	map-mon-abs-cold%		8	10	map-glob-density		18	25	map-play-addxp		5	6			t3m	t4m													0
+of Protection	764	1	1	1	1		1				4	306	map-mon-red-dmg		100	200	map-glob-density		13	15	map-play-mag-gold%		15	20			t1m	t2m													0
+of Security	765	1	1	1	1		1				4	306	map-mon-red-dmg		300	400	map-glob-density		15	18	map-play-mag-gold%		30	35			t2m	t3m													0
+of Safety	766	1	1	1	1		1				4	306	map-mon-red-dmg		500	600	map-glob-density		18	23	map-play-mag-gold%		45	50			t3m	t4m													0
+of Swiftness	767	1	1	1	1		1				4	307	map-mon-velocity%		20	30	map-glob-density		15	20	map-play-addxp		3	4			t1m	t2m													0
+of Quickness	768	1	1	1	1		1				4	307	map-mon-velocity%		30	40	map-glob-density		20	25	map-play-addxp		4	5			t2m	t3m													0
+of Velocity	769	1	1	1	1		1				4	307	map-mon-velocity%		40	50	map-glob-density		25	30	map-play-addxp		5	6			t3m	t4m													0
+of Regeneration	770	1	1	1	1		1				4	308	map-mon-regen		1024	1560	map-play-addxp		3	4	map-play-mag-gold%		20	25			t1m	t2m													0
+of Renewal	771	1	1	1	1		1				4	308	map-mon-regen		1560	2048	map-play-addxp		4	5	map-play-mag-gold%		35	40			t2m	t3m													0
+of Rebirth	772	1	1	1	1		1				4	308	map-mon-regen		2048	2560	map-play-addxp		5	6	map-play-mag-gold%		50	55			t3m	t4m													0
+of the Leech	773	1	1	1	1		1				4	309	map-mon-lifesteal-hp%		4	8	map-glob-density		13	15	map-play-addxp		5	6			t1m	t2m													0
+of the Parasite	774	1	1	1	1		1				4	309	map-mon-lifesteal-hp%		8	12	map-glob-density		15	20	map-play-addxp		6	7			t2m	t3m													0
+of the Bloodsucker	775	1	1	1	1		1				4	309	map-mon-lifesteal-hp%		12	16	map-glob-density		18	20	map-play-addxp		7	8			t3m	t4m													0
+of Resilience	776	1	1	1	1		1				4	310	map-mon-balance1		40	60	map-glob-density		15	20	map-play-mag-gold%		10	15			t1m	t2m													0
+of Hardiness	777	1	1	1	1		1				4	310	map-mon-balance1		60	80	map-glob-density		20	25	map-play-mag-gold%		25	30			t2m	t3m													0
+of Fortitude	778	1	1	1	1		1				4	310	map-mon-balance1		80	100	map-glob-density		25	30	map-play-mag-gold%		40	45			t3m	t4m													0
+of Health	779	1	1	1	1		1				2	316	map-mon-hp%		5	10	map-glob-density		15	20	map-play-addxp		6	8			t1m	t2m													0
+of Vitality	780	1	1	1	1		1				2	316	map-mon-hp%		10	15	map-glob-density		20	25	map-play-addxp		8	10			t2m	t3m													0
+of Vim	781	1	1	1	1		1				2	316	map-mon-hp%		15	20	map-glob-density		25	30	map-play-addxp		10	12			t3m	t4m													0
+of Imbalance	782	1	1	1	1		1				4	313	map-play-balance1		-20	-10	map-glob-density		15	20	map-play-addxp		3	4			t1m	t2m													0
+of Inequality	783	1	1	1	1		1				4	313	map-play-balance1		-30	-20	map-glob-density		20	25	map-play-addxp		4	5			t2m	t3m													0
+of Uneveness	784	1	1	1	1		1				4	313	map-play-balance1		-40	-30	map-glob-density		25	30	map-play-addxp		5	6			t3m	t4m													0
+of Warding	785	1	1	1	1		1				4	164	map-mon-curseresist-hp%		20	40	map-play-addxp		5	6	map-play-mag-gold%		20	25			t1m	t2m													0
+of Guarding	786	1	1	1	1		1				4	164	map-mon-curseresist-hp%		40	60	map-play-addxp		6	7	map-play-mag-gold%		35	40			t2m	t3m													0
+of Preservation	787	1	1	1	1		1				4	164	map-mon-curseresist-hp%		60	80	map-play-addxp		7	8	map-play-mag-gold%		50	55			t3m														0
+of Hindrance	788	1	1	1	1		1				4	166	map-play-res-all		-15	-10	map-play-addxp		4	5	map-play-mag-gold%		15	20			t1m	t2m													0
+of Aversion	789	1	1	1	1		1				4	166	map-play-res-all		-20	-15	map-play-addxp		5	6	map-play-mag-gold%		30	35			t2m	t3m													0
+of Permeability	790	1	1	1	1		1				4	166	map-play-res-all		-25	-20	map-play-addxp		6	7	map-play-mag-gold%		50	55			t3m	t4m													0
+of Cracking	791	1	1	1	1		1				4	165	map-play-ac%		-30	-20	map-glob-density		13	18	map-play-mag-gold%		15	20			t1m	t2m													0
+of Crumbling	792	1	1	1	1		1				4	165	map-play-ac%		-40	-30	map-glob-density		15	18	map-play-mag-gold%		30	35			t2m	t3m													0
+of Disintegration	793	1	1	1	1		1				4	165	map-play-ac%		-50	-40	map-glob-density		18	20	map-play-mag-gold%		45	50			t3m	t4m													0
+of Fumbling	794	1	1	1	1		1				4	314	map-play-block		-20	-10	map-glob-density		13	18	map-play-mag-gold%		15	20			t1m	t2m													0
+of Bumbling	795	1	1	1	1		1				4	314	map-play-block		-30	-20	map-glob-density		18	23	map-play-mag-gold%		30	35			t2m	t3m													0
+of Blundering	796	1	1	1	1		1				4	314	map-play-block		-40	-30	map-glob-density		23	25	map-play-mag-gold%		40	50			t3m	t4m													0
 `;
   suffixRaw = `Name	*comment	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transform	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	divide	multiply	add
 of Health	0	0	1	1	7		5					1	red-dmg		1	1											tors	helm	shld	ring	amul										0
@@ -1889,7 +4209,7 @@ of Telekinesis	984	100	1		40		35				1	1020	oskill	telekinesis	1	1											helm
   showAffixInformation() {
     console.log('Showing affix information for', this.currentItemType.name);
     if(!this.allPrefixes || !this.allSuffixes) {
-      throw Error('Must load prefixes before showing information');
+      throw Error('Must load affixes before showing information');
     }
     var includedPrefixes = this.allPrefixes.filter(affix => this.isAffixIncluded(affix));
     var includedSuffixes = this.allSuffixes.filter(affix => this.isAffixIncluded(affix));
@@ -1897,6 +4217,49 @@ of Telekinesis	984	100	1		40		35				1	1020	oskill	telekinesis	1	1											helm
     var suffixTotalWeight = includedSuffixes.map(a => a.frequency).reduce((a,b)=>a+b);
     this.output = 'Prefixes (' + prefixTotalWeight + '):\n' + includedPrefixes.map(p => p.toString()).join('\n')
       + '\n\nSuffixes (' + suffixTotalWeight + '):\n' + includedSuffixes.map(p => p.toString()).join('\n');
+  }
+  
+  minifyPrefixes(): void {
+    if (!this.allPrefixes) {
+      throw Error('Must load prefixes before minifying prefixes');
+    }
+    let remainingAffixes = this.allPrefixes
+      .filter(a => !a.mods[0].code.startsWith('map'))
+      .map(a => a.clone());
+    let minifiedList: Affix[] = []
+    console.log('All affixes ' + this.allPrefixes.length)
+    console.log('Minifying ' + remainingAffixes.length + ' affixes.');
+    let maxHits = 0;
+    while (remainingAffixes.length > 0) {
+      const currentAffix = remainingAffixes[0];
+      const affixesMatchingCurrentAffix = remainingAffixes.filter(a => 
+        a.level === currentAffix.level
+        && (
+          a.maxlevel === currentAffix.maxlevel
+          || isNaN(a.maxlevel) && isNaN(currentAffix.maxlevel)
+        )
+        && a.levelreq === currentAffix.levelreq
+        && a.frequency === currentAffix.frequency
+        && a.mods.length === currentAffix.mods.length
+        && a.mods.every(m => currentAffix.mods.some(m2 =>
+          m.code === m2.code
+          && m.param === m2.param
+          && m.min === m2.min
+          && m.max === m2.max
+        ))
+        //&& a.itypes.length === currentAffix.itypes.length
+        //&& a.itypes.every(t => currentAffix.itypes.includes(t))
+        //&& a.etypes.length === currentAffix.etypes.length
+        //&& a.etypes.every(t => currentAffix.etypes.includes(t))
+      )
+      minifiedList.push(currentAffix);
+      remainingAffixes = remainingAffixes.filter(a => !affixesMatchingCurrentAffix.includes(a));
+      if (affixesMatchingCurrentAffix.length > maxHits) {
+        maxHits = affixesMatchingCurrentAffix.length;
+        console.log(maxHits, affixesMatchingCurrentAffix)
+      }
+    }
+    console.log('Minified result has ' + minifiedList.length + ' affixes.');
   }
 
   private isAffixIncluded(affix: Affix): boolean {
@@ -1937,7 +4300,7 @@ of Telekinesis	984	100	1		40		35				1	1020	oskill	telekinesis	1	1											helm
         if (!isIncluded) {
           return null;
         }
-        return new Affix(
+        return Affix.fromStrings(
           affixMap.get('Name')!,
           affixMap.get('rare')!,
           affixMap.get('level')!,

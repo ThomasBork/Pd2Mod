@@ -8,4 +8,8 @@ export class ItemType {
     this.name = name;
     this.categories = categories;
   }
+
+  public clone(): ItemType {
+    return new ItemType(this.name, [...this.categories]);
+  }
 }
