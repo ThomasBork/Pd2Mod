@@ -127,6 +127,69 @@ export class Affix {
     return this.fitString(this.name) + ': ' + this.frequency + ': ' + this.level + '-' + this.maxlevel + ': \t' + this.mods.map(m => m.toString()).join(',\t');
   }
 
+  public toExcelRow(): string {
+    const modStrings: string[] = [];
+    const itypeStrings: string[] = [];
+    const etypeStrings: string[] = [];
+    for (let i = 0; i < 3; i++) {
+      if (i < this.mods.length) {
+        const mod = this.mods[i];
+        modStrings.push([
+          mod.code,
+          mod.param,
+          this.getNumberOrEmpty(mod.min),
+          this.getNumberOrEmpty(mod.max)
+        ].join('\t'));
+      } else {
+        modStrings.push([
+          '', // code
+          '', // param
+          '', // min
+          '' // max
+        ].join('\t'));
+      }
+    }
+    for (let i = 0; i < 7; i++) {
+      if (i < this.itypes.length) {
+        const itype = this.itypes[i];
+        itypeStrings.push(itype);
+      } else {
+        itypeStrings.push('');
+      }
+    }
+    for (let i = 0; i < 5; i++) {
+      if (i < this.etypes.length) {
+        const etype = this.etypes[i];
+        etypeStrings.push(etype);
+      } else {
+        etypeStrings.push('');
+      }
+    }
+    return [
+      this.name,
+      '', // *comment
+      '1', // version
+      '1', // spawnable
+      '1', // rare
+      this.getNumberOrEmpty(this.level),
+      this.getNumberOrEmpty(this.maxlevel),
+      this.getNumberOrEmpty(this.levelreq),
+      '', // classspecific
+      '', // class
+      '', // classlevelreq
+      this.getNumberOrEmpty(this.frequency),
+      this.getNumberOrEmpty(this.group),
+      modStrings.join('\t'),
+      '', // transform
+      '', // transformcolor
+      itypeStrings.join('\t'),
+      etypeStrings.join('\t'),
+      '', // divide
+      '', // multiply
+      '0' // add 
+    ].join('\t')
+  }
+
   public clone(): Affix {
     return new Affix(
       this.name,
@@ -147,5 +210,11 @@ export class Affix {
       s += ' ';
     }
     return s;
+  }
+
+  private getNumberOrEmpty(s: number): string {
+    return isNaN(s) 
+      ? ''
+      : '' + s;
   }
 }

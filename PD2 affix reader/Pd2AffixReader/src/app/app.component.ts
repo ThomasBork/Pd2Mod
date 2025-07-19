@@ -4224,42 +4224,74 @@ of Telekinesis	984	100	1		40		35				1	1020	oskill	telekinesis	1	1											helm
       throw Error('Must load prefixes before minifying prefixes');
     }
     let remainingAffixes = this.allPrefixes
-      .filter(a => !a.mods[0].code.startsWith('map'))
+      //.filter(a => !a.mods[0].code.startsWith('map'))
       .map(a => a.clone());
     let minifiedList: Affix[] = []
     console.log('All affixes ' + this.allPrefixes.length)
     console.log('Minifying ' + remainingAffixes.length + ' affixes.');
     let maxHits = 0;
-    while (remainingAffixes.length > 0) {
-      const currentAffix = remainingAffixes[0];
+    let currentAffix: null | Affix = remainingAffixes[0];
+    while (currentAffix !== null) {
       const affixesMatchingCurrentAffix = remainingAffixes.filter(a => 
-        a.level === currentAffix.level
+        a.level === currentAffix!.level
         && (
-          a.maxlevel === currentAffix.maxlevel
-          || isNaN(a.maxlevel) && isNaN(currentAffix.maxlevel)
+          a.maxlevel === currentAffix!.maxlevel
+          || isNaN(a.maxlevel) && isNaN(currentAffix!.maxlevel)
         )
-        && a.levelreq === currentAffix.levelreq
-        && a.frequency === currentAffix.frequency
-        && a.mods.length === currentAffix.mods.length
-        && a.mods.every(m => currentAffix.mods.some(m2 =>
+        && a.levelreq === currentAffix!.levelreq
+        && a.frequency === currentAffix!.frequency
+        && a.mods.length === currentAffix!.mods.length
+        && a.mods.every(m => currentAffix!.mods.some(m2 =>
           m.code === m2.code
           && m.param === m2.param
           && m.min === m2.min
           && m.max === m2.max
         ))
-        //&& a.itypes.length === currentAffix.itypes.length
-        //&& a.itypes.every(t => currentAffix.itypes.includes(t))
-        //&& a.etypes.length === currentAffix.etypes.length
-        //&& a.etypes.every(t => currentAffix.etypes.includes(t))
       )
-      minifiedList.push(currentAffix);
+      let newItypes = affixesMatchingCurrentAffix.flatMap(a => a.itypes);
+      let newEtypes = affixesMatchingCurrentAffix.flatMap(a => a.etypes);
+      if (newItypes.length > 14) {
+        throw new Error('More than 14 itypes has not been implemented yet.');
+      }
+      if (newEtypes.length > 5) {
+        // It is impossible to know which of the new rows the etypes belong to
+        throw new Error('More than 5 etypes has not been implemented yet.');
+      }
+      const newRow = currentAffix.clone();
+      minifiedList.push(newRow);
+      if (newItypes.length > 7) {
+        const extraItypes = newItypes.slice(7);
+        newItypes = newItypes.slice(0, 7);
+        const extraRow = currentAffix.clone();
+        extraRow.itypes = extraItypes;
+        extraRow.etypes = newEtypes;
+        minifiedList.push(extraRow);
+      }
+      newRow.itypes = newItypes;
+      newRow.etypes = newEtypes;
       remainingAffixes = remainingAffixes.filter(a => !affixesMatchingCurrentAffix.includes(a));
       if (affixesMatchingCurrentAffix.length > maxHits) {
         maxHits = affixesMatchingCurrentAffix.length;
         console.log(maxHits, affixesMatchingCurrentAffix)
       }
+
+      if (remainingAffixes.length === 0) {
+        currentAffix = null;
+      } else {
+        const remainingAffixWithSameMod = remainingAffixes.find(a =>
+          a.mods[0].code === currentAffix!.mods[0].code
+        );
+        if (remainingAffixWithSameMod) {
+          currentAffix = remainingAffixWithSameMod;
+        } else {
+          currentAffix = remainingAffixes[0];
+        }
+      }
     }
     console.log('Minified result has ' + minifiedList.length + ' affixes.');
+    this.output = minifiedList
+      .map(a => a.toExcelRow())
+      .join('\n');
   }
 
   private isAffixIncluded(affix: Affix): boolean {
