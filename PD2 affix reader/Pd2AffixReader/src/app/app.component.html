@@ -18,6 +18,7 @@
       <input type="checkbox" [(ngModel)]="checkLevel" />
       <button (click)="showAffixInformation()">Show affix information</button>
       <button (click)="showAccumulatedAffixInformation()">Show accumulated affix information</button>
+      <button (click)="buildItems()">Build items</button>
       <mat-select [(value)]="currentItemTypeName">
           <mat-option *ngFor="let itemType of itemTypes" [value]="itemType.name">{{itemType.name}}</mat-option>
       </mat-select>

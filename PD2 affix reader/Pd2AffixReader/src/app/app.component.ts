@@ -1881,6 +1881,62 @@ of Blundering	796	1	1	1	1		1				4	314	map-play-block		-40	-30	map-glob-density		
     });
     this.output = 'Prefixes (' + prefixTotalWeight + '):\n' + affixAccumulatedStrings.join('\n');
   }
+
+  buildItems() {
+    if(!this.allPrefixes || !this.allSuffixes) {
+      throw Error('Must load affixes before showing information');
+    }
+    var affixes: {name: string, weight: number}[] = [];
+    var includedPrefixes = this.allPrefixes.filter(affix => this.isAffixIncluded(affix));
+    var affixTypes = includedPrefixes
+      .map(a => a.mods[0].code)
+      .filter((value, index, array) => array.indexOf(value) === index); //Remove duplicates
+    affixes = affixTypes.map(aString => {
+      var affixes = includedPrefixes.filter(p => p.mods[0].code === aString);
+      var totalWeight = affixes.map(a => a.frequency).reduce((a,b)=>a+b);
+      return {name: aString, weight: totalWeight};
+    });
+
+    const successes = [
+      //['extra-ltng', 'pierce-ltng'],
+      //['extra-cold', 'pierce-cold'],
+      //['extra-fire', 'pierce-fire'],
+      //['extra-pois', 'pierce-pois'],
+      //['dmg%']
+      ['allskills']
+    ];
+    let hits = 0;
+    for (let i = 0; i<2000000; i++) {
+      var item = this.buildItem(affixes);
+      if (i < 10) {
+        console.log(item);
+      }
+
+      if (successes.some(success => success.every(s => item.includes(s)))) {
+        hits++;
+        //console.log("Hit:", item);
+      }
+    }
+    console.log(hits);
+  }
+
+  buildItem(affixes: {name: string, weight: number}[]): string[] {
+    const itemAffixes: string[] = [];
+    let remainingAffixes = [...affixes];
+    for (let i = 0; i<6; i++) {
+      const totalWeight = remainingAffixes.map(a => a.weight).reduce((a,b)=>a+b);
+      let remainingWeight = Math.random() * totalWeight;
+      for(let affix of remainingAffixes) {
+        if (remainingWeight < affix.weight) {
+          itemAffixes.push(affix.name);
+          remainingAffixes = remainingAffixes.filter(a => a != affix);
+          break;
+        }
+        remainingWeight -= affix.weight;
+      }
+    }
+    return itemAffixes;
+  }
   
   minifyPrefixes(): void {
     if (!this.allPrefixes) {
