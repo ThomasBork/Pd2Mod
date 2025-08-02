@@ -1903,7 +1903,7 @@ of Blundering	796	1	1	1	1		1				4	314	map-play-block		-40	-30	map-glob-density		
       //['extra-fire', 'pierce-fire'],
       //['extra-pois', 'pierce-pois'],
       //['dmg%']
-      ['allskills']
+      ['bar', 'skilltab']
     ];
     let hits = 0;
     for (let i = 0; i<2000000; i++) {
